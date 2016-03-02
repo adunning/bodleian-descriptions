@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>MS. Bodl. 284</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="Bodl284" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Bodleian Library</institution>
+          <collection>Bodley</collection>
+          <idno>284</idno>
+          <altIdentifier type="internal">
+            <idno type="SCN">2339</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <summary>Commentaries on the Psalms and Athanasian Creed by Alexander Neckam, with text in the centre column.</summary>
+          <textLang mainLang="la" otherLangs="en fr">Latin</textLang>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support/>
+              <extent>i + 305 leaves
+                <dimensions type="leaf" unit="mm"><height quantity="410"/><width quantity="297"/></dimensions>
+              </extent>
+              <foliation>Folios up to 295 numbered in ink, sixteenth-century; first folio is labelled iii, and 215–217 were skipped in numeration. Folios from 296 to end of manuscript labelled in twentieth-century pencil.</foliation>
+              <collation>Manuscript was designed as two matching volumes. Fol. 131r has been only partially filled, and 131v is blank; fol. 132r, the first page of the second volume, is decorated with additional penwork (matching fol. iiir), as well as an illuminated initial.
+                <formula>i, 1<hi rend="sup">12</hi>, 2<hi rend="sup">10</hi>–8<hi rend="sup">10</hi>, 9<hi rend="sup">12</hi>, 10<hi rend="sup">10</hi>–12<hi rend="sup">10</hi>, 13<hi rend="sup">8</hi> || 14<hi rend="sup">10</hi>–29<hi rend="sup">10</hi>, 30<hi rend="sup">(4-2, 3/4canc)</hi>, 31<hi rend="sup">(12-1, 1canc)</hi></formula>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="42 56"><dimensions type="written"><height min="236" max="260"/><width min="138" max="154"/></dimensions>
+                Two columns of text, line spacing 4.5–5 mm, give main text of the gloss. The text being commented on is written in a larger hand (using two ruled lines for each line of the text); to position it in the centre of the page, it either cuts into the second column, or both columns are decreased in width to make room for a third column in the middle. In both cases, this is planned from the outset and is reflected in the ruling. Double and single rules in the inner and outer margins, probably intended to align annotations (as they were later used). Pricking for frame and individual lines on all sides of pages; fore-edge provides a double set of pricking.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Written throughout in a gothic textualis from the first quarter of the thirteenth century, representing at least three different scribes.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              <p>Prologue opens with an Arabesque six-line initial, red and blue, with penwork. In the psalter text, new psalms begin with a four- to eight-line initial in the same style, while new sentences begin with an enlarged initial, both alternating between red and blue.</p>
+              <p>Some psalms open with historiated initials in gold leaf: fols. 1r (Ps. 1, virgin and child, David); 53r (Ps. 26, anointing of David); 94r (Ps. 38, Solomon seated with sword); 132r (Ps. 51, David and Goliath); 133r (Ps. 52, temptation of Christ); 168r (Ps. 68, Christ above a man in the water, a demon below); 196r (Ps. 80, Jacob wrestling with angel); 223v (Ps. 97, Samson carrying the gates of Gaza); 226r (Ps. 101, Ecclesia, kneeling, holding a chalice); 242v (Ps. 109, enthroned Christ giving benediction). The first three initials in volume 2 (i.e. fols. 132r, 133r, 168r) have been rubbed, purposefully it seems.</p>
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p><foreign>Distinctiones</foreign> outlining the argument sometimes provided in the bottom margin, with space for rubricator to add lines (not always completed): written in a contemporary textualis, but not at the same time as the rest of the text.</p>
+            <p>Sources are identified throughout the book (e.g. <q>Glosa</q>) in pencil, thirteenth-century.</p>
+            <p>At least two thirteenth- or fourteenth-century cursive hands add nota marks and short annotations highlighting the argument of the gloss.</p>
+            <p>A sixteenth-century humanist hand adds running heads (counting the sections of the commentary rather than the number of the psalm) and foliation, corresponding to an index composed on fol. 296r–v.</p>
+            <p>On fol. iiir, Leland has added <q>Alexander Necham super psalmos</q>.</p>
+            <p>Pressmarks, all modern, on fol. iir: <q>Th N.1.6</q>, <q>NE E.7.8</q>, <q>(2339) Bod. 284</q>.</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p>The binding of the book from the library of Henry VIII was described by Langbaine as <q xml:lang="la">holosericatus, nigro tegmine, bullis æreis munitus</q> (<title>Summary Catalogue</title>).</p>
+            </binding>
+            <binding>
+              <p><dimensions type="binding"><height quantity="420"/><width quantity="315"/><depth quantity="98"/></dimensions> Leather over boards, nineteenth-century (1840–50 according to <title>Summary Catalogue</title>).</p>
+              <decoNote>Blind tooling, forming a diamond pattern in the centre of the boards.</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Produced <origDate notBefore="1210" notAfter="1220"><foreign>c.</foreign>1210–20</origDate>, probably in <origPlace>Oxford</origPlace> and <origPlace>Cirencester</origPlace>. <bibl>Nigel J. Morgan, <title>Early Gothic Manuscripts</title>, Survey of Manuscripts Illuminated in the British Isles 4 (London: Miller, 1982–1988), no. 31</bibl>, suggests that it is from the same workshop as two other Oxford productions, now New York, Pierpont Morgan Library, MSS M. 43 and M. 791. It is possible that the book was produced at Cirencester and sent to Oxford for decoration. The lack of a contemporary attribution could suggest that the texts were viewed as the work of a well-known in-house author, although this does not occur in any of the other Alexander Neckam manuscripts from Cirencester. Another copy of Alexander’s gloss on the psalter (now Oxford, Jesus College, 94) appears to have been incomplete at an early date, and Bodley 284 might have been created as a replacement.</origin>
+          <provenance>Cirencester Abbey: <q>Cirencestrie</q> written on fols. iiir, 32, 70, 153, 237, 255, 276, 294, 304, matching the style of London, British Library, Royal 5 E. <hi rend="caps">xviii</hi>, in what appears to be a late fourteenth-century hand. <bibl>Neil R. Ker, <title>Medieval Libraries of Great Britain: A List of Surviving Books</title>, 2nd ed. (London: Royal Historical Society, 1964), xvi</bibl> suggests that this mark was associated with the transfer of the book to the Royal Library in the sixteenth century; cf. <bibl>James P. Carley, ed., <title>The Libraries of King Henry VIII</title>, Corpus of British Medieval Library Catalogues 7 (London: British Library, 2000), p. xxxix</bibl>; but this seems unlikely, given the number of times the mark is repeated.</provenance>
+          <provenance>King Henry VIII (he also owned another copy, now London, British Library, Royal MS 2 C. <hi rend="caps">xi</hi>).
+          </provenance>
+          <acquisition>Presented to the Bodleian Library by <name type="person" ref="http://viaf.org/viaf/76469410">Charles Howard, First Earl of Nottingham</name>, 1604.</acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>Albinia de la Mare and Stanley Gillam, <title>Duke Humfrey’s Library and the Divinity School 1488–1988: An Exhibition at the Bodleian Library June–August 1988</title> (Oxford: Bodleian Library, 1988), no. 2.</bibl>
+            <bibl>R.W. Hunt, <title>The Schools and the Cloister: The Life and Writings of Alexander Nequam (1157–1217)</title>, ed. Margaret T. Gibson (Oxford: Clarendon Press, 1984).</bibl>
+            <bibl>Otto Pächt and J.J.G. Alexander, <title>Illuminated Manuscripts in the Bodleian Library, Oxford</title>, 3 vols. (Oxford: Clarendon Press, 1966–1973), no. 3:359 and plate XXX.</bibl>
+            <bibl type="SC" facs="aap0338.gif">Summary Catalogue, vol. 2, part 1, p. 317</bibl>
+          </listBibl>
+        </additional>
+        <msPart>
+          <msIdentifier>
+            <idno>I</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. iiir–131r</locus>
+              <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+              <title xml:lang="la">Glose super psalterium</title>
+              <note>with text of the psalter copied in centre</note>
+              <msItem>
+                <note>Prologue</note>
+                <rubric xml:lang="la"><locus>fol. iiir</locus> Incipit prologus</rubric>
+                <incipit xml:lang="la">De orto deliciarum quatuor emanant flumina.</incipit>
+                <explicit xml:lang="la"><locus>fol. iiiᵛ</locus> Inuitat etiam nos ad pacem eterne iocunditatis⸵ que per regnum salomonis designata est.</explicit>
+              </msItem>
+              <msItem>
+                <note>Psalms 1–50</note>
+                <incipit xml:lang="la"><locus>fol. 1r</locus> Beatus uir. Qui non abiit. etc. Licet psalmus iste exponatur a quibusdam de ioseph ab arimathia.</incipit>
+                <explicit xml:lang="la"><locus>fol. 131r</locus> scilicet uera sacrificia per uitulos legales significata;</explicit>
+              </msItem>
+              <listBibl>
+                <bibl>
+                  Gilbert Dahan, ‘En marge du Proslogion de Saint Anselme: l’exégèse patristique et médiévale du Psaume’, <title>Archives d’histoire doctrinale et littéraire du Moyen Âge</title> 13 (1990): 11–29 (ed. of Ps. 13:1 at 26–27).
+                </bibl>
+                <bibl>
+                  Friedrich Stegmüller, <title>Repertorium biblicum medii aevi</title> (Madrid: Consejo Superior de Investigaciones Científicas, 1950–1980), no. 1163.
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fol. 131v</locus>
+              <note>blank</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <collation>
+                  <secFol>Beatus vir</secFol>
+                </collation>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier>
+            <idno>II</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 132r–295v</locus>
+              <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+              <title xml:lang="la">Glose super psalterium</title>
+              <msItem>
+                <note>Psalms 51–145</note>
+                <incipit xml:lang="la">Quid gloriaris. etc. Populus israeliticus ex quo iam intrauerat terram promissionis⸵</incipit>
+                <explicit xml:lang="la"><locus>fol. 295v</locus> Non est deus recens. quid idem est deus ueteris et noui testamenti.</explicit>
+                <note>Psalms 146–150 are lacking, but the manuscript ends here by design, with letters on the final line lengthened to fill the space.</note>
+              </msItem>
+            </msItem>
+            <msItem>
+              <locus>fol. 296r–v</locus>
+              <note>Alphabetical index of psalm incipits added in a sixteenth-century hand, providing folio and page number (pa. 1 = recto, pa. 2 = verso)</note>
+              <rubric xml:lang="la"><locus>fol. 296r</locus> TABVLA PSALMORVM</rubric>
+              <incipit xml:lang="la">Ad te domine levavi animam</incipit>
+              <explicit xml:lang="la"><locus>fol. 296v</locus> Voce mea ad dominum</explicit>
+            </msItem>
+            <msItem>
+              <locus>fols. 297r–306r</locus>
+              <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+              <title xml:lang="la">Expositio simboli Athanasii episcopi</title>
+              <note>with text of Athanasian Creed copied in centre</note>
+              <msItem>
+                <note>Prologue</note>
+                <incipit xml:lang="la"><locus>fol. 297r</locus> Caput aquile uisum ab ezechiele eminentius erat tribus ceteris capitibus suppositis. Per que tria⸵ designantur. Ratio. memoria et intellectus. Per caput aquile⸵ designatur fides. que eminentior est ratione. memoria et intellectu.</incipit>
+                <explicit xml:lang="la"><locus>fol. 297v</locus> In commendatione ergo orthodoxe et catholice fidei hereses extirpare et eradicare intendit athanasius in hoc simbolo dicens.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Quicumque uult. etc. Hec est enim uictoria que uincit mundum⸵ fides nostra. <note>1 John 5:4</note> Signanter dicit uult et non dicit quicumque saluus erit.</incipit>
+                <explicit xml:lang="la"><locus>fol. 306r</locus> ut eueniret unam et eandem personam esse hominem et esse deum⸵ cui persone honor et gloria in sempiterna secula amen.</explicit>
+                <listBibl>
+                  <bibl>
+                    Friedrich Stegmüller, <title>Repertorium biblicum medii aevi</title> (Madrid: Consejo Superior de Investigaciones Científicas, 1950–1980), no. 1170.
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msItem>
+            <msItem>
+              <locus>fols. 306r–307r</locus>
+              <note>Commentary on the Athanasian Creed (anonymous abbreviation of Alexander Neckam)</note>
+              <msItem>
+                <incipit xml:lang="la"><locus>fol. 306r</locus> Caput aquile uisum ab ezechiele eminentius erat tribus ceteris capitibus. Per quod designatur quia fides est supra rationem et memoriam et intellectum.</incipit>
+                <explicit xml:lang="la"><locus>fol. 307r</locus> esse deum et dominium. id est esse deum et esse dominum⸵ sicut inquam hoc est⸵ ita etc.</explicit>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <collation>
+                  <secFol>et in futuro</secFol>
+                </collation>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msPart>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

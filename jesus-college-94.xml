@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="enrich.css" title="ENRICH CSS" ?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Alexander Neckam</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Jesus College, Oxford</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC94" xml:lang="en">
+        <msIdentifier>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>94</idno>
+        </msIdentifier>
+        <msContents>
+          <summary>Works of Alexander Neckam.</summary>
+          <textLang mainLang="la">Latin</textLang>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>i + 128 leaves</extent>
+              <foliation>Foliated in modern pencil in top-right corner, first on the opening pages of gatherings and later continuously.</foliation>
+              <collation><formula>i, 1<hi rend="sup">8</hi>, 2<hi rend="sup">10</hi>–4<hi rend="sup">10</hi> (·iiii·), 5<hi rend="sup">10</hi> (·ix·), 6<hi rend="sup">8</hi> (x) || 7<hi rend="sup">8</hi>, 8<hi rend="sup">8</hi>, 9<hi rend="sup">(8-1, 8canc)</hi> || 10<hi rend="sup">8</hi>–14<hi rend="sup">8</hi>, 15<hi rend="sup">6</hi>, 16<hi rend="sup">4</hi> (4 pastedown)</formula><locus>Fol. i</locus> is glued to the leather of the spine. 
+              </collation>
+            </supportDesc>
+          </objectDesc>
+          <additions>
+            <p>Pressmarks: <q>16</q> (spine, <foreign>s.</foreign> xvi, same hand as note on front cover); <q>1 Arch 4_2</q> (slip added to spine, <foreign>s.</foreign> xvii, and written on fol. iv); <q>MS. Jesus Coll. Ox. B. 94</q> (printed blue slip added to spine, <foreign>s.</foreign> xix?); <q>2064 = 45</q> (<q>45</q> in same hand as <q>Alexander Neckam</q>, above, <q>2064 =</q> added, <foreign>s.</foreign> xvi?); <q>45 (16)</q> (top-right corner of fol. 1r, <foreign>s.</foreign> xvi?); <q>43</q> (top of fol. 1r, <foreign>s.</foreign> xvi?).</p>
+            <p><locus>Fol. ir</locus>: <q>Tractatus super psalterium</q> (s. xviii). </p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p>Oak boards covered in whittawed leather, finish mostly worn away; upper two thirds recovered. Packed straight sewing attached to four white thongs, 10 mm wide. Spine glued to leather (now mostly detached).</p>
+              <condition>Thongs have broken at the join to the upper board.</condition>
+              <decoNote>Label written on front cover, <quote>Alexander Nekam in psal</quote> (<foreign>s.</foreign> xvi, same hand as pressmark on spine).</decoNote>
+              <decoNote>Parchment label affixed to back: <quote>Alexander Neckam super psalterium. Tractatus super parabolas salamonis. Mulierem fortem quis inveniet:<!-- at the end? --></quote> (<foreign>s.</foreign> xv, Gothic textura). Covered with horn and attached with brass nails.</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Assembled at <origPlace>Cirencester</origPlace>, <origDate><foreign>s.</foreign> xiii<hi rend="sup">1/4</hi></origDate>, perhaps shortly after Alexander Neckam’s death in 1217. Recorded there <foreign>c.</foreign>1536–40 by Leland. At top of fol. 1r is added (<foreign>s.</foreign> xiv), <quote>Liber sancte Marie Cyrencestris in quo continentur glose super psalterium quas composuit magister Alexander. Item tractatus super principium parabolarum et finem. Item tractatus super Mulierem fortem.</quote></origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the <date when="1602">1602</date> donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24, doi:<ref target="https://doi.org/10.1093/library/s5-X.1.1">10.1093/library/s5-X.1.1</ref>.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Michael Gullick, ‘A Twelfth-Century Manuscript of the Letters of Thomas Becket’, <title>English Manuscript Studies 1100–1700</title> 2 (1990): 1–31 (discussion of revisions).
+            </bibl>
+            <bibl>
+              R.W. Hunt, <title>The Schools and the Cloister: The Life and Writings of Alexander Nequam (1157–1217)</title>, ed. Margaret T. Gibson (Oxford: Clarendon Press, 1984).
+            </bibl>
+          </listBibl>
+        </additional>
+        <msPart>
+          <msIdentifier>
+            <idno>I</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 1r–56r</locus>
+              <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+              <title xml:lang="la">Glose super psalterium</title>
+              <rubric xml:lang="la">Glose magistri Alexander abbatis cyrencestrie. super psalterium. <note>slightly later addition, <foreign>s.</foreign> xiii</note></rubric>
+              <msItem>
+                <note>proem</note>
+                <incipit xml:lang="la"><locus>fol. 1r</locus> De orto deliciarum paradisi</incipit>
+                <explicit xml:lang="la"><locus>fol. 1v</locus> nulla discordia. nec postulatio. qualis sit inuia.</explicit>
+              </msItem>
+              <msItem>
+                <note>commentary, Psalms 1 to 37 (defective)</note>
+                <incipit><hi rend="underline">Beatus uir qui non abiit. etc.</hi> Licet psalmus iste exponatur a quibusdam de ioseph ab arimathia.</incipit>
+                <explicit defective="true"><locus>fol. 38v</locus> cum de operibus misericordie disceptaturus dices. esuriui etc. <note>catchword: <q>sitium etc.</q></note></explicit>
+              </msItem>
+              <msItem>
+                <note>commentary, Psalms 92 to 119 (defective)</note>
+                <incipit><locus>fol. 39r</locus><hi rend="underline">Bonum est. etc.</hi><subst><del rend="expunct">Eforas</del><add place="above">Neemias</add></subst> precepit filiis israel ut quolibet</incipit>
+                <explicit defective="true"><locus>fol. 56v</locus> domine uiuifica me iuxta uerbum tuum</explicit>
+              </msItem>
+              <filiation>First recension of Alexander’s commentary on the Psalms, with the author’s revisions.</filiation>
+              <listBibl>
+                <bibl>
+                  Gilbert Dahan, ‘En marge du Proslogion de Saint Anselme: l’exégèse patristique et médiévale du Psaume’, <title>Archives d’histoire doctrinale et littéraire du Moyen Âge</title> 13 (1990): 11–29 (ed. of Ps. 13:1 at 26–27).
+                </bibl>
+                <bibl>
+                  Friedrich Stegmüller, <title>Repertorium biblicum medii aevi</title> (Madrid: Consejo Superior de Investigaciones Científicas, 1950–1980), no. 1163.
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>Membrane</support>
+                <extent>56 leaves <dimensions type="leaf" unit="mm"><height min="330" max="343"/><width min="272" max="285"/></dimensions>
+                </extent>
+                <collation>
+                  <signatures>Contemporary ink Roman numeral at the end of each gathering, centred at the bottom of the page. Sequence skips from ·iiii· to ·ix· between gatherings 4 and 5.</signatures>
+                  <catchwords>Contemporary catchwords to the right of signatures.</catchwords>
+                  <secFol>ut ei offeramus</secFol>
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="46 58"><dimensions type="written"><height min="248" max="268"/><width min="195" max="200"/></dimensions>
+                  Margins of layout are fairly consistent, but some gatherings have much tighter line spacing than others, ranging from 4.5–6 mm. Ruled in plummet, with pricking for bounds of the writing area around the entire page.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                Written in protogothic script, probably by one scribe, <foreign>s.</foreign> xii<hi rend="sup">ex</hi> or xiii<hi rend="sup">in</hi>, though with varying levels of execution.
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">
+                Space left for a four-line initial on fol. 1r, and for two- to three-line initials at the opening of each psalm.</decoNote>
+            </decoDesc>
+            <additions>
+              Extensively revised, with a hand identified as that of Alexander Neckam by Hunt and Gullick making corrections and additions, mostly in ink; others written in plummet, are recopied by the original scribe into the margin or integrated with the text. Some additions are also made by Alexander’s clerk, master Walter de Melida.
+            </additions>
+          </physDesc>
+          <history>
+            <origin>Possibly written at <origPlace cert="medium">St Frideswide’s, Oxford</origPlace> (where Alexander lectured on the Psalms and was probably a canon), <origDate notBefore="1193">after 1193</origDate> (as indicated by a reference to the Third Crusade: Hunt, <title>The Schools and the Cloister</title>, 26–27).</origin>
+          </history>
+        </msPart>
+        <msPart>
+          <msIdentifier>
+            <idno>II</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 57r–74r</locus>
+              <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+              <title xml:lang="la">Tractatus super prouerbia Salomonis</title>
+              <rubric xml:lang="la">Incipit tractatus magistri alexander abbatis cyrenc’ super parabolas salomonis.</rubric>
+              <msItem>
+                <rubric xml:lang="la"><note>proem</note><locus>fol. 47ra</locus> ¶ Proemyum.</rubric>
+                <incipit xml:lang="la">Meditatio humana nunc in ipsum hominem reflectitur. nunc in ceteras transit creaturas⸵ nunc in auctorem rerum dirigitur.</incipit>
+                <explicit xml:lang="la"><locus>fol. 59va</locus> Set quid? Apicula cum aculeo destitui ceperit⸵ mellificare desinit.</explicit>
+              </msItem>
+              <msItem>
+                <note>book 1</note>
+                <rubric xml:lang="la"><locus>fol. 59va</locus> Incipit liber primus. Capitulum .i.</rubric>
+                <incipit xml:lang="la">Parabole salomonis filii dauid regis israel. ad sciendam sapientiam et disciplinam. et ad intelligenda uerba prudentie et suscipiendam eruditionem doctrine. iustitiam et iuditium et equitatem. ut detur paruulis astucia⸵ adolescenti scientia. <note>Prov. 1:1</note> <hi rend="rubric">V</hi>ereor ne dum liber parabolarum˷ nostris se concedit manibus⸵ inuidia faciem infecta liuore˷ intonet ore cinico dicens. O dedecus⸵ o indignatio.</incipit>
+                <explicit xml:lang="la"><locus>fol. 74rb</locus> Ne audias a domino cum phariseis. Ipsi non introistis⸵ et eos qui introibant prohibuistis.</explicit>
+                <note>Commentary breaks off at Prov. 3:27.</note>
+              </msItem>
+              <filiation>Sole surviving manuscript of this work; numerous excerpts in <title>Sol meldunensis</title> (Cambridge, University Library, Gg.6.42) and a brief passage in Oxford, Bodleian Library, Hatton 102 (<title>SC</title> 4051), fol. 200v. Other copies recorded at the Dominicans, Lincoln (FD5.1) and the Carmelites, Hulne (F15.1).</filiation>
+            </msItem>
+            <msItem>
+              <locus>fols. 74va–75va</locus>
+              <note>Two sermons attributed to Alexander Neckam: incorrectly, according to Hunt, <title>The Schools and the Cloister</title>, 22–23.</note>
+              <msItem>
+                <author ref="http://viaf.org/viaf/40175167">Peter Comestor</author>
+                <title>Sermon 35</title>
+                <rubric xml:lang="la"><locus>fol. 74va, bottom margin, in the text hand</locus> Sermo magistri Alexandri abbatis Cyrencestr’. Feria Vª Dominice quinquagesime.</rubric>
+                <rubric xml:lang="la"><locus>guide for rubricator</locus> Feria Vª Dominice quinquagesime</rubric>
+                <incipit xml:lang="la">Dispone domui tue quia morieris <add place="above">tu</add> et non viues. <note>Isaiah 38:1</note> Famuliaris fuit hec ammonitio et semel</incipit>
+                <explicit xml:lang="la"><locus>fol. 75va</locus> et de utraque postmodum transferamur ad mensam patris. heredes facti dei⸵ coheredes autem cristi⸵ qui est benedictus in secula seculorum. Amen.</explicit>
+                <listBibl>
+                  <bibl>Schneyer, <title>Repertorium</title>, 4:638, no. 35; 1:275, no. 59</bibl>
+                  <bibl>PL 198, 1764</bibl>
+                </listBibl>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la"><locus>fol. 75vb (bottom margin)</locus> Sermo magistri Alexandri abbatis Cyrencestr’ In natiuitate beate Marie Virginis.</rubric>
+                <rubric xml:lang="la"><note>guide for rubricator, plummet</note> Sermo <add place="above">in</add> natiuitate beate marie.</rubric>
+                <incipit xml:lang="la"><supplied reason="omitted">S</supplied>icut spina rosam genuit iudea Mariam. Fratres licet prout testatur Augustinus magister egregius.</incipit>
+                <explicit xml:lang="la"><locus>fol. 77v</locus> ut ea mediante⸵ percipiatis eternam gloriam. Quam nobis et vobis precare dignetur ihesus cristus. qui est benedictus in secula. Amen.</explicit>
+                <filiation>Also found in London, British Library, Harley MS 325, where it is without attribution.</filiation>
+                <listBibl>
+                  <bibl>Schneyer, <title>Repertorium</title>, 1:275, no. 60</bibl>
+                </listBibl>
+              </msItem>
+            </msItem>
+            <msItem>
+              <locus>fol. 78r-v</locus>
+              <note>blank</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>Membrane</support>
+                <extent>22 leaves
+                  <locus>Fols. 57-72 (gatherings 7/8)</locus>:
+                  <dimensions type="leaf" unit="mm"><height min="374" max="381"/><width min="266" max="270"/></dimensions>
+                  <locus>Fols. 73–76 (gathering 9)</locus>:
+                  <dimensions type="leaf" unit="mm"><height min="364" max="370"/><width min="242" max="248"/></dimensions>
+                </extent>
+                <collation>
+                  <catchwords>Catchword at bottom right of 64v; at the base of 72v, a note reading ‘Requi<supplied reason="omitted">re?</supplied> in libro Et bene’ (corresponding to the following gathering).</catchwords>
+                  <secFol>qui triumphorum suorum</secFol>
+                </collation>
+                <condition>Leaves of gathering 7 folded in the bottom right corner.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="48 49"><dimensions type="written"><height min="270" max="284"/><width min="174" max="177"/></dimensions><locus>Fols. 57r–72v (gatherings 7/8)</locus> ruled in plummet, with pricking for frame. Extra rules in inner and outer margins to align running headers. Double series of pricking for individual lines in gathering 7, single series in gathering 8. Line spacing 5.5–7 mm. Fol. 64 is set lower on the page, with a larger top margin (37 mm vs. 23–25 mm elsewhere).</layout>
+                <layout columns="2" ruledLines="43 47"><dimensions type="written"><height min="260" max="263"/><width min="163" max="166"/></dimensions><locus>Fols. 73r–77v (gathering 9)</locus> ruled in plummet, with pricking for frame and one series of pricking for individual lines; line spacing 5–6.5 mm. No extra rules in margins.</layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <summary>Protogothic, <foreign>s.</foreign> xiii<hi rend="sup">in</hi>. Written in many stints with different scribes, with shifts often corresponding to transitions in the text, suggesting that it was copied concurrently with composition.</summary>
+              <handNote><locus>Fols. 57ra–61vb</locus>, two scribes or one scribe writing in multiple stages (note the extra stroke added to capital T and Q). One of these may be Walter de Melida. Returns at fols. 62va–63vb.
+              </handNote>
+              <handNote>
+                <locus>Fols. 61vb–62rb, a larger, heavier hand introduced, alternating with one that is smaller and square.</locus>
+              </handNote>
+              <handNote><locus>Fols. 63vb–64vb</locus>, a light, somewhat elongated hand, with an extra stroke added to rounded capitals (e.g. E, C, T), probably Walter de Melida.
+              </handNote>
+              <handNote><locus>Fols. 65r–67v</locus> (i.e. starting with gathering 8), a larger, heavier, more formal hand; from fols. 68r–69v, this shifts to a slightly heavier script with bold capitals opening each sentence.
+              </handNote>
+              <handNote>
+                Further shifts in hand at fols. 70r; 70v; 71ra; 71ra–71va; 71va–72vb; 72vb; 73ra; 73ra–73rb; 73rb; 73rb–73va; 73va; 73va–74ra; 74ra–b; 74rb.
+              </handNote>
+              <handNote><locus>Fols. 74v–77v</locus>, hybrida, <foreign>s.</foreign> xiii<hi rend="sup">1/2</hi><!--improve description of this hand-->.
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initials">Fol. 57r, a four-line Arabesque initial with penwork, red and blue; opening of book 1 marked by a red four-line initial with penwork; two- and three-line initials, red, blue, or green with penwork, mark smaller section divisions; openings of paragraphs marked with enlarged red capitals, alternating on occasion with blue or green.</decoNote>
+              <decoNote type="border">Penwork added to frame additions on fols. 57v–58r.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>Fol. 57r, cursive notes in the margin, <foreign>s.</foreign> xv. </p>
+              <p>Corrections by Alexander Neckam and Walter de Melida (cf. Psalms commentary).</p>
+            </additions>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier>
+            <idno>III</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 79r–125r</locus>
+              <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+              <title xml:lang="la">Tractatus super <quote>Mulierem fortem</quote></title>
+              <note>commentary on Prov. 31:10–31</note>
+              <msItem>
+                <note>book 1 (on Mary Magdalene)</note>
+                <incipit xml:lang="la"><locus>fol. 79r</locus> Mulierem fortem quis inueniet? Procul et de ultimis finibus pretium eius. <note>Prov. 31:10</note> <hi rend="bold">S</hi>plendor radii solaris in iaspide⸝ serenitati aeris exposito⸵ uirescere. in carbunculo⸵ rutilare. in cristallo⸵ scintillare uidetur.</incipit>
+                <explicit xml:lang="la"><locus>fol. 98v</locus> que in beata uirgine edificauit sibi domum decoris⸵ septem gratis columnis munitam.</explicit>
+              </msItem>
+              <msItem>
+                <note>book 2 (on the Virgin Mary)</note>
+                <rubric xml:lang="la"><locus>fol. 98v</locus> De gloriosa uirgine.</rubric>
+                <incipit>Mulierem fortem quis inueniet? Exurge osalterium et cithara⸵ in laudes <del rend="expunct">in laudes</del> gloriose uirginis.</incipit>
+                <explicit xml:lang="la"><locus>fol. 114v</locus> Remunerabor egregie⸵ si pro me apu<subst><del rend="alt">t</del><add place="overstrike">d</add></subst> serenissimum iudicem digneris intercedere.</explicit>
+              </msItem>
+              <msItem>
+                <note>book 2 (on the Church)</note>
+                <rubric xml:lang="la"><locus>fol. 114v</locus> Laus sacro sancte ecclesie.</rubric>
+                <incipit xml:lang="la">Mulierem fortem quis inueniet? <hi rend="bold">P</hi>reconiis gloriose dei genitricis⸵ laudes sacro sancte matris ecclesie decreuimus adicere.</incipit>
+                <explicit xml:lang="la"><locus>fol. 124v</locus> Et ecce iam opus consummauimus⸵ in laudem domini nostri ihesu cristi. cui honor˷ uirtus et gloria⸵ per infinita seculorum secula. <hi rend="caps">Amen.</hi></explicit>
+              </msItem>
+              <msItem>
+                <quote xml:lang="la"><locus>fol. 125r</locus>
+                  Fortasse tuo liber superstes eris alexandro. Prius enim me
+                  uermes comedent⸵ quam te tinea corrosura sit. Vermibus debetur corpus meum. te⸵ demolientur tinee. Tu speculum es animi mei. tu meditacionum mearum interpres⸵ propositi nostri
+                  certissimus es iudex. affectuum mentis mee fidelis es nuncius⸵
+                  tu dulce solacium meroris. tu testis consciencie uerax.
+                  Tibi tanquam fideli depositario⸵ cordis archana commendaui.
+                  Restituis fideliter michi ea que fidei tue commisi. in te⸵ me ipsum
+                  lego. Venies uenies⸝ in manus alicuius pii lectoris⸵ qui pro me
+                  preces effundere dignabitur. Tunc quidem tuo libelle domino proderis⸵ tunc tuo alexandro gratissimam recompensabis uicissitudinem. Vincet⸝ nec inuideo laborem meum⸵ pii lectoris deuotio. qui te nunc gremio repositurus˷ nunc pectori suo admoturus. non numquam capiti tanquam dulce ceruical suppositurus˷
+                  quandoque te letis manibus leniter contrectaturus⸵ pro me affectuose dominum exorabit ihesum cristum⸵ qui cum patre et spiritu
+                  sancto uiuit et regnat deus per infinita seculorum secula⸵ Amen.
+                </quote>
+              </msItem>
+              <filiation>The only other known manuscript of this work, now Oxford, Bodleian Library, MS Bodley 528 (<title>SC</title> 2221), from Reading, was copied from the Jesus College manuscript before it was corrected (this was not observed by Mahoney).</filiation>
+              <listBibl>
+                <bibl>
+                  Denis Gerard Mahoney, ‘A Critical Edition of Alexander Nequam’s Tractatus super mulierem fortem, Section One’ (PhD diss., University of Illinois at Urbana-Champaign, 1971).
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 125v–128r</locus>
+              <note>blank</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>Membrane</support>
+                <extent>50 leaves <dimensions type="leaf" unit="mm"><height min="383" max="392"/><width min="275" max="297"/></dimensions>
+                </extent>
+                <collation>
+                  <signatures>In gathering 12 (fols. 95–102), letters are placed in the inner margin of most pages to indicate their order.</signatures>
+                  <catchwords>Catchwords in ink centred at the base of the last page of each gathering.</catchwords>
+                  <secFol/>
+                </collation>
+                <condition>Some pages curling at the edge; they seem to have been intended for a binding larger than the one provided.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="42 52"><dimensions type="written"><height min="280" max="310"/><width min="175" max="208"/></dimensions>
+                  Ruled in plummet. Pricking for frame throughout on all edges of page; pricking for individual lines in gathering 10 only, in inner and outer margins. Line spacing 5–7 mm. Extra rules in inner and outer margins to align running headers. Beginning at fol. 86v, an extra rule is added 9–12 mm from the top of the page for a running heading, filled in by the rubricator only from fol. 99v (with book 2) until 122r.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Written in several protogothic hands, <foreign>s.</foreign> xiii<hi rend="sup">1/4</hi>, many the same as those found in <title>Super parabolas</title>. Shifts in hand found at fols. 79r–85ra; 85ra–b; 85rb–va; 86va; 85vb; 85vb–91ra; 91ra–92rb; 92va–95rb; 96ra; 96ra–b; 96rb; 96rb–100vb; 100vb–103rb; 103va–106ra; 106ra–107va; 107va–108ra; 108ra–108va; 108va–110va; 110va–b; 111ra–112vb; 112vb–113va; 113va–114rb; 114rb-114va; 114va–115rb; 115rb–118va; 118va; 118va–119ra; 119ra; 119ra–b; 119rb–va; 119vb–123ra; 123ra–va; 123va–b; 123vb; 123vb–124va; 124va–124vb; 124vb–125ra.</handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">Opening six-line arabesque initial in red and blue with penwork. Subsequent paragraphs and sections begin with an enlarged capital, alternating between red, blue, and green (occasionally with paraph marks).</decoNote>
+              <decoNote type="border">Penwork in red and blue added to frame longer marginal additions.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>Corrections in plummet by Alexander Neckam, Walter de Melida, and another corrector, later entered formally by the original scribes in ink.</p>
+            </additions>
+          </physDesc>
+        </msPart>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

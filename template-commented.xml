@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="enrich.css" title="ENRICH CSS" ?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>[Title of manuscript]</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">[Name of cataloguer]</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>[Name of data provider]</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="putAnIDHere" xml:lang="en">
+        <!-- The msDesc element requires @xml:id and @xml:lang 
+             attributes. You should replace 'putAnIDHere' with a more 
+             useful alphanumeric ID, perhaps the same or related to 
+             that you put in the <idno> element above. The 'en' in 
+             the @xml:lang attribute ISO language code claims that 
+             your manuscript description (note: the description not 
+             the manuscript) is in English -->
+        <msIdentifier>
+          <!-- The msIdentifier provides (optional) information about 
+               the repository holding the manuscript. The repository 
+               element should at least be provided. -->
+          <settlement>[Name of city or settlement]</settlement>
+          <institution>[Name of institution]</institution>
+          <repository>[Name of repository]</repository>
+          <collection>[Name of collection]</collection>
+          <idno>[ID number or classmark of manuscript]</idno>
+          <!-- Some manuscripts have a name, use @xml:lang on 
+               multiple ones to provide names in different 
+               languages if necessary -->
+          <msName>[Name of manuscript if it exists]</msName>
+        </msIdentifier>
+        
+        <msContents>
+          <!-- msContents provides information about the 
+               intellectual contents of the manuscript  -->
+          <summary>[A summary of the manuscript contents]</summary>
+          <!-- give a textLang element with @mainLang attribute ISO 
+               language code and optional @otherLangs attribute. -->
+          <textLang mainLang="la" otherLangs="en fr">[A list of
+            languages in the manuscript, e.g. 'English with
+            some Latin and French']</textLang>
+          <msItem>
+            <!-- You should provide an msItem for each 
+                 intellectual item in the manuscript -->
+            <locus>[Where is this msItem?
+              e.g. 'f. 3v-25r']</locus>
+            <author>[Name of author if known]</author>
+            <title xml:lang="la">[Title of item if known]</title>
+            <textLang mainLang="en" otherLangs="la">[A list of
+              languages that apply to just this msItem, e.g.
+              'English with some Latin']</textLang>
+            <!-- Provide information about the rubric 
+                 and finalRubric if extant and the incipit 
+                 and explicit of the text -->
+            <rubric xml:lang="la">[The text of any rubric or heading which
+              signals the start of this msItem]</rubric>
+            <incipit xml:lang="la">
+              <locus>[Location of incipit, e.g. 'f.
+                3v']</locus> [Text of the incipit (the the
+              opening words of the text proper, exclusive of
+              any rubric which might precede it)] </incipit>
+            <explicit xml:lang="la">
+              <locus>[Location of explicit, e.g. 'f
+                25r']</locus> [Text of the explicit (the
+              closing words of the text proper, exclusive of
+              any rubric or colophon which might follow it)]] </explicit>
+            <finalRubric xml:lang="la">[The text of any closing rubric that
+              indicates the end of this msItem]</finalRubric>
+            <filiation>[Information concerning the manuscript's
+              relationship to other surviving manuscripts of
+              the same text, if known]</filiation>
+            <!-- You may optionally wish to provide biblographic 
+                 information for items related to this msItem -->
+            <listBibl>
+              <bibl>
+                <!-- A bibliographic citation including 
+                     child elements for author, title, editor, 
+                     publisher, pubPlace, date, etc. -->
+              </bibl>
+              <!-- Followed by more bibl elements as required -->
+            </listBibl>
+          </msItem>
+          <!-- Provide more msItem elements, one for each 
+               intellectual item in the manuscript -->
+        </msContents>
+        <physDesc>
+          <!-- physDesc gives a place to record physical 
+               description of the object. -->
+          <objectDesc form="codex">
+            <!-- The @form attribute on the objectDesc element 
+                 takes possible values of 'codex', 'leaf', 'scroll', or 'other'. -->
+            <supportDesc material="chart">
+              <!-- The @material attribute on supportDesc describes the material of the object as:
+                   'chart' (paper), 'mixed', 'perg' (parchment), or 'unknown'.
+                   -->
+              <support>[A description of the materials of the
+                physical support for the written part of a
+                manuscript]</support>
+              <extent> [number of leaves(etc.)] <dimensions type="leaf" unit="mm">
+                  <height min="000" max="000"/>
+                  <width min="000" max="000"/>
+                </dimensions>
+                </dimensions>
+              </extent>
+              <foliation>[A description of the numbering
+                system(s) used to count the leaves or pages
+                in a codex]</foliation>
+              <collation>[A description of how the
+                leaves/bifolia are arranged]
+              <formula></formula>
+                <signatures></signatures>
+                <catchwords></catchwords>
+              <secFol></secFol>
+              </collation>
+              <condition>[A description of the physical
+                condition of the manuscript]</condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="1" ruledLines="23 30">
+                <!-- The @columns attribute on layout 
+                     is required.  Here the @ruledLines 
+                     (or optionally @writtenLines) attribute 
+                     gives the minimum and maximum number 
+                     of ruled (or written) lines -->
+                <dimensions type="written"><height min="000" max="000"/><width min="000" max="000"/></dimensions>
+                [A description of the layout of the
+                manuscript possibly including a
+                <locus>[Applicable folios]</locus> if
+                more than one layout is provided.]</layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <summary>[Summary discussion of the hands present
+              in the manuscript]</summary>
+            <handNote scope="sole" script="unknown">
+              <!-- Note: the @scope and @script attributes 
+                   are required and predefined on the handNote 
+                   element.  The defaults for @scope are: 'major', 
+                   'minor', or 'sole' and for @script they are: 
+                   'carolmin', 'cursiva', 'humbook', 'humcursiva', 
+                   'hybrida', 'textualis', 'other' or 'unknown'
+                   -->
+              [A description of the hand, perhaps using
+              <locus>[Applicable folios]</locus> if the
+              hand is only used in certain
+              places.]</handNote>
+            <!-- More handNote elements for each hand in the manuscript -->
+          </handDesc>
+          <musicNotation>
+            <p>[A discussion of the musical notation in the
+              mansucript, if present.</p>
+          </musicNotation>
+          <decoDesc>
+            <decoNote type="unspecified">
+              <!-- the @type attribute can be used to specify 
+                   which aspects of the manuscript decoration 
+                   this note discusses.  The @type allows the 
+                   following values: 'border', 'diagram', 'initial', 
+                   'marginal', 'miniature', 'mixed', 'paratext', 
+                   'secondary', 'illustration', 'printmark', 
+                   'publishmark', 'vignette', frieze', 'map', 
+                   'unspecified' or 'other'.
+                   -->
+              [A discussion about this particular type of
+              decoration] </decoNote>
+          </decoDesc>
+          <additions>
+            <p>[A discussion about the
+              additions/marginalia/annotations present in the
+              manuscript perhaps using <locus/> to point to
+              specific examples.</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="000"/><width quantity="000"/><depth quantity="000"/></dimensions> [One or more paragraphs describing the
+                binding] </p>
+              <condition>[Condition of the
+                binding.]</condition>
+              <decoNote>[Description of decoration on the
+                binding]</decoNote>
+            </binding>
+            <!-- More than one binding element can be provided if 
+                 both present and former bindings are discussed -->
+          </bindingDesc>
+          <sealDesc>
+            <seal>
+              <p>[One or more paragraphs describing the seal
+                if present]</p>
+              <decoNote>[Description of decoration on the
+                seal]</decoNote>
+            </seal>
+            <!-- More than one seal element can be provided if 
+                 multiple seals exist or former seals are discussed -->
+          </sealDesc>
+          <accMat>
+            <p>[One or more paragraphs describing any
+              accompanying material if present]</p>
+          </accMat>
+        </physDesc>
+        <history>
+          <!-- history gives a place to record the history of the object -->
+          <origin>[Discussion of the origin of the manuscript
+            almost certainly including at least an
+            <origDate>[Origin date preferably also using
+              dating attributes of: @when, or
+              @notBefore/@notAfter]</origDate> element and a
+            <origPlace>[Origin place name]</origPlace>
+            element] </origin>
+          <provenance>[Any information about a single
+            identifiable episode in the life of the manuscript
+            between origin and acquisition]</provenance>
+          <provenance><!-- provenance is repeatable if there 
+                 are more identifiable episodes --></provenance>
+          <acquisition> [Information concerning the acquisition
+            of the manuscript by the current holding
+            institution] </acquisition>
+        </history>
+        <additional>
+          <adminInfo>
+            <recordHist>
+              <!-- recordHist may contain a series of paragraphs 
+                   concerning the history of the manuscript 
+                   description itself, or a single source element. -->
+              <source>[Information about the source of the
+                manuscript description]</source>
+            </recordHist>
+            <availability status="restricted">
+              <p>[Information concerning the current
+                availability of the manuscript itself]</p>
+            </availability>
+            <custodialHist>
+              <!-- The custodial history of the manuscript 
+                   itself can be recorded either with a series 
+                   of paragraphs or a series of custEvent 
+                   elements.  -->
+              <custEvent type="other">
+                <!-- When custEvent is used, the @type attribute 
+                     is required and allows the values: 'check', 
+                     'conservation', 'description', 'exhibition', 
+                     'loan', 'photography', or 'other'.
+                     -->
+                [Information about the custodial event in
+                question] </custEvent>
+              <!-- More custEvent elements as needed -->
+            </custodialHist>
+            <note>[Optionally additional notes can be
+              provided.]</note>
+          </adminInfo>
+          <surrogates>
+            <!-- 
+                 The surrogates element contains information 
+                 about any non-digital representations of the 
+                 manuscript being described.  This can take many 
+                 forms, such as paragraphs, or a listBibl with bibl 
+                 elements inside for each surrogate mentioned.  
+                 Digital facsimiles should use the facsimile 
+                 element inside a full TEI document.
+                 -->
+          </surrogates>
+          <listBibl>
+            <!-- listBibl here contains citations to bibliographic 
+                 items which refer to the described manuscript.-->
+            <bibl>
+              <!-- A bibliographic citation including 
+                   child elements for author, title, editor, 
+                   publisher, pubPlace, date, etc. -->
+            </bibl>
+            <!-- Followed by more bibl elements as required -->
+          </listBibl>
+        </additional>
+        <!-- 
+             If this was a composite manuscript then
+             much of the above would instead be inside  
+             one msPart element for each section of the 
+             composite or distributed manuscript.
+             -->
+        
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+    <change when="2009-05-14">
+      <name type="person">James Cummings</name> created this
+      file</change>
+    <!-- Your revisionDesc should include information concerning 
+         major changes to the electronic file.  Replace the above 
+         with something more suitable.   -->
+  </revisionDesc>
+</teiHeader>

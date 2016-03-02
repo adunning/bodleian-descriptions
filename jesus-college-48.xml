@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Jesus College, Oxford</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC48" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>48</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fol. iv</locus>
+            <quote xml:lang="la">
+              Liber Galfr’ quondam Vicarii de Auebyri quem <add place="above">dedit</add> deo et Ecclesie Sancte Mar’ de Cyrencestr’ Anno dominice Incarnationis mº ccº xxxº viiiº In principio huius libri est quaternus vnus de glosis epistularum pauli Item glose super cantica canticorum Item speculum ecclesie quod abbas Sancti Victoris ex dictis sanctorum patrum compilauit
+            </quote>
+            <note>A cursive hand adds, with a mark for inserting the sentence after <q>cantica canticorum</q> above:</note>
+            <quote>a sermo <add place="above">augustini</add> de disciplina in domo discipline et de dilectione dei et proximi</quote>
+            <note>John Prise adds:</note>
+            <quote xml:lang="la">
+              <lb/>Commentario in Cantica Canticorum
+              <lb/>Speculum ecclesie
+              <lb/>Augustinus de disciplina domini <note>a sixteenth-century hand adds <q>deest</q></note>
+            </quote>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>i + 85 leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="232" max="236"/>
+                  <width min="148" max="159"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil, 1–86.</foliation>
+              <collation>
+              <formula>i, 1–2<hi rend="sup">8</hi> | 3–8<hi rend="sup">8</hi> | 9<hi rend="sup">8</hi>, 10<hi rend="sup">10</hi>, 11<hi rend="sup">4-1</hi> (3 canc.)</formula>
+              </collation>
+            </supportDesc>
+          </objectDesc>
+          <additions>
+            <p>Pressmarks: <q>2048 = 29 (67)</q>, <q>1 Arch 2 1-14</q> (fol. 1r); <q>MS Jesus Coll. Ox. D. 48</q> (blue label on spine).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="247"/><width quantity="173"/><depth min="26" max="43"/></dimensions>
+              Twentieth century binding imitating medieval style (similar to Jesus College 34), whittawed leather over thin wooden boards, new paper endleaves.</p>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>
+            <origPlace>England</origPlace>, <origDate notBefore="1100" notAfter="1200">s. xii</origDate>.</origin>
+          <provenance>Given to Cirencester Abbey by Geoffrey, vicar of Avebury, in 1238.</provenance>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <msPart>
+          <msIdentifier><idno>I</idno></msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 2r–18v</locus>
+              <title xml:lang="la">Commentary on Paul</title>
+              <incipit xml:lang="la"><locus>fol. 2ra</locus> Sicut ad antiquum populum erudiendum⸵ post fundamentum legis in qua mandata dei plenarie continebantur propheticus paries fuit necessarius⸵</incipit>
+              <explicit xml:lang="la"><locus>fol. 18vb</locus> ut dicit ysaias. Dei dispensationem. id est doctrinam.</explicit>
+              <note>Ends discussing 2 Tim. 2:19.</note>
+              <listBibl>
+                <bibl>
+                  Friedrich Stegmüller, <title>Repertorium biblicum medii aevi</title> (Madrid: Consejo Superior de Investigaciones Científicas, 1950–1980), no. 10179.
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <collation>
+                  <secFol>in me promtum est</secFol>
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="40">
+                  <dimensions type="written"><height quantity="187"/><width quantity="132"/></dimensions>
+                  Two columns ruled in plummet, pricked on outer edges for frame and individual lies, which are spaced 4.75 mm apart. 
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Gothic textualis, s. xii–xiii.</handNote>
+            </handDesc>
+            <additions>
+              <p>At top of fol. 2r, <q>Glossa in Epistolas Paulinas</q> written in an eighteenth-century hand.</p>
+            </additions>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier><idno>II</idno></msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 18r–57v</locus>
+              <author ref="http://viaf.org/viaf/72191960">Robert of Tumbalena</author>
+              <title xml:lang="la">Commentary on the Song of Songs</title>
+              <incipit xml:lang="la" defective="true"><locus>fol. 19r</locus> sponsa cristi in sponsi sui deliciis exultat.</incipit>
+              <explicit xml:lang="la"><locus>fol. 57v</locus> Cui immensas gracias quousque uiuimus reddamus. cui pro nobis tradito in mortem. et resurgenti in immortalitatem nos ipsos. et spiritum et corpus debemus. <hi rend="caps">Qvi vivit cvm deo patre.</hi> in unitate sancti spiritus per infinita secula seculorum amen.</explicit>
+              <listBibl>
+                <bibl>
+                  Rossana Guglielmetti, <title>La tradizione manoscritta dei commenti latini al Cantico dei cantici (origini–XII secolo): repertorio dei codici contenenti testi inediti o editi solo nella «Patrologia latina»</title>, Millennio Medievale 63, Strumenti e studi, n.s., 14 (Florence: SISMEL, 2006), no. 648.
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 58r–65v</locus>
+              <author ref="http://viaf.org/viaf/66806872">Augustine</author>
+              <title xml:lang="la">De disciplina christiana</title>
+              <incipit xml:lang="la"><locus>fol.  58r</locus> Locutus est ad nos sermo dei. et promtus est ad exhortationem nostram⸵ dicente scriptura.</incipit>
+              <explicit xml:lang="la"><locus>fol. 65v</locus> Recole euangelium quod audisti. Ego et pater⸵ unum sumus. Conuersi ad dominum. Amen.</explicit>
+              <listBibl>
+                <bibl>
+                  CPL 310
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <collation>
+                  <secFol>sponsa cristi in sponsi</secFol>
+                </collation>
+                <condition>Fol. 18 mostly ripped away.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" ruledLines="38">
+                  <dimensions type="written"><height quantity="170"/><width quantity="102"/></dimensions>
+                  <locus>Gathering 3 (fols. 18r–25v)</locus> ruled in drypoint, pricked on outer edges of the page for frame and individual lines. Line spacing 4.5 mm.
+                </layout>
+                <layout columns="1" ruledLines="30">
+                  <dimensions type="written"><height min="168" max="172"/><width min="93" max="97"/></dimensions>
+                  <locus>Gatherings 4–8 (fols. 26r–65v)</locus> ruled in drypoint, pricked on outer edges of the page for frame and individual lines. Line spacing 5.5–6 mm.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Fols. 18r–24r, protogothic, s. xii.
+              </handNote>
+              <handNote>
+                Hand shifts on fol. 24v and again at 25r to a darker ink and more formal versions of the script. This is matched by the modified layout with increased line spacing on fol. 26r, remaining until fol. 65v. 
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">New chapters begin with 3-line Arabesque initials, alternating between red and green, occasionally with penwork in the same colour. Larger initials on fols. 27v (7-line, with decoration in red, filled in yellow), 34r (6-line, with decoration in red and green, filled in yellow), 35v (5-line, with decoration in red). Differing sizes and styles do not appear to imply a hierarchy. On fol. 58r, opening of Augustine text. red L descends from a lion’s mouth, filled in yellow.</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier><idno>III</idno></msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 66r–85r</locus>
+              <title xml:lang="la">Speculum ecclesie</title>
+              <rubric xml:lang="la"><locus>fol. 66r</locus> Incipit speculum ecclesie quod abbas sancti uictoris ex dictis sanctorum patrum compilauit.</rubric>
+              <msItem>
+                <note>Prologue</note>
+                <incipit xml:lang="la">De sacramentis ecclesiasticis ut tractarem. eorundemque misticam dulcedinem uobis exponerem uestra rogauit dilectio.</incipit>
+                <explicit xml:lang="la">quem quia in eo speculari licet. quid mistice representent singula in ecclesia. speculum ecclesie intitulari placuit.</explicit>
+                <finalRubric xml:lang="la">Explicit prologus.</finalRubric>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Incipit capitulum tocius libri.</rubric>
+                <incipit xml:lang="la">Primum igitur capitulum est de ecclesia.</incipit>
+                <explicit xml:lang="la">Octauum de supernis secretis quę hic sciri licet.</explicit>
+              </msItem>
+              <msItem>
+                <note>Text</note>
+                <rubric xml:lang="la">Primum capitulum de ecclesia</rubric>
+                <incipit xml:lang="la">Ecclesia igitur in qua populus conuenit ad laudandum deum.</incipit>
+                <explicit xml:lang="la"><locus>fol. 85r</locus> Verius enim inuenit amans. quam disputans.</explicit>
+              </msItem>
+              <listBibl>
+                <bibl>
+                  PL 177:335–80
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fol. 85r</locus>
+              <author ref="http://viaf.org/viaf/51797933">Peter Lombard</author>
+              <title xml:lang="la">Sententiae</title>
+              <note>Added excerpts from 4.32.2–3.</note>
+              <rubric xml:lang="la">Augustinus. quaestionibus numeri.</rubric>
+              <quote xml:lang="la"><note>4.32.2.4.1</note> Manifestum est ita uoluisse legem. feminam esse sub uiro ut nulla eius uota que abstinentie causa uouerit reddantur ab ea nisi autor fuerit uir permittendo. <note>4.32.2.4.9</note> Qui uir uel mulier continenciam deo offerre non potest. sine communi consensu. nec alter alteri debitum negare debet. <note>4.32.2.5.8</note> Si uero mu<ex>lier</ex> habitum m<choice><sic>i</sic><corr>u</corr></choice>tauerit non potest reuocari. secundum illud. Qui uxorem suam uelare permiserit. aliam non accipiat. sed similiter conuertatur. <note>4.32.3.2.2</note> Ieronimus. Quicumque uxori debitum redd<choice><sic>ere</sic><corr>it</corr></choice>⸵ ua<supplied reason="omitted">ca</supplied>re non potest orationi nec carnes agni edere. <note>4.32.3.3.1</note> Hoc capitulum proprie ad ministros ecclesie pertinere <supplied reason="omitted">uidetur</supplied>. quibus non licebat officia sacra celebrare atque misteria. tempore coniugalis amplexus. quo etiam spiritus sancti non datur presentia. <note>cf. app. crit.</note> Nihil fedius est quam amare quasi adulteram.
+              </quote>
+            </msItem>
+            <msItem>
+              <note>Added verses on circumstances</note>
+              <quote xml:lang="la">
+                <l>Quis quid ubi quibus auxiliis cur quomodo quando.</l>
+                <l>Quantum uel <unclear>qualiter</unclear> quo uel qua <unclear>quantus</unclear> et unde.</l>
+              </quote>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <collation>
+                  <secFol>ab intus est</secFol>
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" ruledLines="42">
+                  <dimensions type="written"><height min="184" max="192"/><width min="115" max="121"/></dimensions>
+                  Ruled in plummet. Pricked on outer edges of page for frame and individual lines. Line spacing 4–5.5 mm.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Protogothic, s. xii<hi rend="sup">2</hi></handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">All initials and rubrication in the same shade of red. First sections begin with 4-line initials, with first word in small capitals and every other letter in red. The first chapter begins with a 2-line initial; subsequently, new chapters begin with a 3-line initial. First letter of each sentence slightly enlarged and rubricated.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>A hand similar to that found in the second part of the manuscript makes marginal corrections.</p>
+              <p>Additions on fol. 85r in two charter hands, s. xii/xiii.</p>
+            </additions>
+          </physDesc>
+        </msPart>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

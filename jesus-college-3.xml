@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="enrich.css" title="ENRICH CSS" ?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Gregory of Nazianzus, <title xml:lang="la">Orationes</title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Samu Niskanen</name>
+      </respStmt>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Jesus College, Oxford</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="OJC3" xml:lang="en">
+        <msIdentifier>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>3</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fol. 1r</locus>
+            <note>Pen trials, <foreign>s.</foreign> xvii</note>
+          </msItem>
+          <msItem>
+            <locus>fol. 1v</locus>
+            <note xml:lang="la">List of contents, probably in the hand of <name ref="http://viaf.org/viaf/65071134">Sir John Prise</name>, <foreign>s.</foreign> xvi</note>
+            <quote xml:lang="la"><lb/>Gregorij Nazanzeni Apologeticus
+              <lb/>Eiusdem vij sermones
+              <lb/>Expositio Baptisterij
+              <lb/>Ambrosius de obseruantia episcoporum
+              <lb/>Augustinus contra v hereses.
+              <lb/>Didimus de spiritu sancto.
+              <lb/>Duodecim abusiua
+            </quote>
+            <note>Another hand also entered this list on the cover.</note>
+          </msItem>
+          <msItem>
+            <locus>fol. 2r</locus>
+            <note xml:lang="la">List of contents, in the main hand</note>
+            <incipit xml:lang="la" type="full">Hęc sunt quę continentur in hoc libro. Apologeticus Gregorii Nazanzeni. et .vii. sermones eiusdem. Expositio baptisterii. Ambrosius de obseruantia episcoporum. Augustinus contra .v. hereses. Didimus de spiritu sancto. Duodecim abusiua.</incipit>
+          </msItem>
+          <msItem>
+            <locus>fols. 2r–78v</locus>
+            <author ref="https://viaf.org/viaf/108675755">Gregory of Nazianzus</author>
+            <title xml:lang="la">Orationes</title>
+            <note>tr. <name type="person" role="translator" ref="https://viaf.org/viaf/77679446">Rufinus</name></note>
+            <msItem>
+              <locus>fols. 2r–2v</locus>
+              <author ref="https://viaf.org/viaf/77679446">Rufinus</author>
+              <title xml:lang="la">Praefatio ad Apronianum in libris Gregorii Nanzanzeni</title>
+              <rubric xml:lang="la"><locus>fol. 2r</locus> Pręfatio rufini presbiteri de libris Gregorii.</rubric>
+              <incipit xml:lang="la">Proficiscenti mihi ex urbe</incipit>
+              <explicit xml:lang="la">habes peritiam magis probato.</explicit>
+              <finalRubric><locus>fol. 2v</locus> Explicit praefatio.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 3–6</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 2v–28r</locus>
+              <title xml:lang="la">Apologeticus (or. 1)</title>
+              <rubric xml:lang="la"><locus>fol. 2v</locus> Incipit apologeticus Gregorii Nazanzeni.</rubric>
+              <incipit xml:lang="la">Victus sum⸵ et fateor me esse. superatum.</incipit>
+              <explicit xml:lang="la"><locus>fol. 28r</locus> cui gloria in saecula saeculorum amen.</explicit>
+              <finalRubric>Explicit apologeticus sancti Gregorii nazanzenii episcopi.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 7–84</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 28r–35r</locus>
+              <title xml:lang="la">De epiphaniis siue De natiuitate Christi (or. 2)</title>
+              <rubric xml:lang="la"><locus>fol. 28r</locus> Incipit liber eiusdem de epiphaniis siue de natali domini.</rubric>
+              <incipit xml:lang="la">Christus nascitur⸵ gloriamini.</incipit>
+              <explicit xml:lang="la"><locus>fol. 35r</locus> in quantum iunctis in carne possibile est⸵ per ipsum iesum christum dominum nostrum. cui est gloria et potestas in saecula saeculorum amen.</explicit>
+              <finalRubric>Explicit liber primus de epiphaniis.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 87–108</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 35r–43v</locus>
+              <title xml:lang="la">De luminibus siue secundis epiphaniis (or. 3)</title>
+              <rubric xml:lang="la"><locus>fol. 35r</locus> Incipit .ii. de luminibus quod est secundis epiphaniis.</rubric>
+              <incipit xml:lang="la">Iterum iesus meus⸵ et iterum misterium.</incipit>
+              <explicit xml:lang="la"><locus>fol. 43v</locus> uestra fulgeat coram hominibus. per christum dominum nostrum cui est gloria in saecula saeculorum amen.</explicit>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 117–137</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 43v–50v</locus>
+              <title xml:lang="la">De pentecoste et spritu sancto (or. 4)</title>
+              <rubric xml:lang="la">
+                <locus>fol. 43v</locus>
+                <note>vacant line</note>
+              </rubric>
+              <incipit xml:lang="la">De sollempnitate huius diei pauca dicenda sunt⸵ ut lętamur in spiritu.</incipit>
+              <explicit xml:lang="la"><locus>fol. 56v</locus> qui est uera et niua festiuitas et exultatio sanctorum. cum quo est deo patri gloria et potestas in spiritu sancto⸵ in saecula saeculorum amen.</explicit>
+              <finalRubric>Explicit tercius.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 141–163</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 50v–57v</locus>
+              <title xml:lang="la">De semetipso de agro reuerso (or. 5)</title>
+              <rubric xml:lang="la"><locus>fol. 50v</locus> Incipit quartus insemetipso de agro regressus.</rubric>
+              <incipit xml:lang="la">Desiderabam uos o filii</incipit>
+              <explicit xml:lang="la"><locus>fol. 57v</locus> uita et fide probabili⸵ tibi gloria et potestas in saecula saeculorum amen.</explicit>
+              <finalRubric>Explicit liber .iiii.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 167–189</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 57v–62v</locus>
+              <title xml:lang="la">De dictis Ieremiae (or. 6)</title>
+              <rubric xml:lang="la"><locus>fol. 57v</locus> Incipit .v. De ieremia dicta praesente imperatore apud quem et intercedit pro quodam periclitante.</rubric>
+              <incipit xml:lang="la">Ventrem meum. uentrem meum doleo⸵</incipit>
+              <explicit xml:lang="la"><locus>fol. 62v</locus> et infuturo misericordiam speramus. per christum dominum nostrum uiuentem secum et regnantem cum spiritu sancto in saecula saeculorum amen.</explicit>
+              <finalRubric>Explicit .v.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 193–206</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 62v–71r</locus>
+              <title xml:lang="la">De reconciliatione et unitate monachorum (or. 7)</title>
+              <rubric xml:lang="la"><locus>fol. 62v</locus> Incipit .vi. de reconciliatione et unitate monachorum.</rubric>
+              <incipit xml:lang="la">Linguam nostram soluit a claritas.</incipit>
+              <explicit xml:lang="la"><locus>fol. 71r</locus> custodiat corda uestra in christo iesu domino nostro⸵ cui est gloria et potestas in saecula saeculorum amen.</explicit>
+              <finalRubric>Explicit liber .vi.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 209–233</bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 71r–78v</locus>
+              <title xml:lang="la">De uastatione grandinis (or. 8)</title>
+              <rubric xml:lang="la"><locus>fol. 71r</locus> Incipit .vii. de grandinis uastatione cum pater episcopus reticeret.</rubric>
+              <incipit xml:lang="la">Quid laudabilem soluitis ordinem?</incipit>
+              <explicit xml:lang="la"><locus>fol. 78v</locus> cui est gloria et potestas in saecula saeculorum Amen.</explicit>
+              <finalRubric>Explicit liber .vii. Gregorii nazanzeni episcopi.</finalRubric>
+              <listBibl>
+                <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 237–261</bibl>
+              </listBibl>
+            </msItem>
+          </msItem>
+          <msItem>
+            <locus>fols. 78v–91r</locus>
+            <author ref="http://viaf.org/viaf/301618032">Leidrad</author>
+            <title xml:lang="la">De sacramento baptismi</title>
+            <rubric xml:lang="la"><locus>fol. 78v</locus> Incipit explanatio baptisterii. <note>entered in new hand, blue ink</note></rubric>
+            <incipit xml:lang="la"><locus>fol. 79r</locus> Precipere nobis dignati estis.</incipit>
+            <explicit xml:lang="la"><locus>fol. 91r</locus> rex regum et dominus dominantium.</explicit>
+            <rubric xml:lang="la">Explicit liber iste.</rubric>
+            <listBibl>
+              <bibl><title xml:lang="la">PL</title> 99, 853–872</bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 91r–120v</locus>
+            <author ref="http://viaf.org/viaf/261475907">Didymus Caecus of Alexandria</author>
+            <title xml:lang="la">De spiritu sancto</title>
+            <note>tr. <name type="person" role="translator" ref="http://viaf.org/viaf/95147024">Jerome</name></note>
+            <rubric xml:lang="la"><locus>fol. 91r</locus> Incipit liber didimi de spiritu sancto.</rubric>
+            <incipit xml:lang="la">Omnibus quidem quę diuinia sunt⸵</incipit>
+            <explicit xml:lang="la"><locus>fol. 120v</locus> non ignorare sermonis.</explicit>
+            <finalRubric>Explicit liber didimi de spiritu sancto.</finalRubric>
+            <listBibl>
+              <bibl>CPG 2544, Lambert 258</bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 120v–127v</locus>
+            <author ref="http://viaf.org/viaf/66806872">Augustine</author>
+            <title xml:lang="la">De XII abusiuis saeculi</title>
+            <rubric xml:lang="la"><locus>fol. 120v</locus> Incipit epistola sancti cipriani martiris. de duodecim abusiuis.</rubric>
+            <incipit xml:lang="la">Duodecim abusiua sunt saeculi.</incipit>
+            <explicit xml:lang="la"><locus>fol. 127v</locus> esse incipiat in futuro.</explicit>
+            <listBibl>
+              <bibl>CPL 1106</bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 128r–129v</locus>
+            <note>blank</note>
+          </msItem>
+          <msItem>
+            <locus>fols. 130r–135r</locus>
+            <author ref="http://viaf.org/viaf/100227669">Ambrose</author>
+            <title xml:lang="la">Libellus de dignitate sacerdotali</title>
+            <rubric xml:lang="la"><locus>fol. 130r</locus> Ambrosii mediolanensis episcopi liber de obseruantia episcoporum incipit.</rubric>
+            <incipit xml:lang="la">Siquis frater oraculum domini reminiscatur˷</incipit>
+            <explicit xml:lang="la"><locus>fol. 135r</locus> te sanctis dare promisisti. Amen.</explicit>
+            <rubric xml:lang="la">Explicit. <note>vacant lines follow</note></rubric>
+            <listBibl>
+              <bibl>CPL 171a</bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 135v–136r</locus>
+            <author ref="http://viaf.org/viaf/95147024">Jerome</author>
+            <title xml:lang="la">Praefatio in libro Didymi Alexandrini <title>De spiritu sancto</title></title>
+            <rubric xml:lang="la"><locus>fol. 135r</locus> Incipit prefatio sancti ieronimi presbiteri in didimum de spiritu sancto. ad paulinianum. <note>with guide in margin above, trimmed</note></rubric>
+            <incipit xml:lang="la">Cum in babilone uersarer</incipit>
+            <explicit xml:lang="la"><locus>fol. 136r</locus> quam simplicitate uerborum.</explicit>
+            <listBibl>
+              <bibl>CPL 615b</bibl>
+            </listBibl>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>membrane</support>
+              <extent>iv + 135
+                <dimensions type="leaf" unit="mm"><height quantity="205"/><width quantity="140"/></dimensions>
+              </extent>
+              <foliation>Foliation in modern pencil from 1 to 136 in the upper right corner, beginning on the final upper endleaf.</foliation>
+              <collation><formula>a<hi rend="sup">4</hi> (1,2 pastedowns) + 1–10<hi rend="sup">8</hi> 11<hi rend="sup">12</hi> 12–14<hi rend="sup">8</hi> 15<hi rend="sup">12</hi> || 16<hi rend="sup">8</hi> (8 pastedown)</formula>
+                While gathering 16 is an addition, it was probably made to be appended here, as suggested by its equal layout and last text, Jerome’s preface to Didymus’s <title xml:lang="la">De spiritu sancto</title>, absent from the text on <locus>fols. 91r–120v</locus>.
+                <signatures>Gatherings 1–14 numbered <q>i</q> to <q>xiiii</q> in ink at base of first folio of each gathering, also added to the last by another hand in most cases.</signatures>
+                <secFol>dauid aperiat</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="1" ruledLines="33"><locus>fols. 2r–127v</locus>:
+                <dimensions type="written"><height min="158" max="166"/><width min="85" max="90"/></dimensions>
+                33 long lines. No prickings visible, ruled in drypoint.
+              </layout>
+              <layout><locus>fols. 130r–136v (gathering 16)</locus>:
+                Single prick to align outer margin.<!--other changes?--></layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Hand A: <locus>fols. 2r–127v</locus>, a medium-quality English protogothic hand of <foreign>s.</foreign> xii<hi rend="sup">2/4</hi>. This hand also executed the rubrics, bar the incipit in blue ink on <locus>fol. 78v</locus>, which is by a near-contemporary.
+            </handNote>
+            <handNote>
+              Hand B: <locus>fols. 130r–136v or gathering 16</locus>, a medium-quality English protogothic hand of <foreign>s.</foreign> xii<hi rend="sup">2/3</hi>; the rubrics on <locus>fols. 130r</locus> and <locus>135v</locus> are in this or a new hand.
+            </handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial"><locus>Fol. 2r</locus>: a green arabesque initial P, decorated in red and blue. The subsequent texts in the original unit (up to <locus>fol. 129</locus>) open with arabesque initials, with lesser or no decoration in one or two colours (red, blue, green).</decoNote>
+            <decoNote type="initial">Fol. 135v: a red initial C, with a bearded face inside the lobe.</decoNote>
+          </decoDesc>
+          <additions>
+            <p>Titles on the cover in a <foreign>s.</foreign> xvii<!--?--> hand (possibly appearing in Jesus College 2 as well): <q>Gregori Nazien Opera</q>; fol. ii<hi rend="sup">v</hi>: a list contents in a hand that resembles that of Sir John Prise; an identical book appears in <title xml:lang="la">Nomina Librorum Manuscriptorum ex Donatione Iohannis Prise Equitis Aurati Herefordiensis</title>.</p>
+            <p>Occasional line drawings and corrections in various hands, <foreign>s.</foreign> xii/xiii.</p>
+            <p>Pressmarks: spine, <q>91</q> (<foreign>s.</foreign> xv?); <q>I Arch. I–3</q> (ink on paper, <foreign>s.</foreign> xvii); <q>MS. Jesus Coll. E. 3</q> (printed on paper, <foreign>s.</foreign> xix?; fol. i<hi rend="sup">r</hi>: <q>2031 = 12</q> (originally <q>12</q>, <foreign>s.</foreign> xv?; the previous added in <foreign>s.</foreign> xv?); <q>1 Arch. 1–3</q> (<foreign>s.</foreign> xv?); fol. 1r: <q>numb 12</q> (<foreign>s.</foreign> xv?).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding" unit="mm"><height quantity="209"/><width quantity="144"/><depth min="28" max="53"/></dimensions> Romanesque. Whittawed skin over oak boards. Extra cord sewn into binding as a bookmark (<locus>between fols. 78 and 79</locus>). Single-station sewing, an English technique known from only a few manuscripts. <listBibl><bibl>Christopher Clarkson, ‘A Hitherto Unrecorded English Romanesque Book Sewing Technique’, in <title>Roger Powell, the Compleat Binder: Liber Amicorum</title>, ed. John L. Sharpe, Bibliologia 14 (Turnhout: Brepols, 1996), 215–39.</bibl> <bibl>J.A. Szirmai, <title>The Archaeology of Medieval Bookbinding</title> (Aldershot, Hampshire: Ashgate, 1999), 148–149.</bibl></listBibl>
+              </p>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>The book is from <origPlace>Leicestershire Abbey (OSA)</origPlace>, <origDate notBefore="1131" notAfter="1150"><foreign>s.</foreign> xii<hi rend="sup">2/4</hi> (possibly after 1131)</origDate>. The rubrics for the works of Gregory match London, British Library, Royal MS 3 D. <hi rend="caps">i</hi>,<!--explain--> and a Gloucestershire form of punctuation is used in the final gathering. <bibl>Neil R. Ker, <title>English Manuscripts in the Century after the Norman Conquest</title>, The Lyell Lectures 1952–53 (Oxford: Clarendon Press, 1960), p. 48 and pl. 20b.</bibl></origin>
+          <provenance>Recorded in the <title xml:lang="la">Registrum Anglie de libris doctorum et auctorum ueterum</title> (R3.1; R18.2, 13, 14) in the fourteenth century.</provenance>
+          <provenance>Owned by <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> (1501/2–55), with title written on the cover in his hand. A similar note occurs in thirteen other manuscripts at Jesus College, ten of them from Cirencester, and three of unknown provenance.</provenance>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the <date when="1602">1602</date> donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24, doi:<ref target="https://doi.org/10.1093/library/s5-X.1.1">10.1093/library/s5-X.1.1</ref>.</bibl></acquisition>
+        </history>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

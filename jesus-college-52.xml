@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Bede, <title>De tabernaculo</title>, <title>De templo Salomonis</title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC52" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>52</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 2r–77v</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">De tabernaculo</title>
+            <msItem>
+              <note>Contents</note>
+              <rubric xml:lang="la"><locus>fol. 2ra</locus> Incipiunt capitula libri primi.</rubric>
+              <incipit xml:lang="la">Moyses in montem domini cum iosue ascendens.</incipit>
+              <explicit xml:lang="la">Lucernarum eius et emunctoriorum</explicit>
+              <finalRubric xml:lang="la">Expliciunt capitula.</finalRubric>
+            </msItem>
+            <rubric xml:lang="la">Incipit expositio uenerabilis Bede presbiteri de tabernaculo. et uasis eius. ac uestibus sacerdotum.</rubric>
+            <msItem>
+              <note>Text</note>
+              <rubric xml:lang="la">Incipit liber primus.</rubric>
+              <incipit xml:lang="la">Locuturi iuuante domino de figura tabernaculi</incipit>
+              <explicit xml:lang="la"><locus>fol. 77va</locus> Omnes qui uiderint eos cognoscent illos⸵ quia isti sunt semen cui benedixit dominus.</explicit>
+              <finalRubric xml:lang="la">Explicit liber tertius De tabernaculo Testimonii beati bede presbiteri.</finalRubric>
+            </msItem>
+            <listBibl>
+              <bibl>
+                CPL 1345
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 77v–131v</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">De templo</title>
+            <msItem>
+              <note>Preface</note>
+              <rubric xml:lang="la"><locus>fol. 77ra</locus> Incipit prefatio uenerabilis Bede presbiteri in expositione De templo Salomonis.</rubric>
+              <incipit xml:lang="la">Hortatur nos uas electionis et magister gentium ad lectionem diuinorum eloquiorum ueridica uoce contestans.</incipit>
+              <explicit xml:lang="la"><locus>fol. 78va</locus> et pro nobis intercede.</explicit>
+              <finalRubric xml:lang="la">Explicit prologus.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Contents</note>
+              <rubric xml:lang="la">Incipiunt capitula.</rubric>
+              <incipit xml:lang="la">Quod edificatio tabernaculi et templi unam eandemque cristi ęcclesiam designet.</incipit>
+              <explicit xml:lang="la"><locus>fol. 78vb</locus> De cardinibus ostiorum et prefectione.</explicit>
+              <finalRubric xml:lang="la">Expliciunt capitula.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Text</note>
+              <rubric xml:lang="la">Incipit espositio uenerabilis Bede presbiteri De templo Salomonis.</rubric>
+              <incipit xml:lang="la"><locus>fol. 79ra</locus> Domus domini quam edificauit rex salomon</incipit>
+              <explicit xml:lang="la"><locus>fol. 131vb</locus> Vna tamen benedictione sanctificata parauit⸵ quia nimirum una est domus patris non manufacta ęterna in cęlis. sed multę in ea mansiones ad recipiendos omnes timentes dominum ac diligentes. quos dominus benedicit pusillos cum maioribus;</explicit>
+              <finalRubric xml:lang="la">Explicit expositio Bede presbiteri de templo Salomonis.</finalRubric>
+            </msItem>
+            <listBibl>
+              <bibl>
+                CPL 1348
+              </bibl>
+            </listBibl>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support></support>
+              <extent>iii + 130 + ii leaves
+                <dimensions type="leaf" unit="mm">
+                  <height quantity="280"/>
+                  <width quantity="195"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated i–ii, 1–133 in modern pencil.</foliation>
+              <collation>
+              <formula>a<hi rend="sup">4</hi> (first a pastedown), 1–15<hi rend="sup">8</hi>, 16<hi rend="sup">10</hi>, b<hi rend="sup">4–1</hi> (2 canc.)</formula>
+                <signatures>Last page of each gathering numbered in ink, ·I· to ·XVI·.</signatures>
+              <secFol>ascendentem quoque sua nube</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="31">
+                <dimensions type="written"><height quantity="208"/><width quantity="135"/></dimensions>
+                Ruled in drypoint; pricked out outer edges of the page for frame and individual lines, 7 mm apart.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Protogothic, with two scribes, one writing a more compressed version of the script.</handNote>
+            <handNote>Directions to the rubricator in a charter hand.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">Rubricated headings and chapter numbers. Major divisions begin with a large decorated Arabesque initials: fol. 2ra (<title>De tabernaculo</title>, book 1), L with ascender extending into the margin, pastel blue  with golden and green flourishes; fol. 22va (book 2), 6-line T descending into the lower margin, red with golden and green flourishes; fol. 50vb (book 3), 4-line P, golden with red, blue, and green flourishes; fol. 77va (<title>De templo</title>, prologue), 6-line H, blue with red, golden, and green flourishes; fol. 79ra (<title>De templo</title> text), 7-line D, green with red, golden, and blue flourishes. New chapters open with 2-line initials, red, blue, and golden; enlarged coloured capitals used to open first lines of texts and for first letters in list of chapters. Quotations indicated by S-shaped marks in the margin beside each line.</decoNote>
+          </decoDesc>
+          <additions>
+            <p>Pressmarks: <q>27</q>, <q>1 Arch 2-12</q> (spine); <q>2073-54 (27)</q>, <q>35</q> (fol. iir), <q>AN 1669</q> (fol. 131v).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="281"/><width quantity="198"/><depth min="59" max="63"/></dimensions>
+              Gothic, whittawed leather over oak boards, rebacked. Holes for a chain at the foot of the lower board. White and blue endbands.</p>
+              <decoNote>On front cover, <q>Beda</q> (s. xiii?) and table of contents by John Prise.</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Cirencester Abbey</origPlace> between <origDate notBefore="1149" notAfter="1176">1149 and 1176</origDate>. On fol. 1v, <quote xml:lang="la"><supplied reason="omitted">L</supplied>iber sancte Marie De Cirencestr’. D’ Andree Abbatis secundi tempore scriptus per manus D’ Alexandri postmodum Cantoris et Radulfi <add place="above">de pulleham</add> cuiusdam scriptoris D’ Adam de lamora tunc Cantore.</quote> Andrew was abbot from 1147 to 1176. Adam was preceded in office by Gilbert, who was still cantor in 1149: H.E. Salter, ed., <title>Cartulary of Oseney Abbey</title>, Oxford Historical Society 89–91, 97, 98, 101 (Oxford: Clarendon Press, 1929–1936), 4:28–29.</origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), no. 798 and pl. 58.
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

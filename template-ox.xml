@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="putAnIDHere" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Bodleian Library</institution>
+          <collection>[Name of collection]</collection>
+          <idno>[ID number or classmark of manuscript]</idno>
+        </msIdentifier>
+        <msContents>
+          <summary>[A summary of the manuscript contents]</summary>
+          <textLang mainLang="la" otherLangs="en fr">Latin</textLang>
+          <msItem>
+            <locus>fols. </locus>
+            <author ref=""></author>
+            <title xml:lang="la"></title>
+            <rubric xml:lang="la"><locus>fol. </locus> </rubric>
+            <incipit xml:lang="la"></incipit>
+            <explicit xml:lang="la"><locus>fol. </locus> </explicit>
+            <finalRubric xml:lang="la"></finalRubric>
+            <filiation></filiation>
+            <listBibl>
+              <bibl>
+                
+              </bibl>
+            </listBibl>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support></support>
+              <extent> leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="000" max="000"/>
+                  <width min="000" max="000"/>
+                </dimensions>
+              </extent>
+              <foliation></foliation>
+              <collation>
+              <formula></formula>
+                <signatures></signatures>
+                <catchwords></catchwords>
+              <secFol></secFol>
+              </collation>
+              <condition></condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="1" ruledLines="23 30">
+                <dimensions type="written"><height min="000" max="000"/><width min="000" max="000"/></dimensions>
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <summary></summary>
+            <handNote>
+              [A description of the hand, perhaps using
+              <locus>[Applicable folios]</locus> if the
+              hand is only used in certain
+              places.]</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial"></decoNote>
+          </decoDesc>
+          <additions>
+            <p></p>
+            <p>Pressmarks: </p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="000"/><width quantity="000"/><depth min="000" max="000"/></dimensions>
+              [text]</p>
+              <condition></condition>
+              <decoNote></decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>[Discussion of the origin of the manuscript
+            almost certainly including at least an
+            <origDate>[Origin date preferably also using
+              dating attributes of: @when, or
+              @notBefore/@notAfter]</origDate> element and a
+            <origPlace>[Origin place name]</origPlace>
+            element] </origin>
+          <provenance></provenance>
+          <acquisition></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

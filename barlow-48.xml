@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>John of Salisbury</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="Barlow48" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Bodleian Library</institution>
+          <collection>Barlow</collection>
+          <idno>48</idno>
+          <altIdentifier type="internal">
+            <idno type="SCN">6428</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fol. ir</locus>
+            <note>Table of contents</note>
+            <quote xml:lang="la">
+              <lb/>Liber Ecclesie Sancte marie de Cyrencestr’
+              <lb/>Hec continentur in isto Volumine
+              <lb/>Policraticus. Iohannis Sar’ diuisus per .viii. libros
+              <lb/>Item Explancio quorundam verborum extraneorum
+              <lb/>Item Opusculum Probe vxoris Adelphi ad testimonium Veteris et Noui Testamenti Versifice composi<supplied reason="damage">tum</supplied>  
+            </quote>
+          </msItem>
+          <msItem>
+            <locus>fols. 1r–140v</locus>
+            <author ref="http://viaf.org/viaf/71362351">John of Salisbury</author>
+            <title xml:lang="la">Policraticus</title>
+            <msItem>
+              <rubric xml:lang="la"><locus>fol. 1ra</locus> <supplied reason="damage">Incipit Entheticus</supplied> Iohannis in policraticum.</rubric>
+              <incipit xml:lang="la"><supplied reason="damage">Si michi credideris. lin</supplied>guam cohibebis. et aule</incipit>
+              <explicit xml:lang="la"><locus>fol. 2ra<!--va?--></locus> Vix pateris dici pauca⸵ uel ista tene</explicit>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit prologus policratici de curialium nugis et uestigiis philosophorum.</rubric>
+              <incipit xml:lang="la"><supplied reason="damage">I</supplied>ocundissimus cum in multis tum in eo maxime est litterarum fructus</incipit>
+              <explicit xml:lang="la"><locus>fol. 3va</locus> spiritu suo mentes nostras illustrare dignetur magni consilii angelus.</explicit>
+              <finalRubric xml:lang="la">Explicit prologus.</finalRubric>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipiunt capitula libri primi.</rubric>
+              <incipit xml:lang="la">Quid maxime noceat fortunatis.</incipit>
+              <explicit xml:lang="la"><locus>fol. 3vb</locus> De uariis omnibus</explicit>
+              <finalRubric xml:lang="la">Expliciunt capitula primi libri.</finalRubric>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit liber primus policratici.</rubric>
+              <incipit xml:lang="la">Inter omnia que uiris solent obesse principibus.</incipit>
+              <explicit xml:lang="la"><locus>fol. 140va<!-- not b? --></locus> qua nobis incedendum est in beneplacito suo⸵ et dirigat in eo gressus nostros.</explicit>
+              <finalRubric xml:lang="la"><supplied reason="omitted">E</supplied>xplicit <sic>prolicraticus</sic>. Iohannis saresberiensis.</finalRubric>
+            </msItem>
+            <filiation>Guglielmetti and Keats-Rohan indicate that the manuscript is an apograph of the Malmesbury manuscript, now Oxford, Bodleian Library, Barlow 6. (Webb, 1:xvi, indicates that the two were closely related, but stopped short of calling Barlow 48 a direct copy, probably because he had not been able to account for the correcting activities of Walter de Meldia described by Gullick.)</filiation>
+            <listBibl>
+              <bibl>
+                Rossana E. Guglielmetti, <title>La tradizione manoscritta del <title>Policraticus</title> di Giovanni di Salisbury: primo secolo di diffusione</title>, Millennio medievale 60, Strumenti e studi, n.s., 13 (Firenze: SISMEL, 2005).
+              </bibl>
+              <bibl>
+                Katharine S.B. Keats-Rohan, ed., Ioannis Saresberiensis Policraticus I–IV, Corpus Christianorum Continuatio mediaevalis 118 (Turnhout: Brepols, 1993).
+              </bibl>
+              <bibl>
+                Clement C.J. Webb, ed., <title>Ioannis Saresberiensis episcopi Carnotensis Policratici siue De nugis curialium et uestigiis philosophorum libri VIII</title>, 2 vols. (Oxford: Clarendon Press, 1909). [description of Barlow 48 at pp. 1:xv–xvi]
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 141r–144r</locus>
+            <author ref="http://viaf.org/viaf/258105539">Moses of Bergamo</author>
+            <title xml:lang="la">Expositio in grecas dictiones quae inueniuntur in prologis sancti Hieronymi</title>
+            <msItem>
+              <rubric xml:lang="la"><locus>fol. 141ra</locus> Incipiunt capitula.</rubric>
+              <incipit xml:lang="la">Quid sit homero centonas. i.</incipit>
+              <explicit xml:lang="la">Quid sit thema. xxxviii.</explicit>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit prologus.</rubric>
+              <incipit xml:lang="la">Preteriere iam plures anni postea quam literis suis quidam clericus nomine paganus.</incipit>
+              <explicit xml:lang="la"><locus>fol. 144ra</locus> sicut aput terentium per diuersas scenas sepe notatur.</explicit>
+            </msItem>
+            <listBibl>
+              <bibl>
+                Fridolf Gustafsson, <title>Moysi Expositio</title>, Acta Societatis Scientiarum Fennicæ 22.3 (Helsinki: Soc. Litterariæ Fennicæ, 1896).
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>lost</locus>
+            <author ref="http://viaf.org/viaf/261492478">Proba</author>
+            <title xml:lang="la">Cento</title>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Parchment</support>
+              <extent>i + 144 leaves
+                <dimensions type="leaf" unit="mm">
+                  <height quantity="395"/>
+                  <width quantity="265"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil.</foliation>
+              <collation>
+                <formula>a<hi rend="sup">2</hi>, 1–18<hi rend="sup">8</hi></formula>
+                <signatures>Gatherings numbered, I–XVIII, in ink on the first and sometimes the last page of each gathering, at the foot of the page.</signatures>
+                <catchwords>Catchwords at the end of most gatherings, written in ink at the foot of the last page of the gathering.</catchwords>
+              <secFol>Quid sit ouis</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="48">
+                <dimensions type="written"><height min="268" max="274"/><width min="163" max="165"/></dimensions>
+                Ruled in plummet, with rules in centre of head and side margins for aligning running heads and marginal headings (see diagram comparing Cirencester manuscripts in Gullick, 6). Pricking on outer edges of the page for line spacing (6 mm) and frame.<!--check last sentence-->
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis, at least three scribes. Part written and corrected by Walter de Melida (see Gullick, 4–7), a canon active at Cirencester from <foreign>c.</foreign>1180 until after the death of Alexander Neckam in 1217.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              Large initials open the major sections of the work; those on fols. 1r, 2r, and 3r have been cut out, though remnants of gold leaf are visible, with initials probably in imitation of Barlow 6. Remaining on fol. 11r (begining of book 2) is an 11-line Arabeque initial in red and blue, with penwork in red, green, and yellow. Other books open with smaller initials: book 3, fol. 30r, a four-line initial in blue with red penwork; book 4, fol. 41v, an 8-line initial in red with blue penwork; book 5, fol. 50r, a 7-line initial in red with blue penwork and 8-line in blue with red penwork; book 6, a 4-line initial in red with blue penwork; book 7, fol. 82r, a 6-line initial in red with blue penwork; book 8, fol. 106v, a long I in the margin in blue with red and green penwork. New chapters generally open with a 2-line initial, altering somewhat inconsistently between red, green, yellow, and blue, sometimes with penwork in one or more of the other colours. Marginal labels rubricated and accompanied by a large paraph mark in red, blue, green, or yellow, occasionally with a decorative border.
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>Pressmarks: <q>.NE. (2)</q> (flyleaf); <q>MS. Linc. 48</q> (fol. 1r)</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="397"/><width quantity="265"/><depth min="60" max="75"/></dimensions>
+                Gothic, whittawed leather over oak boards. Remnants of a red and yellow headband; blue and white stitching.</p>
+              <condition>Sewing is deteriorated and loose due to removal of Proba gatherings. Repairs carried out in November 1983.</condition>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>
+            Written at <origPlace>Cirencester Abbey</origPlace>. According to an inscription, the Malmesbury manuscript from which the book was copied was produced while Robert of Melun was abbot, between 1189/90 and 1205 (Oxford, Bodleian Library, Barlow 6, fol. 209r). It was likely produced between <origDate notBefore="1190" notAfter="1210">1190 and 1210</origDate>.</origin>
+          <provenance>Lower flyleaf: <q>Robert ap powell ap rychard ap lln’ <note>= llewellyn</note> of plwyth lantowny in comit. Herford</q> (17th-century).</provenance>
+          <provenance>Owned by <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name>. See <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24</bibl> (at 16).
+          </provenance>
+          <acquisition>Given to the Bodleian by <name ref="http://viaf.org/viaf/465">Thomas Barlow</name>.</acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Michael Gullick, ‘A Twelfth-Century Manuscript of the Letters of Thomas Becket’, <title>English Manuscript Studies 1100–1700</title> 2 (1990): 1–31.
+            </bibl>
+            <bibl type="SC"
+              facs="http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/barlow/images/aaq0409.gif">Summary Catalogue, Vol. 2 Part 2, p.  1050</bibl>
+            <bibl type="SC"
+              facs="http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/barlow/images/aaq0410.gif">Summary Catalogue, Vol. 2 Part 2, p.  1051</bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

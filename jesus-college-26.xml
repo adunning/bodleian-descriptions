@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Ivo of Chartres, <title>Panormia</title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC26" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>26</idno>
+        </msIdentifier>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support></support>
+              <extent>202 leaves</extent>
+              <foliation>Foliated 1–200 in modern pencil; two folios labelled 48 and 178.</foliation>
+              <collation>
+              <formula>1<hi rend="sup">4</hi> | 2–17<hi rend="sup">8</hi>, 18<hi rend="sup">6</hi>, 19–26<hi rend="sup">8</hi></formula>
+                </collation>
+            </supportDesc>
+          </objectDesc>
+          <additions>
+            <p>Pressmarks: <q>1 Arch. 1-26</q> (spine); <q>2062-43 <del rend="strikethrough">(102)</del></q> (fol. 1r); <q>AN 1669</q> (fol. 1v).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="170"/><width quantity="135"/><depth quantity="57"/></dimensions> Whittawed leather over wooden boards, medieval; evidence of a missing clasp; spine recovered in leather, probably eighteenth or nineteenth century. Repaired, December 2000, after boards became attached.</p>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>English, likely written at <origPlace cert="medium">Cirencester Abbey</origPlace>. Watson argues that the original composition of the book is datable to <origDate notBefore="1119" notAfter="1124">1119 to 1124</origDate>, the papacy of Calixtus II, as suggested by the ending of the list of popes with Calixtus without the years of his pontificate (fol. 193v).
+          <listBibl>
+          <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title>, 2 vols. (Oxford: Clarendon Press, 1984), no. 797.
+            </bibl>
+         </listBibl>
+          </origin>
+          <provenance>On fol. 2v, inscription in red, <q>LIBER MAGISTRI ALVREDI.</q> This is also found in Hereford, Cathedral Library, O.ii.4 and Oxford, All Souls College, 82. Baswell and Parkes suggest this might have been a master Alured or Alfred who was tutor to Henry II, a canon of Cirencester, and eventually bishop of Worcester.
+          <listBibl>
+            <bibl>Christopher Baswell, <title>Virgil in Medieval England: Figuring the Aeneid from the Twelfth Century to Chaucer</title>, Cambridge Studies in Medieval Literature 24 (Cambridge: Cambridge University Press, 1995), 44–46.</bibl>
+            <bibl>Jeremy Catto, ‘Biblical Exegesis, Theology, and Philosophy’, in <title>The Cambridge History of the Book in Britain</title>, vol. 2: <title>1100–1400</title>, ed. Nigel Morgan and Rodney M. Thomson (Cambridge: Cambridge University Press, 2008), 219–29 (at 219–20).
+            </bibl>
+            <bibl>
+              R.A.B. Mynors and Rodney M. Thomson, Catalogue of the Manuscripts of Hereford Cathedral Library (Cambridge: Brewer, 1993), 13 (O.ii.4).
+            </bibl>
+            <bibl>M.B. Parkes, ‘The Date of the Oxford Manuscript of La Chanson de Roland: Bodleian Library MS Digby 23’, <title>Medioevo romanzo</title> 10, no. 2 (1985): 161–75 (at 167 and 173–74); repr. in <title>Scribes, Scripts, and Readers: Studies in the Communication, Presentation, and Dissemination of Medieval Texts</title> (London: Hambledon Press, 1991), 71–89 (at 77 and 87–88).
+            </bibl>
+            <bibl>Andrew G. Watson, <title>Descriptive Catalogue of the Medieval Manuscripts of All Souls’ College, Oxford</title> (Oxford: Oxford University Press, 1997), 174 (no. 82).</bibl>
+          </listBibl>
+          </provenance>
+          <provenance>On the cover, a note of contents, now inked over, appears to be in John Prise’s hand. A similar note occurs in thirteen other manuscripts at Jesus College, ten of them from Cirencester, and three of unknown provenance.</provenance>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24, doi:<ref target="https://doi.org/10.1093/library/s5-X.1.1">10.1093/library/s5-X.1.1</ref>.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Richard Gameson, <title>The Manuscripts of Early Norman England (c. 1066–1130)</title> (Oxford: Oxford University Press, 1999), no. 773.
+            </bibl>
+          </listBibl>
+        </additional>
+        <msPart>
+          <msIdentifier>
+            <idno>I</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 1v–3r</locus>
+              <note>Memorials on numbers.</note>
+            <msItem>
+              <locus>fol. 1v</locus>
+              <note>Definion of a <foreign xml:lang="la">stadium</foreign> (furlong).</note>
+              <quote xml:lang="la">
+                <p>
+                  ¶ <q>Stadium⸵ spacii certa dimensio.</q> <note>Eucherius, <title>Instructionum ad Salonium libri II</title> 2, CCSL 66, p. 197, line 194</note> <q>Stadium est octaua pars miliarii .c.xxv. passibus constans.</q> <note>Isidore, <title>Etymologies</title> 15.16.3</note> <q>Octo stadia⸵ mille passus efficiunt.</q>  <note>Eucherius</note>
+                </p>
+                <p>
+                  ¶ Secundum pytagoram philosophum <q>a terra ad lunam existunt .c xx vi. milia stadiorum. Ad solem ab ea duplum. Inde ad .xii. signa triplicatum;;</q> <note>Pliny the Elder, <title>Naturalis historia</title> 2.83</note>
+                </p>
+              </quote>
+            </msItem>
+            <msItem>
+              <locus>fol. 2r</locus>
+              <note>1 Kings 4:22–23</note>
+              <quote xml:lang="la">
+                Erat per singulos dies cibus salomonis⸵ .xxx. chori similę. et lx chori farinę .x. boues pingues. et .xx. boues pascuales. et .c. arietes. excepta uenatione ceruorum et caprearum. atque bubalorum. et auium uolatilium. 
+              </quote>
+            </msItem>
+            <msItem>
+              <locus>fol. 2v</locus>
+              <quote xml:lang="la">LIBER MAGISTRI ALVREDI</quote>
+              <note>With seventeenth-century addition, <q>Panormia Ivonis</q></note>
+            </msItem>
+            <msItem>
+              <locus>fol. 3r</locus>
+              <note>Ages of the world, based on Augustine, <title>Quaestionum in heptateuchum libri septem</title>, 7.Iud.49</note>
+              <quote xml:lang="la">
+                <p>Ab ADAM usque ad diluuium⸵ sunt anni .m. sexcenti .lvi.</p>
+                <p>A noe usque ad abraham .d.xxii.</p>
+                <p>Ab abraham usque ad dauid .d.cccc.xlii.</p>
+                <p>A DAVID usque ad captiuitatem⸵ .ccc.lxxiii.</p>
+                <p>A transmigratione usque ad cristum⸵ .d.lxxxx.viiii.</p>
+                <p>Summa annorum⸵ ab adam usque ad cristum⸵ .iiii.c.lxxxii.</p>
+              </quote>
+            </msItem>
+            </msItem>
+            <msItem>
+              <locus>fols. 3v–4r</locus>
+              <note>Scholastic questions</note>
+              <quote xml:lang="la">
+                <p>¶ Qui sine peccatu uestrum⸵ primus in eam lapidem mittat. Sic nullus iudicium <del rend="underline">iudicium</del> relinquitur Ęcclesię. Solutio. Cum iudex latronem suspendit⸵ non sibi uindicam sumit⸵ sed domino. Propterea quod nullus in consimili pena alium iudicabit. Solutio Quod iudicat potestatis est. que talis culpę.</p>
+                <p>¶ Vt non contristemini sicut etc. Quare ergo cristus fleuit pro lazaro mortuo? Augustinus. Mortuum non fleuit. sed mortem. pro eo qui ad uitam reuocandus erat.</p>
+                <p>¶ Augustinus Super Lucam. Sugillare⸵ a suggo. tractum est a lamiis. idest strangulare. Lamię dicuntur strigę uulgo. et sanguinem suggunt.</p>
+                <p>¶ Aliquis habens caritatem transit cum uno solo ueniali. ergo dignus est uita eterna. Contra. Scit se esse in aliquo peccato. et potest corrige. et debet. Ergo si non facit⸵ consentit.</p>
+                <p>¶ Populus manitabat. idest mane uenire accelerabat.</p>
+                <p>¶ Mira mutatio et supra naturam est que fit in pane sanctificatio. Mutatur enim ibi substantia in substantia forma manente. Cum naturalis mutatio fiat in rebus circa formas⸵ non circa substantiam.</p>
+                <p>¶ Predestinatio est proprie saluandorum. Dispositio faciendorum. Prescientia⸵ omnium futurorum.</p>
+                <locus>fol. 4r</locus>
+                <p>¶ Dicit Augustinus super illum locum. <q>Deus deus meus</q>. etc. <note>Ps. 21:2</note> Quod clamat homo separatione diuinitatis moriturus. Hoc uoluntati accidentium exposuit Anastasius. Qui non crediderit hominem denuo assumptum⸵ anathema sit. Idest iterum ad id redisse. Augustinus. Anima uinculum fuit diuinitatis et carnis. Sed separato uinculo per diuinitatem connecti extra possunt ut in circino <add place="above">apparet</add>. Vnde Ieronimus. Hominem quem assumpsit nunquam deposuit. Item. Anima a carne separata est⸵ diuinitas a neutro. Vnde tunc⸵ cristo iacuit in sepulcro. cristus in inferno. cristus in cęlo. Vnde dicitur. <q>Tulerunt dominum meum et nescio ubi posuerunt eum.</q> <note>John 20:13</note> Fuit itaque cristus corpus. Fuit anima. Fuit uerbum. et fuit tunc homo mortuus. Non tamen non fuit homo. idest non ideo non habuit animam et carnem sibi unitam. Sed si tunc fuit homo⸵ ergo mortualis uel inmortalis. Non sequitur. Quis ex figuratiua⸵ non infertur propria. ¶ In superiori inferno aliqua habere connitio de deo. Quod palam est per diuitem⸵ qui uidit lazarum in cęlo. Contra. Si uix iustus saluabitur. ubi impius apparebit. Queritur. Vbi sancti erunt quando ignis ubique erit? Nota secundum Augustinus. Quod sicut ignis non nocuit tribus pueris in samino ignis⸵ similiter nec ibi. Augustinus dicit. Quod de superiori igne tunc erit⸵ scrupulosa est questio.</p>
+              </quote>
+            </msItem>
+            <msItem>
+              <locus>fol. 4v</locus>
+              <note>Note on the timing of Ember days (quarterly fasts)</note>
+              <quote xml:lang="la">
+                <p>¶ Primum legittimum ieiunium erit in prima ebdomada mensis marcii. iiiiª. feria. viª. et sabbato.</p>
+                <p>¶ Secundum ieiunium erit. in secunda ebdomada⸵ mensis iunii. iiiiª. feria. viª. et sabbato.</p>
+                <p>¶ Tercium ieiunium erit⸵ in .iiiª. ebdomada mensis septembris. iiiiª. feria. viª. et sabbato.</p>
+                <p>¶ Quartum ieiunium erit semper in .iiiª. ebdoma<add place="above">da</add> aduentus domini. In quarta enim ebdoma<add place="above">da</add> decembris⸵ nunquam est. Quia in quarta ebdomada⸵ natiuitas domini est;;;</p>
+              </quote>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <extent>
+                  <dimensions type="leaf" unit="mm">
+                    <height min="160" max="165"/>
+                    <width min="110" max="130"/>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Fols. 1v–2r written in a twelfth-century protogothic hand; fols. 3v–4v in a charter hand.
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">New sections open with enlarged initials.</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier>
+            <idno>II</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="la" otherLangs="en fr">Latin</textLang>
+            <msItem>
+              <locus>fols. 5r–191r</locus>
+              <author ref="http://viaf.org/viaf/84971682">Ivo of Chartres</author>
+              <title xml:lang="la">Panormia</title>
+              <rubric xml:lang="la"><locus>fol. 5r</locus> Incipit Panormia iuonis carnotensis episcopi</rubric>
+              <msItem>
+                <note>Preface</note>
+                <incipit xml:lang="la">Exceptiones ęcclesiasticarum regularum partim exemplis romanorum pontificum</incipit>
+                <explicit xml:lang="la"><locus>fol. 15r</locus> Nam si hoc leges seculi continent. quantomagis diuine? Hec hactenus.</explicit>
+              </msItem>
+              <msItem>
+                <note>Contents</note>
+                <incipit xml:lang="la">Prima pars istius libri continet de fide. De diuersis heresibus.</incipit>
+                <explicit xml:lang="la"><locus>fol. 16v</locus> De omni genere mendacii.</explicit>
+              </msItem>
+              <msItem>
+                <note>Main text</note>
+                <rubric xml:lang="la">¶ Incipiunt decreta sanctorum patrum de fide sanctę trinitatis;;</rubric>
+                <incipit xml:lang="la">Credimus unum deum esse patrem et filium et spiritum sanctum.</incipit>
+                <explicit xml:lang="la"><locus>fol. 191r</locus> uel ultimis suppliciis feriri.</explicit>
+              </msItem>
+              <filiation>According to Martin Brett, textually similar to Florence, Biblioteca Nazionale Centrale, Magl. XXXIV above, with which it agrees on rubrics and marginal inscriptions.</filiation>
+              <listBibl>
+                <bibl>
+                  Edition in progress by Bruce Brasington and Martin Brett, <ref target="https://ivo-of-chartres.github.io/panormia.html">Ivo of Chartres: Panormia</ref>.
+                </bibl>
+              </listBibl>
+              <msItem>
+                <locus>fol. 170v</locus>
+                <author ref="http://viaf.org/viaf/803890">Isidore of Seville</author>
+                <note>Table of consanguinity, from <title>Etymologies</title> 9.10.7</note>
+                <textLang mainLang="la" otherLangs="ang xno">Latin with Old English and Anglo-Norman</textLang>
+                <bibl>
+                  Maria Careri, Christine Ruby, and Ian Short, <title>Livres et écritures en français et en occitan au XIIe siècle: Catalogue illustré</title>, Scritture e libri del Medioevo 8 (Roma: Viella, 2011), no. 66 (with reproduction).
+                </bibl>
+                <bibl>
+                  Barbara Frank and Jörg Hartmann, eds., <title>Inventaire systématique des premiers documents des langues romanes</title>, 5 vols., ScriptOralia 100 (Tübingen: Narr, 1997), no. 3082.
+                </bibl>
+                <bibl>
+                  Tony Hunt, <title>Teaching and Learning Latin in Thirteenth-Century England</title> (Woodbridge, Suffolk: Brewer, 1991), 1:46.
+                </bibl>
+                <bibl>
+                  N.R. Ker, <title>Catalogue of Manuscripts Containing Anglo-Saxon</title> (Oxford: Clarendon Press, 1957), no. 355.
+                </bibl>
+                <bibl>
+                  Margaret Laing, <title>Catalogue of Sources for a Linguistic Atlas of Early Medieval English</title> (Cambridge: Brewer, 1993), 145.
+                </bibl>
+              </msItem>
+            </msItem>
+            <msItem>
+              <locus>fols. 191v–192r</locus>
+              <note>Additions to <title>Panormia</title>, also found in MS Magl. XXXIV (see Brasington and Brett, ‘Appendices from selected copies’)</note>
+              <msItem>
+                <note>Council of Toulouse (1119), canons 1–10 (Mansi 21:226-28)</note>
+                <rubric xml:lang="la">Decreta Calixti pape .ii. in toletano concilio data;</rubric>
+                <incipit xml:lang="la">Sanctorum patrum uestigiis insistentes. ordinari quemquam per pecuniam in ecclesia dei</incipit>
+                <explicit xml:lang="la"><locus>fol. 191v</locus> donec preuaricationem suam digna satisfactione correxerint.</explicit>
+              </msItem>
+              <msItem>
+                <note>Council of Rheims (1119), canons 1–5 (Mansi 21:235–36)</note>
+                <rubric xml:lang="la">Decreta calixti pape .ii. in remensi concilio data;</rubric>
+                <incipit xml:lang="la">Que sanctorum patrum sanctionibus de prauitate</incipit>
+                <explicit xml:lang="la"><locus>fol. 192r</locus> communione careant cristiana.</explicit>
+                <listBibl>
+                  <bibl>
+                    D. Whitelock, M. Brett, and C.N.L. Brooke, eds., <title>Councils and Synods with Other Documents Relating to the English Church. I, A.D. 871–1204</title> (Oxford: Clarendon Press, 1981), 2:720.
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Augustinus ad dallianum. Si quis iniuste excommunicatus fuerit. ei potius nocebit qui fecit</incipit>
+                <explicit xml:lang="la">inmeritam nulli ingerit penam.</explicit>
+              </msItem>
+              <msItem>
+                <quote xml:lang="la">Augustinus. Per iudicium auferendi sunt mali de ecclesia. Quod si non possunt tolerentur.</quote>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Honorius papa. Debent omnes episcopi excommunicatorum nomina cum uicinis episcopis</incipit>
+                <explicit xml:lang="la">et excusationis causa omnibus auferatur.</explicit>
+                <note>Perhaps quoted from Gratian, C. 11 q. 3 c. 20.</note>
+                <listBibl>
+                  <bibl>
+                    Kathleen G. Cushing, <title>Papacy and Law in the Gregorian Revolution: The Canonistic Work of Anselm of Lucca</title> (Oxford: Clarendon Press, 1998), 185.
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem>
+                <quote xml:lang="la">In libro repudii quem dari precepit moyses dimissis coniugibus⸵ scribebatur de relictio. et causa derelicionis. et agrum. et uinea. unde sustentarentur.</quote>
+              </msItem>
+              <msItem>
+                <locus>fols. 192v–193v</locus>
+                <note>List of popes from Peter to Callixtus II</note>
+                <incipit xml:lang="la"><locus>fol. 192v</locus> Petrus apostolus sedit annos xxv.</incipit>
+                <explicit xml:lang="la"><locus>fol. 193v</locus> Calixtus.</explicit>
+              </msItem>
+              <msItem>
+                <locus>fols. 194r–196v</locus>
+                <note>Basic annals from the birth of Christ to Pope Gregory VII</note>
+                <incipit xml:lang="la"><locus>fol. 194r</locus> Cristus nascitur anno .xlii. octouianus cesaris.</incipit>
+                <explicit xml:lang="la"><locus>fol. 196va</locus> Gregorius successit.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Cur in aqua et non in altero liquore baptizatur.</incipit>
+                <explicit xml:lang="la">uestis .vii. lampades.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la"><locus>fol. 196vb</locus> Augustinus. In electione aaron ostenditur quod si pauci sint. qui iuste eligant. et multitudo contra dicat. tamen paucorum sententia canonice eligentium sequenda est.</incipit>
+                <explicit xml:lang="la">Pontifex ille qui tanquam aaron uocatur. non ingerens se in honore⸵ hominibus prodesse potest.</explicit>
+              </msItem>
+              <msItem>
+                <quote xml:lang="la">Ieronimus. Pallium a palliditate dictum. hinc et palliata. siue pallas dea. qua et minerua. ciuius templum palladium. et cuius sacerdotes uirgines. erant palliate. Hoc est ualate. hint et in nuou transffertur ad palliatas. hoc est uelatas.</quote>
+              </msItem>
+              <msItem>
+                <quote xml:lang="la">Item. Sicut in uiris duo genera sunt. sancti. et penitentes. Ita et in mulieribus uirgines et penitentes.</quote>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Decet mulieres sicut fragilitatis sexum acceperint.</incipit>
+                <explicit xml:lang="la">tanto fieri cauciores debent.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la"><locus>fol. 197ra</locus> Augustinus in libris sincletice. Duo genera sunt palliatarum. Pimum uirgines que corpore et habitu imitantur mariam.</incipit>
+                <explicit xml:lang="la">Secundus gradus⸵ presbiteris hoc est senioribus.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">De exordio tonsure ecclesiasticę usus. a nazarenis incepit. Qui crine seruato. post uite magne</incipit>
+                <explicit xml:lang="la"><locus>fol. 197rb</locus> cum ante magi in fronte cirrum haberent.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Isidorus ait. Signum tonsure in corpore est. sed in anima intus agitur.</incipit>
+                <explicit xml:lang="la">in mente opportet fieri que in capite monstratur.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Item. In tonso capite sacerdocium</incipit>
+                <explicit xml:lang="la"><locus>fol. 197v</locus> Vos estis genus regale et sacerdotium.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Patricius ait. Quicumque clericus ab hostiario ordine usque ad sacerdotem sine tunica</incipit>
+                <explicit xml:lang="la">condempnabitur. et ab ecclesia separabitur.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Gildas ait. Britones toto mundo contrarii. et moribus romanis inimici. non solum in missa. sed etiam in tonsura</incipit>
+                <explicit xml:lang="la">qua sola frons anterior tegi solebat.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Ieronimus in zacharia. Leuite altario albis induti asistunt. ut celestem uitam pretendant.</incipit>
+                <explicit xml:lang="la"><locus>fol. 197vb</locus> dalmatica dicitur. quia in dalmatia sit reperta.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Toga palmata. apud ueteres romanos utebantur. hi qui reportabant de hostibus uictorie palmam.</incipit>
+                <explicit xml:lang="la">qua si toga operti euangelizant uobis uictoriam cristi;.</explicit>
+                <note>based on Isidore, <title>Etymologies</title> 19.24.5</note>
+              </msItem>
+            </msItem>
+            <msItem>
+              <locus>fols. 198ra–199va</locus>
+              <note>Etymological notes</note>
+              <incipit xml:lang="la"><locus>fol. 198ra</locus> Filare grace seruare. Thorath. lex. inde filacteria⸵ id est legis seruatoria.</incipit>
+              <explicit xml:lang="la"><locus>fol. 199va</locus> Fiscus unde dicitur fiscina. et fiscella. saccus est publicus. quem et dominus in terra habuit. ipsi sunt loculi quos iude commisit;;;</explicit>
+            </msItem>
+            <msItem>
+              <locus>fols. 199vr</locus>
+              <note>Extracts on the authority to loose sins</note>
+              <msItem>
+                <incipit xml:lang="la"><locus>fol. 199va</locus> Clementi tradi ait beatus petrus a domino inde tradita potestatem ligandi atque soluendi.</incipit>
+                <explicit xml:lang="la">tanquam qui ad liquidum ęcclesię regulam nouerit;</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Gregorius in Omelia .xxvi. Plerumque contingit. ut iudicis locum teneat.</incipit>
+                <explicit xml:lang="la"><locus>fol. 199vb</locus> et non pro subditorum moribus exercet.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Beatus Augustinus de uerbis domini. Cepisti habere fratrem tuum tanquam publicanum.</incipit>
+                <explicit xml:lang="la">Cum solueris in terra⸵ solutus erit in cęlo.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Ieronimus. Super Mattheum libro .iii. Et tibi dabo claues regni celorum. Et quodcumque ligaueris super terram erit ligatum in celis. Et quodcumque solueris super terram erit solutum et in celis. Istum locum Episocopi et Presbiteri non intelligentes⸵ aliquid sibi de phariseorum assumunt</incipit>
+                <explicit xml:lang="la">sed reorum uita inquiratur.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Gelasius Papa⸵ Episcopis Orientalibus. Cui est illata sentencia⸵ <locus>fol. 200ra</locus> deponat errorem.</incipit>
+                <explicit xml:lang="la">potest iniqua grauare sentencia.</explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Augustinus de sermonibus dei in monte. Temerarium iudicium plrumque nichil nocet ei de quo iudicatur temere.</incipit>
+                <explicit xml:lang="la">necesse est ut noceat.</explicit>
+              </msItem>
+              <msItem>
+                <quote xml:lang="la">Augustinus Ad secundinum Manicheum. Senti de Augustino quicquid libet. sola me in oculis dei conscientia non accuset;</quote>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Rabanus De pressuris Ecclesiasticis. Non in perpetuam dampnamur⸵ cum iniuste iudicamur.</incipit>
+                <explicit xml:lang="la">ipsi quoque multomagis deterius cadunt;</explicit>
+              </msItem>
+            </msItem>
+            <msItem>
+              <locus>fol. 200rb</locus>
+              <note>List of numbers written out, with Roman numerals above</note>
+              <incipit xml:lang="la"><locus>fol. 200rb</locus> Centum. Ducenti. Trecenti.</incipit>
+              <explicit xml:lang="la">Decies centena milia.</explicit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support></support>
+                <extent>202 leaves
+                  <dimensions type="leaf" unit="mm">
+                    <height quantity="168"/>
+                    <width quantity="126"/>
+                  </dimensions>
+                </extent>
+                <collation>
+                  <signatures>Most gatherings after 6 are numbered, contemporary but in a slightly different shade of ink from the text, centred at the bottom of the last page of each gathering. Gathering 7 = <q>·vi·</q>; 26 = <q>·xxv·</q>.</signatures>
+                  <secFol>ecclesię. nec a se</secFol>
+                </collation>
+                <condition>Corner of fol. 199 ripped out.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" ruledLines="22">
+                  <locus>fols. 5r–192r</locus>
+                  <dimensions type="written"><height min="121" max="132"/><width min="78" max="80"/></dimensions>
+                  Ruled in pencil. Pricked on fore-edge only; line spacing 6 mm.
+                </layout>
+                <layout columns="2" ruledLines="23 34">
+                  <locus>fols. 192v–200r</locus>
+                  <dimensions type="written"><height min="122" max="126"/><width min="77" max="93"/></dimensions>
+                  Ruled in pencil. Pricked on fore-edge only; line spacing on fols. 192v–196r, 5–6 mm; fols. 196v–200r, 4.5–5 mm.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                <title>Panormia</title> and fols. 191r–197v written throughout in a twelfth-century protogothic script; at least two scribes. Most marginal headings (in black) are in the text hand, but some have been added later in the charter hand found at the beginning and end of the book.
+                <listBibl>
+                  <bibl>
+                    M.B. Parkes, ‘Handwriting in English Books’, in <title>The Cambridge History of the Book in Britain</title>, vol. 2, <title>1100–1400</title>, ed. Nigel Morgan and Rodney M. Thomson (Cambridge: Cambridge University Press, 2008), 110–35 (at 116–118).
+                  </bibl>
+                </listBibl>
+              </handNote>
+              <handNote>
+                Fols. 198r–200r, along with the first gathering of the volume, appear to represent a gradual accumulation, and are written in slightly later protogothic scripts, with the list of numbers at the end added in another charter hand.
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">Opens on fol. 5r with a 4-line initial in dark yellow with green and red foliage. A 5-line initial in red on fol. 17r. New sections open with enlarged initials, alternating between red, green, and yellow.</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msPart>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

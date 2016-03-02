@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>MS. Bodl. 356</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="Bodl356" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Bodleian Library</institution>
+          <collection>Bodley</collection>
+          <idno>356</idno>
+          <altIdentifier type="internal">
+            <idno type="SCN">2716</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 7r-257v</locus>
+            <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
+            <title xml:lang="la">Expositio super cantica canticorum in laudem gloriose ac perpetue uirginis marie</title>
+            <msItem>
+              <note>Book 1</note>
+            <incipit xml:lang="la" defective="true"><locus>fol. 7ra</locus> hominis deuotis amplexibus amplexaris? <note>1.4</note></incipit>
+            <explicit xml:lang="la"><locus>fol. 42va</locus> Fiat michi secundum uerbum tuum. Osculetur me osculo oris sui.</explicit>
+            </msItem>
+            <msItem>
+              <note>Book 2, table of contents</note>
+              <rubric xml:lang="la">Incipiunt capitula secundi libri.</rubric>
+              <incipit xml:lang="la">De misterio incarnationis domini et spectaculis cum eorundem interpretatione.</incipit>
+              <explicit xml:lang="la"><locus>fol. 52vb</locus> Supplicatio homini transire uolentis ad frugem melioris uite dulciter suum iesum alloquentis.</explicit>
+            </msItem>
+            <msItem>
+              <note>Book 2</note>
+              <rubric xml:lang="la">Incipit expositio super cantica canticorum in laudem gloriose ac perpetue uirginis marie.</rubric>
+              <rubric xml:lang="la">De misterio incarnationis domini et scriptaculis cum eorundem interpretaione. Capitum primum.</rubric>
+              <incipit xml:lang="la">Osculetur me osculo oris sui. <note>Song 1:1</note> Audite celi que loquor⸵ audiat terra uerba oris sui.</incipit>
+              <explicit xml:lang="la"><locus>fol. 83vb</locus> Hec uita est quedam ymago future uite ad quam nos perduat qui est benedictus in secula amen.</explicit>
+              <finalRubric xml:lang="la">Explicit liber secundus.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 3, table of contents</note>
+              <rubric xml:lang="la">Incipiunt capitula libri tercii.</rubric>
+              <incipit xml:lang="la">Commendatio gloriose uirginis cum supplicat<supplied reason="omitted">i</supplied>one scribentis.</incipit>
+              <explicit xml:lang="la"><locus>fol. 84ra</locus> Quomodo suas instruit adolescentulas mater pietatis⸵ et eas ad dilectionem dei inuitat.</explicit>
+              <finalRubric xml:lang="la">Expliciunt capitula.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 3</note>
+              <rubric xml:lang="la">Incipit liber tercius.</rubric>
+              <rubric xml:lang="la">Commendatio gloriose uirginis. cum supplicatione scribentis. Capitum primum.</rubric>
+              <incipit xml:lang="la">Gloriosa dei genitrix est et habundans materia laudis et preclara laus paterie scribencium.</incipit>
+              <explicit xml:lang="la"><locus>fol. 122ra</locus> Maneat semper nobiscum dilectus. qui si quandoque uel ad tempus <add place="margin">nobis</add> recedat. reuertatur ad nos uelociter. Quod nos prestare dignetur⸵ qui est benedictus in secula Amen.</explicit>
+              <finalRubric xml:lang="la">Explicit tercius.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 4, table of contents</note>
+              <rubric xml:lang="la">Incipiunt capitula libri quarti.</rubric>
+              <incipit xml:lang="la">De sollicitudine gloriose uirginis iesum duodennem querentis.</incipit>
+              <explicit xml:lang="la">Partim moralis partim allegorica <locus>fol. 122va</locus> exposicio eius quod scriptum est. Surge aquilo ueni auster perfla ortum meum. et fluant amomata illius.</explicit>
+              <finalRubric xml:lang="la">Expliciunt capitula.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 4</note>
+              <rubric xml:lang="la">Incipit liber quartus.</rubric>
+              <rubric xml:lang="la">De solicitundine gloriose uirginis. iesum duodennem querentis. Capitum primum.</rubric>
+              <incipit xml:lang="la">In lectulo meo per noctes quesiui quem diligit anima mea. <add place="top">Quesiu<supplied reason="omitted">i</supplied> et non inueni illum. Surgam et circuibo ciuitatem per uicos et plateas quaeram quem diligit anima mea?</add> Quaesiui illum⸵ et non inueni. Inuenerunt me uigiles⸵ qui custodiunt ciuitatem. Num quem dilexit anima mea uidistis? Paululum cum pertransissem eos⸵ inueni quem diligit anima mea. Tenui eum. nec dimittam. donec introducam illum in domum matris mee. et in cubiculum genetricis mee. <note>Song 3:1–4</note> Cum nuptiarum sollempnitates festiue celebrantur. dum ad iocunda leticie spectacula hy<del rend="expunct">l</del>lariter concurritur. relegari procul debent tristicia. planctus. et meror.</incipit>
+              <explicit xml:lang="la"><locus>fol. 167vb</locus> Opem nobis conferat dilectus noster iesus noster⸵ qui est benedictus in secula amen.</explicit>
+              <finalRubric xml:lang="la">Explicit liber quartus</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 5, table of contents</note>
+              <rubric xml:lang="la">Incipiunt capitula libri quinti.</rubric>
+              <incipit xml:lang="la">De misterio incarnationis.</incipit>
+              <explicit xml:lang="la"><locus>fol. 168ra</locus> Quedam semplex explanatio trium predencium clausularum.</explicit>
+              <finalRubric xml:lang="la">Expliciunt capitula libri quinti.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 6, table of contents</note>
+              <rubric xml:lang="la">Incipiunt capitula libri sexti.</rubric>
+              <incipit xml:lang="la">De assumptione gloriose uirginis. et de legatione gabrielis archangeli ad eam missi.</incipit>
+              <explicit xml:lang="la"><locus>fol. 168rb</locus> De transitu cristi a iudeis ad gentes. et item a gentibus ad iudeos et de ascensione domini. et de iudicio.</explicit>
+              <finalRubric xml:lang="la">Expliciunt capituli libri sexti.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 5</note>
+              <rubric xml:lang="la">De misterio incarnationis.</rubric>
+              <incipit xml:lang="la">Surge aquilo⸵ et ueni auster. perfla ortum meum. et fluant aromata illius. <note>Song 4:16</note> Sumite materiam uestris qui scribitis equam uiribus. et uersate diu quid ferre recusent⸵ quid ualeant humeri. <note>Horace, <title>Ars poetica</title> 38–40</note> O si tam maturo consilio adquieuissem.</incipit>
+              <explicit xml:lang="la"><locus>fol. 211va</locus> Quod igitur malis compleri desideramus. in nobis compleat iesus cristus dominus noster. cui honor in seculorum secula Amen.</explicit>
+              <finalRubric xml:lang="la">Explicit liber quintus.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Book 6</note>
+              <rubric xml:lang="la">Incipit .vi. liber de assumptione gloriose uirginis et legatione gabrielis archangeli ad eam missi.</rubric>
+              <incipit xml:lang="la">Quid uidebis in sunamitem nisi choros castrorum. <note>Song 7:1</note> Legitur hester fuisse formosa ualde et incredibili pulchritudine. omnium oculis graciosa et amabilis.</incipit>
+              <explicit xml:lang="la"><locus>fol. 257vb</locus> Supplico igitur mater salutis. amor mundi. celorum delicie⸵ ut pro me misero. misericordie mater intercedas ad dominum nostrum iesum <sic>xpistum</sic> filium tuum. cui laus et honor et imperium⸵ per infinita secula seculorum amen.</explicit>
+            </msItem>
+          </msItem>
+          <msItem>
+            <note>An offset imprinted on the lower board indicates that an opening from a liturgical book was formerly used as a pastedown, written in a protogothic script, probably from the eleventh century.</note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support></support>
+              <extent>ii + 252 leaves (first a pastedown)
+                <dimensions type="leaf" unit="mm">
+                  <height quantity="354"/>
+                  <width min="252" max="255"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated 7–257 (two labelled 253), in ink, using medieval form of Arabic numerals.</foliation>
+              <collation>
+                First gathering is missing, which presumably consisted of six leaves (or possibly eight, if the first two pages of the gathering were left blank).
+                <formula>a<hi rend="sup">2</hi>, 1–29<hi rend="sup">8</hi>, 30–31<hi rend="sup">10</hi></formula>
+                <signatures>The leaves of many gatherings are lettered to designate their order, with an additional symbol (e.g. a line above) to distinguish the gathering.</signatures>
+                <catchwords>Most catchwords have been trimmed away, but can occasionally be seen in ink at the foot of the final page of the gathering, in the right-hand corner (e.g. fol. 166v).</catchwords>
+              </collation>
+              <condition>Metal pin in upper board is corroded and has worn through pages in first gathering.</condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="39 40">
+                <dimensions type="written"><height min="240" max="246"/><width min="164" max="174"/></dimensions>
+                Ruled in plummet; pricked on outer edges for frame and individual lines. Line spacing 6 mm. Double rules in centre of each margin, used for aligning marginal headings and other annotations. 
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis, first half of the thirteenth century; at least three scribes.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              New books open with initials integrating images of animals, decorated in gold leaf (on fols. 52v, 84r, 122v, 168r, 211v). New chapters open with two-line Arabesque initials, alternating between red and blue, with penwork in the opposite colour. Titles to chapters and marginal headings rubricated. Paragraphs between with an enlarged capital alternating between red and blue. Sentences begin with a slightly bolder capital. Initials not executed beginning at fol. 224r; rubrication not completed beginning at fol. 252v.
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>Text corrected by a contemporary scribe, with changes integrated in most cases. Annotations by readers from the fourteenth, fifteenth, and sixteenth centuries. Drawing of a head on fol. 148r in crayon.</p>
+            <p>Pressmarks: <q>·A·162·</q> (spine, Bury St Edmunds, 14th cent.); <q>Th. N 4 8</q>, <q>(2716) Bod. 670.</q>, <q>Ms Med. 117</q> <q>Bod. 356</q> (fol. 7r).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="357"/><width quantity="256"/><depth min="73" max="108"/></dimensions>
+              Gothic binding, whittawed leather over oak boards, . Blue and white endbands. Some metal pins remaining from a missing clasp and chain.</p>
+              <condition>Upper board broken.</condition>
+              <decoNote>On spine, <q>Alexander nequam super cantica</q> (14th century).</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written in the <origDate notBefore="1230" notAfter="1260">middle of the thirteenth century</origDate> at <origPlace>Bury St Edmunds Abbey</origPlace>. Listed there by Leland: Richard Sharpe et al., eds., <title>English Benedictine Libraries: The Shorter Catalogues</title>, Corpus of British Medieval Library Catalogues 4 (London: British Library, 1996), B16.13. For contextualization of the pressmark, A.162, see <bibl>Richard Sharpe, ‘Reconstructing the Medieval Library of Bury St Edmunds Abbey: The Lost Catalogue of Henry of Kirkstead’, in <title>Bury St Edmunds: Medieval Art, Architecture, Archaeology, and Economy</title>, ed. Antonia Gransden, Conference Transactions 20 (Leeds: British Archaeological Association, 1998), 204–18</bibl>.</origin>
+          <provenance>Given by William Smart to Pembroke College, Cambridge in 1599; <bibl>Thomas James, <title>Ecloga Oxonio-Cantabrigiensis</title> (London, 1600)</bibl>, no. 152.</provenance>
+          <acquisition>The <title>Summary Catalogue</title> indicates that the book arrived at the Bodleian between 1613 and 1620.</acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>Otto Pächt and J.J.G. Alexander, <title>Illuminated Manuscripts in the Bodleian Library, Oxford</title>, 3 vols. (Oxford: Clarendon Press, 1966–1973), no. 3:414 and pl. XXXV.</bibl>
+            <bibl type="SC" facs="aap0531.gif">Summary Catalogue, vol. 2, part 1, p. 510</bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

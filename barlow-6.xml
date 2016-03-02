@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="Barlow6" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Bodleian Library</institution>
+          <collection>Barlow</collection>
+          <idno>6</idno>
+          <altIdentifier type="internal">
+            <idno type="SCN">6418</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 1r–209r</locus>
+            <author ref="http://viaf.org/viaf/71362351">John of Salisbury</author>
+            <title xml:lang="la">Policraticus</title>
+            <msItem>
+              <rubric xml:lang="la"><locus>fol. 1ra</locus> Incipit Entheticus Iohannis in Policraticum.</rubric>
+              <incipit xml:lang="la">Si michi credideris⸵ linguam cohibebis. et aule</incipit>
+              <explicit xml:lang="la"><locus>fol. 2va</locus> Vix pateris dici pauca. uel ista tene.</explicit>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit Prologus Policratici de Curialium Nugis Et uestigiis Phylosophorum.</rubric>
+              <incipit xml:lang="la">Iocundissimus cum in multis tum in eo maxime est litterarum fructus⸵</incipit>
+              <explicit xml:lang="la"><locus>fol. 4va</locus> spiritu suo mentes nostras illustrare dignetur magni consilii angelus.</explicit>
+              <finalRubric xml:lang="la">Explicit prologus primi libri.</finalRubric>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipiunt capitula libri primi.</rubric>
+              <incipit xml:lang="la">Quid maxime noceat fortunatis.</incipit>
+              <explicit xml:lang="la">De uariis omnibus.</explicit>
+              <finalRubric xml:lang="la"><locus>fol. 4vb</locus> Expliciunt Capitula primi libri.</finalRubric>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit liber primus policratici.</rubric>
+              <incipit xml:lang="la">Inter omnia que uiris solent obesse principibus.</incipit>
+              <explicit xml:lang="la"><locus>fol. 209rb</locus> qua nobis incedendum est in beneplacito suo⸵ et dirigat in eo gressus nostros.</explicit>
+              <finalRubric xml:lang="la">Explicit Policraticus per Salomonem sub Abbate Roberto .iiº.</finalRubric>
+            </msItem>
+            <filiation>Guglielmetti and Keats-Rohan consider this manuscript to be the direct source of two other manuscripts, one of which is now Oxford, Bodleian Library, Barlow 48, from Cirencester Abbey.</filiation>
+            <listBibl>
+              <bibl>
+                Rossana E. Guglielmetti, <title>La tradizione manoscritta del <title>Policraticus</title> di Giovanni di Salisbury: primo secolo di diffusione</title>, Millennio medievale 60, Strumenti e studi, n.s., 13 (Firenze: SISMEL, 2005).
+              </bibl>
+              <bibl>
+                Katharine S.B. Keats-Rohan, ed., Ioannis Saresberiensis Policraticus I–IV, Corpus Christianorum Continuatio mediaevalis 118 (Turnhout: Brepols, 1993).
+              </bibl>
+              <bibl>
+                Clement C.J. Webb, ed., <title>Ioannis Saresberiensis episcopi Carnotensis Policratici siue De nugis curialium et uestigiis philosophorum libri VIII</title>, 2 vols. (Oxford: Clarendon Press, 1909).
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fol. 209v</locus>
+            <note>Partial index in a 14th-century cursive; pen trials</note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane, paper endleaves</support>
+              <extent>i + 209 leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="321" max="328"/>
+                  <width min="236" max="342"/>
+                </dimensions> (trimmed)
+              </extent>
+              <foliation>Foliated in modern pencil, skipping a page after fol. 140 (140<foreign>bis</foreign>); 158 skipped in numeration.</foliation>
+              <collation>
+              <formula>a<hi rend="sup">2-1</hi> (2 canc.), 1–17<hi rend="sup">8</hi>, 18<hi rend="sup">6</hi>, 18–26<hi rend="sup">8</hi>, 19<hi rend="sup">6-3</hi> (4–6 canc.)</formula>
+                <signatures>Signature <q>xxvi</q> at end of gathering 26 (at foot of fol. 206v), in a different hand.</signatures>
+              <secFol>Si britonum mauis</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="39 40">
+                <dimensions type="written"><height min="246" max="254"/><width min="146" max="148"/></dimensions>
+                Ruled in plummet, with rules in the centre of top and outer margins, used for aligning running heads and marginal labels. Line spacing 6–7 mm. Pricked on all edges (though usually trimmed on the outside) for frame and individual lines
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Written in protogothic script, somewhat vertically compressed, end of the twelfth century. Ascenders lengthened on top line.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">New books open with illuminated initials decorated in gold leaf, potentially added somewhat later: fol. 1ra, 3-line S; fol. 2rb, I in the margin, depicting three men with scrolls; fol. 4vb (book 1), I in the margin, showing men fighting with animals; fol. 17vb (book 2), 5-line O, showing a teacher and pupil; fol. 45ra (book 3), 3-line H, with ascender extending into the margin; fol. 60vb (book 4), 4-line A, dragon being slain by a man in his mouth; fol. 73rb (book 5), 4-line N, man holding back the mouth of a dragon and brandishing a sword; fol. 96va (book 6), 5-line N, two dragons with foliage; fol. 119ra (book 7), 5-line E, two men in discussion with town in background; fol. 155rb (book 8), 5-line S, four men on a ship with a dragon figurehead, being blown by the face of a wind. Chapters open with two-line Arabesque initials, alternating between red, blue, and sometimes green, occasionally with penwork in the opposite colour (always paring green with red). Marginal labels in red or green, with a border in the opposite colour. Large marginal paraph marks in black and red occasionally added (e.g. fol. 97r).</decoNote>
+          </decoDesc>
+          <additions>
+            <p>Corrections from two or three thirteenth-century hands, one of which  (e.g. on fol. 123r) appears to be that of Walter de Melida, who was also responsible for part of the Cirencester copy of this manuscript, now Barlow 48.</p>
+            <p>Marginal additions in a 14th-century gothic cursive that also began an index at the end, fol. 209v.</p>
+            <p>Marginal additions in a 15th- or 16th-century humanist hand.</p>
+            <p>Added paper leaf, fol. iiv: seventeenth-century notes on John of Salisbury, with references to John Leland, John Pitts.</p>
+            <p>Pressmarks: <q>6 NE</q>, <q>Linc. 6</q> (fol. 1r).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="343"/><width quantity="255"/><depth min="62" max="71"/></dimensions>
+              Stamped brown leather over boards, 17th-century, rebacked.</p>
+              <condition>Leather deteriorating.</condition>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Malmesbury Abbey</origPlace>: the second abbot Robert referred to at fol. 209rb was Robert of Melun, who served from <origDate notBefore="1189" notAfter="1205">1189/90 to 1205</origDate>. A Salamon occurs as <foreign>scriptor</foreign> at Malmesbury in 1193 (see <title>Registrum Malmesburiense</title>, Rolls Series 1, p. 461).</origin>
+          <provenance><q>Thomas Lonwell</q> or <q>Lonewell</q> (fol. 209rb, 16th cent.).</provenance>
+          <provenance><q>Richardus Ramsæus possidet</q> (fol. 209rb, middle of the 16th cent.).</provenance>
+          <provenance><q>Wyllyam Fyttz</q> (fol. 209v, middle of the 16th cent., not necessarily an owner).</provenance>
+          <acquisition>Given to the Bodleian by <name ref="http://viaf.org/viaf/465">Thomas Barlow</name>: on fol. 1r, his motto, <q>Αἰὲν ἀριστεύειν</q> and autograph inscription <q>Lib. Thomæ Barlow è Coll. Reg. Oxon. socii. Anno Christi <hi rend="caps">m.dc.xxxiii</hi></q>.</acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl type="SC"
+              facs="http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/barlow/images/aaq0404.gif">Summary Catalogue, Vol. 2 Part 2, p. 1045</bibl>
+            <bibl type="SC"
+              facs="http://www.bodley.ox.ac.uk/dept/scwmss/wmss/online/medieval/barlow/images/aaq0405.gif">Summary Catalogue, Vol. 2 Part 2, p. 1046</bibl>
+            <bibl>
+              Otto Pächt and J.J.G. Alexander, <title>Illuminated Manuscripts in the Bodleian Library, Oxford</title>, 3 vols. (Oxford: Clarendon Press, 1966–1973), no. 3:368 and pl. xxxii.
+            </bibl>
+            <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), no. 65 and pl. 87.
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

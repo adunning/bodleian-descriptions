@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Orosius</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Jesus College, Oxford</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC34" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>34</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 1r–135r</locus>
+            <author ref="http://viaf.org/viaf/2479624">Orosius</author>
+            <title xml:lang="la">De ormesta mundi</title>
+            <msItem>
+              <author ref="http://viaf.org/viaf/12277261">Gennadius of Massilia</author>
+              <note><title xml:lang="la">De uiris illustribus</title> 40</note>
+              <rubric xml:lang="la"><locus>fol. 1ra</locus> Ex cathalago uirorum illustrium Gennadii.</rubric>
+              <incipit xml:lang="la">Orosius presbiter hispanus genere⸵ uir eloquens. et historiarum cognitor⸵ scripsit aduersus querulos cristani nominis qui dicunt defectum romane rei publice</incipit>
+              <explicit xml:lang="la">Claruit extremo tem<locus>fol. 1rb</locus>pore⸵ honorio imperium tenente.</explicit>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Ex decretali gelasii pape primi.</rubric>
+              <incipit xml:lang="la">Erosium uirum eruditissimum collaudamus.</incipit>
+              <explicit xml:lang="la">miraque breuitate ordinauit.</explicit>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit epistula pauli orosii presbiteri de ormesta mundi contra accusatores cristianorum temporum⸵ scripta ad beatum augustinum.</rubric>
+              <incipit xml:lang="la">Preceptis tuis parui beatissime pater augustine.</incipit>
+              <explicit xml:lang="la"><locus>fol. 1vb</locus> hoc solo cumulatius reddidi quod libens feci.</explicit>
+              <finalRubric xml:lang="la">Explicit epistula.</finalRubric>
+            </msItem>
+            <msItem>
+              <rubric xml:lang="la">Incipit prologus libri primi.</rubric>
+              <incipit xml:lang="la">Preceperas michi ut scriberem aduersus uaniloquam prauitatem eorum qui alieni a ciuitate dei. ex locorum agrestium competis <note>gloss: <q>uel <supplied reason="omitted">comp</supplied>i<supplied reason="omitted">tis</supplied></q></note> et pagis.</incipit>
+              <explicit xml:lang="la"><locus>fol. 135rb</locus> De qualitate autem opusculorum tu uideris⸵ qui precepisti tibi adiudicanda si edas. per te iudicata si deleas.</explicit>
+            </msItem>
+            <filiation>Alternative readings occasionally added above the line by the original scribe.</filiation>
+            <listBibl>
+              <bibl>
+                CPL 571
+              </bibl>
+            </listBibl>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>iv + 136 + i leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="279" max="281"/>
+                  <width min="194" max="202"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil, i–137.</foliation>
+              <collation>
+                <formula>a<hi rend="sup">4</hi>, 1–13<hi rend="sup">10</hi>, 14<hi rend="sup">6</hi>, i</formula>
+                <signatures>Some gatherings numbered in ink at the foot of the page: fol. 31r = iiii, with individual leaves numbered in blue ink, 1–5; 70v = vii and 80v = viii, framed, with only the frame on 90v. Leaves numbered in pencil in gathering 12.
+            </signatures>
+                <catchwords>One catchword, in ink, fol. 10v.</catchwords>
+                <secFol>[metuen]da. aut ictibus fulminum</secFol>
+              </collation>
+              <condition>Top of the manuscript has suffered water damage; fols. 1–4 repaired with paper at the same time as new binding.</condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="30">
+                <dimensions type="written"><height min="207" max="000"/><width min="126" max="128"/></dimensions>
+                Pricked on all edges of the page for frame and individual lines. Frame also aligns running heads at the top of the page identifying the book number. Line spacing 6.5–7 mm. Written below top line.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis, first half of the twelfth century. At least two scribes (one forming the top of the ascender on letters such as ‘b’ on an angle, and the other making them straight).</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">A 5-line Arabesque initial in blue and red with penwork opens the book; thereafter new sections open with 2-line initials, alternating between blue and red, and new books open with 3- or 4-line initials. Headings rubricated.</decoNote>
+          </decoDesc>
+          <additions>
+            <p>Some corrections (later integrated by the original scribes) and nota marks in s. xiii pencil.</p>
+            <p>On fol. v<hi rend="sup">v</hi>, <q>Orosius de Ormesta mundi</q> (s. xvi); <q>Orosius de Ormesta (seu miseri) mundi. Num: 2</q> <q>Aspice. ibidem num: 6</q> (s. xviii).</p>
+            <p>Pressmarks: <q>25</q> (spine); <q>1 Arch. 2-1</q> (spine, fol. ii<hi rend="sup">v</hi>); <q>MS. Jesus Coll. Ox. D. 34</q> (spine, added on blue label); <q>2021-2</q>, (fol. ii<hi rend="sup">v</hi>); <q>Number 2 (25)</q> (fol. iiir).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="284"/><width quantity="216"/><depth min="38" max="66"/></dimensions>
+                Gothic binding, whittawed leather over wooden boards. Chain mark at the foot of the back cover. Traces of a medieval title on the spine, with <q>OROSIVS</q> at the foot of back cover, upside-down.</p>
+            </binding>
+            <binding>
+              <p>Rebound in twentieth century, reusing original materials.</p>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Probably written at <origPlace>Cirencester Abbey</origPlace> around the <origDate notBefore="1200" notAfter="1250">first half of the twelfth century</origDate>. On fol. iiir, <q>Liber Ecclesie Sancte Marie de Cyrencestr’. Orosius de Viris Illustribus</q> (s. xiii–xiv: same hand as Oxford, Bodleian Library, MS Barlow 48, fol. ir).</origin>
+          <provenance>On the cover, a note of contents appears to be in John Prise’s hand. A similar note occurs in thirteen other manuscripts at Jesus College, ten of them from Cirencester, and three of unknown provenance.</provenance>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24, doi:<ref target="https://doi.org/10.1093/library/s5-X.1.1">10.1093/library/s5-X.1.1</ref>.</bibl></acquisition>
+        </history>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>

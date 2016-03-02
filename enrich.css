@@ -1,0 +1,634 @@
+/* original from Matthew Driscoll
+
+   edited by Sebastian Rahtz March 2009
+   for ENRICH project
+
+   further modifications by Andrew Dunning
+*/
+titleStmt, publicationStmt {
+  display: none;
+}
+msDesc {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  margin: 25px 15px 15px 15px;
+  line-height: 1.4em;
+  text-align: left;
+}
+msDesc>msIdentifier {
+  display: block;
+  font-size: 26pt;
+  line-height: 28pt;
+  color: #ad1010
+}
+msIdentifier country {
+  display: none
+}
+msIdentifier settlement {
+  display: none
+}
+msIdentifier repository {
+  display: none
+}
+msIdentifier altIdentifier {
+  display: none
+}
+msName[type="nickname"]:before {
+  content: "(\201C"
+}
+msName[type="nickname"]:after {
+  content: "\201D)"
+}
+head, msContents, history, additional, seal {
+  padding-top: 3pt;
+  padding-bottom: 2pt;
+  display: block
+}
+physDesc, supportDesc, objectDesc, layoutDesc, decoDesc, sealDesc {
+  display: block;
+  margin-bottom: 4pt;
+}
+
+/*Headings*/
+physDesc:before, history:before, msContents:before, additional:before, rubric:before, incipit:before, explicit:before, finalRubric:before {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+}
+
+physDesc, history, contents {
+  margin-top: 1em;
+}
+
+physDesc:before {
+  content: "Physical description";
+}
+history:before {
+  content: "History";
+  display: block;
+}
+
+titleStmt {
+  line-height: 19pt
+}
+title {
+  display: inline;
+  font-style: italic;
+}
+head>title:after {
+  content: ". "
+}
+head>origPlace:after {
+  content: ", "
+}
+head>origDate:after {
+  content: "."
+}
+head>textLang:after {
+  content: "."
+}
+head note {
+  display: block;
+  padding-top: 10pt;
+}
+msItem[n]:before {
+  content: attr(n) ". "
+}
+msContents:before {
+  content: "Contents";
+}
+msItem {
+  display: block;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+msItem>msItem {
+  display: block;
+  margin-left: 15pt
+}
+msItem[n]>locus:before {
+  content: "("
+}
+msItem[n]>locus:after {
+  content: ")"
+}
+msItem>title {
+  font-style: italic;
+}
+msItem>title:after {
+  content: " "
+}
+rubric, finalRubric {
+  display: block;
+  font-style: italic;
+}
+rubric>locus, rubric>note {
+  font-style: normal;
+}
+rubric:before {
+  content: "Rubric ";
+  font-style: normal;
+}
+incipit {
+  display: block
+}
+incipit:before {
+  content: "Incipit "
+}
+incipit[type="full"] {
+  display: inline;
+}
+incipit[type="full"]:before {
+  content: "“";
+}
+incipit[type="full"]:after {
+  content: "”";
+}
+explicit {
+  display: block
+}
+explicit:before {
+  content: "Explicit "
+}
+incipit[defective="yes"]:before {
+  content: "Begins: "
+}
+explicit[defective="yes"]:before {
+  content: "Ends: "
+}
+rubric[type="final"]:before, finalRubric:before {
+  content: "Final rubric ";
+  font-style: normal;
+}
+colophon {
+  display: block
+}
+colophon:before {
+  content: "Colophon: "
+}
+msItem>textLang {
+  display: block
+}
+msItem>textLang:before {
+  content: "Language of text: "
+}
+msItem>textLang:after {
+  content: "."
+}
+history origin {
+  display: block
+}
+history origin:before {
+  content: "Origin: ";
+  font-weight: bold
+}
+history provenance:before {
+  content: "Provenance: ";
+  font-weight: bold
+}
+history provenance {
+  display: block
+}
+history acquisition:before {
+  content: "Acquisition: ";
+  font-weight: bold
+}
+history acquisition {
+  display: block
+}
+msItem>listBibl {
+  display: block;
+  list-style-type: none;
+  margin-left: 20pt
+}
+msItem>listBibl>bibl {
+  display: list-item;
+  margin-left: 30pt
+}
+msItem>listBibl:before {
+  content: "Text editions:";
+  display: block;
+  font-weight: 600
+}
+msItem>bibl {
+  display: block;
+  margin-left: 20pt
+}
+msItem>bibl:before {
+  content: "Text edition: ";
+  font-weight: 600
+}
+msItem>listBibl>bibl:after {
+  content: "."
+}
+author:after {
+  content: ", "
+}
+bibl>editor:after {
+  content: ", ";
+  text-align: left
+}
+bibl title[level="m"], bibl title[level="j"] {
+  font-style: italic;
+  font-weight: normal;
+}
+bibl title[level="s"], bibl title[level="a"] {
+  font-style: normal;
+  font-weight: normal;
+}
+bibl title[level="a"]:before {
+  content: " \201C"
+}
+bibl title[level="a"]:after {
+  content: "\201D, "
+}
+bibl title[level="s"]:before {
+  content: ", "
+}
+msItem bibl title {
+  font-style: italic
+}
+biblScope[type="pages"]:before {
+  content: ", pp. "
+}
+imprint:before {
+  content: "("
+}
+imprint:after {
+  content: ")"
+}
+pubPlace:after {
+  content: ","
+}
+bibl>note:before {
+  content: " ("
+}
+bibl>note:after {
+  content: ")"
+}
+additional>listBibl>bibl:after {
+  content: "."
+}
+q:before {
+  content: "‘"
+}
+q:after {
+  content: "’"
+}
+q q:before {
+  content: "“"
+}
+q q:after {
+  content: "”"
+}
+q[type="block"] {
+  display: block;
+  margin-left: 15pt;
+  line-height: 14pt
+}
+q[type="block"]:before {
+  content: ""
+}
+q[type="block"]:after {
+  content: ""
+}
+msItem note:before {
+  content: " ("
+}
+msItem note:after {
+  content: ")"
+}
+form {
+  display: block
+}
+form:before {
+  content: "Form: ";
+  font-weight: bold
+}
+support {
+  display: block
+}
+support:before {
+  content: "Support: ";
+  font-weight: bold
+}
+extent {
+  display: block
+}
+extent:before {
+  content: "No. of leaves: ";
+  font-weight: bold;
+  display: block
+}
+collation {
+  display: block
+}
+collation:before {
+  content: "Collation: ";
+  font-weight: bold
+}
+layout {
+  display: block
+}
+layout:before {
+  content: "Layout: ";
+  font-weight: bold
+}
+msWriting {
+  display: block
+}
+msWriting:before {
+  content: "Script: ";
+  font-weight: bold
+}
+musicNotation {
+  display: block
+}
+musicNotation:before {
+  content: "Musical notation: ";
+  font-weight: bold
+}
+decoDesc:before {
+  content: "Decoration: ";
+  font-weight: bold
+}
+decoNote {
+  display: list-item;
+  margin-left: 16pt;
+}
+bindingDesc {
+  display: block
+}
+bindingDesc:before {
+  content: "Binding: ";
+  font-weight: bold
+}
+foliation {
+  display: block
+}
+foliation:before {
+  content: "Foliation: ";
+  font-weight: bold
+}
+additions {
+  display: block
+}
+additions:before {
+  content: "Additions: ";
+  font-weight: bold
+}
+condition {
+  display: block
+}
+condition:before {
+  content: "Condition: ";
+  font-weight: bold
+}
+dimensions[type="leaf"] {
+  display: block
+}
+dimensions[type="leaf"]:before {
+  content: "Size of leaves: ";
+  font-weight: bold;
+  display: block
+}
+dimensions height:after {
+  content: " × "
+}
+dimensions:after {
+  content: " mm"
+}
+dimensions depth:before {
+  content: " × "
+}
+secFol:before {
+  content: "Second folio: ";
+  font-weight: bold;
+  display: block;
+  font-style: normal;
+}
+secFol {
+  font-style: italic;
+}
+recordHist {
+  display: block
+}
+recordHist:before {
+  content: "Record history: ";
+  font-weight: bold
+}
+availability {
+  display: block
+}
+availability:before {
+  content: "Availability: ";
+  font-weight: bold
+}
+custodialHist {
+  display: block
+}
+custodialHist:before {
+  content: "Custodial history: ";
+  font-weight: bold
+}
+custEvent {
+  display: list-item;
+  list-style-type: none;
+  margin-left: 30pt
+}
+surrogates {
+  display: block
+}
+surrogates:before {
+  content: "Surrogates: ";
+  font-weight: bold
+}
+surrogates>p>listBibl {
+  display: block;
+}
+surrogates>p>listBibl>bibl {
+  display: list-item;
+  margin-left: 30pt
+}
+title[type="gmd"]:before {
+  content: "Format: "
+}
+title[type="gmd"]:after {
+  content: ". "
+}
+surrogates idno:before {
+  content: "ID no.: "
+}
+surrogates idno:after {
+  content: ". "
+}
+surrogates bibl date:before {
+  content: "Date created: "
+}
+accMat {
+  display: block
+}
+accMat:before {
+  content: "Accompanying material: ";
+  font-weight: bold
+}
+additional:before {
+  content: "Additional:";
+  display: block;
+}
+additional>listBibl {
+  display: block;
+  list-style-type: none;
+  margin-top: 10pt
+}
+additional>listBibl:before {
+  content: "Bibliography:";
+  display: block;
+  font-weight: 600;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+}
+additional>listBibl>bibl {
+  text-align: left;
+  display: list-item;
+  margin-left: 30pt
+}
+list {
+  display: block;
+}
+list item {
+  display: list-item;
+  margin-left: 30pt
+}
+q item {
+  list-style-type: none
+}
+item locus:after {
+  content: ": "
+}
+pb:before {
+  font-weight: 600;
+  content: "|" attr(n) "|"
+}
+lb, lb[n] {
+  display: list-item;
+  list-style-type: none;
+  margin-left: 30pt;
+}
+lb[type="hyphenated"]:before {
+  content: "-|"
+}
+lb[n]:after {
+  content: attr(n);
+}
+supplied[reason="damage"]:before {
+  content: "<"
+}
+supplied[reason="damage"]:after {
+  content: ">"
+}
+supplied[reason="illegible"]:before {
+  content: "["
+}
+supplied[reason="illegible"]:after {
+  content: "]"
+}
+supplied[reason="omitted"]:before {
+  content: "\27E8"
+}
+supplied[reason="omitted"]:after {
+  content: "\27E9"
+}
+gap:before {
+  content: " [...]"
+}
+expan {
+  font-style: italic
+}
+foreign {
+  font-style: italic
+}
+hi[rend="sup"] {
+  font-size: smaller;
+  vertical-align: super;
+}
+hi[rend="italic"] {
+  font-style: italic;
+}
+hi[rend="caps"] {
+  font-variant: small-caps;
+}
+hi[rend="rubric"] {
+  color: #990000;
+}
+hi[rend="underline"] {
+  text-decoration: underline;
+}
+hi[rend="double-underline"] {
+  text-decoration: underline;
+  border-bottom:1px solid #000;
+}
+hi[rend="bold"] {
+  font-weight: bold;
+}
+del[rend="overstrike"] {
+  text-decoration: line-through;
+}
+note>title {
+  font-style: italic
+}
+p {
+  display: block
+}
+p>p {
+  display: block;
+  margin: 15pt 15pt 2pt 2pt;
+  font-style: normal;
+  line-height: 13pt
+}
+lg {
+  display: block;
+  margin-bottom: 10pt
+}
+l {
+  display: block
+}
+msPart {
+  display: block;
+  margin-top: 15pt;
+  margin-bottom: 15pt
+}
+msPart idno {
+  display: block;
+  font-size: 16pt
+}
+hi[rend="scap"] {
+  font-size: 65%
+}
+hi[rend="lig"] {
+  letter-spacing: -4px
+}
+publisher {
+  display: inline;
+}
+choice > abbr {
+  display: none;
+}
+choice > orig {
+  display: none;
+}
+choice > expan {
+  font-style: normal
+}
+expan > ex:before {
+  content: "(";
+}
+expan > ex:after {
+  content: ")";
+}
+
+placeName, persName, name, genName, geogName, roleName {
+    display: inline;
+}
