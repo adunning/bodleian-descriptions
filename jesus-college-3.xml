@@ -63,7 +63,7 @@
               <rubric xml:lang="la"><locus>fol. 2r</locus> Pręfatio rufini presbiteri de libris Gregorii.</rubric>
               <incipit xml:lang="la">Proficiscenti mihi ex urbe</incipit>
               <explicit xml:lang="la">habes peritiam magis probato.</explicit>
-              <finalRubric><locus>fol. 2v</locus> Explicit praefatio.</finalRubric>
+              <finalRubric xml:lang="la"><locus>fol. 2v</locus> Explicit praefatio.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 3–6</bibl>
               </listBibl>
@@ -74,7 +74,7 @@
               <rubric xml:lang="la"><locus>fol. 2v</locus> Incipit apologeticus Gregorii Nazanzeni.</rubric>
               <incipit xml:lang="la">Victus sum⸵ et fateor me esse. superatum.</incipit>
               <explicit xml:lang="la"><locus>fol. 28r</locus> cui gloria in saecula saeculorum amen.</explicit>
-              <finalRubric>Explicit apologeticus sancti Gregorii nazanzenii episcopi.</finalRubric>
+              <finalRubric xml:lang="la">Explicit apologeticus sancti Gregorii nazanzenii episcopi.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 7–84</bibl>
               </listBibl>
@@ -85,7 +85,7 @@
               <rubric xml:lang="la"><locus>fol. 28r</locus> Incipit liber eiusdem de epiphaniis siue de natali domini.</rubric>
               <incipit xml:lang="la">Christus nascitur⸵ gloriamini.</incipit>
               <explicit xml:lang="la"><locus>fol. 35r</locus> in quantum iunctis in carne possibile est⸵ per ipsum iesum christum dominum nostrum. cui est gloria et potestas in saecula saeculorum amen.</explicit>
-              <finalRubric>Explicit liber primus de epiphaniis.</finalRubric>
+              <finalRubric xml:lang="la">Explicit liber primus de epiphaniis.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 87–108</bibl>
               </listBibl>
@@ -109,7 +109,7 @@
               </rubric>
               <incipit xml:lang="la">De sollempnitate huius diei pauca dicenda sunt⸵ ut lętamur in spiritu.</incipit>
               <explicit xml:lang="la"><locus>fol. 56v</locus> qui est uera et niua festiuitas et exultatio sanctorum. cum quo est deo patri gloria et potestas in spiritu sancto⸵ in saecula saeculorum amen.</explicit>
-              <finalRubric>Explicit tercius.</finalRubric>
+              <finalRubric xml:lang="la">Explicit tercius.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 141–163</bibl>
               </listBibl>
@@ -120,7 +120,7 @@
               <rubric xml:lang="la"><locus>fol. 50v</locus> Incipit quartus insemetipso de agro regressus.</rubric>
               <incipit xml:lang="la">Desiderabam uos o filii</incipit>
               <explicit xml:lang="la"><locus>fol. 57v</locus> uita et fide probabili⸵ tibi gloria et potestas in saecula saeculorum amen.</explicit>
-              <finalRubric>Explicit liber .iiii.</finalRubric>
+              <finalRubric xml:lang="la">Explicit liber .iiii.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 167–189</bibl>
               </listBibl>
@@ -131,7 +131,7 @@
               <rubric xml:lang="la"><locus>fol. 57v</locus> Incipit .v. De ieremia dicta praesente imperatore apud quem et intercedit pro quodam periclitante.</rubric>
               <incipit xml:lang="la">Ventrem meum. uentrem meum doleo⸵</incipit>
               <explicit xml:lang="la"><locus>fol. 62v</locus> et infuturo misericordiam speramus. per christum dominum nostrum uiuentem secum et regnantem cum spiritu sancto in saecula saeculorum amen.</explicit>
-              <finalRubric>Explicit .v.</finalRubric>
+              <finalRubric xml:lang="la">Explicit .v.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 193–206</bibl>
               </listBibl>
@@ -142,7 +142,7 @@
               <rubric xml:lang="la"><locus>fol. 62v</locus> Incipit .vi. de reconciliatione et unitate monachorum.</rubric>
               <incipit xml:lang="la">Linguam nostram soluit a claritas.</incipit>
               <explicit xml:lang="la"><locus>fol. 71r</locus> custodiat corda uestra in christo iesu domino nostro⸵ cui est gloria et potestas in saecula saeculorum amen.</explicit>
-              <finalRubric>Explicit liber .vi.</finalRubric>
+              <finalRubric xml:lang="la">Explicit liber .vi.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 209–233</bibl>
               </listBibl>
@@ -153,7 +153,7 @@
               <rubric xml:lang="la"><locus>fol. 71r</locus> Incipit .vii. de grandinis uastatione cum pater episcopus reticeret.</rubric>
               <incipit xml:lang="la">Quid laudabilem soluitis ordinem?</incipit>
               <explicit xml:lang="la"><locus>fol. 78v</locus> cui est gloria et potestas in saecula saeculorum Amen.</explicit>
-              <finalRubric>Explicit liber .vii. Gregorii nazanzeni episcopi.</finalRubric>
+              <finalRubric xml:lang="la">Explicit liber .vii. Gregorii nazanzeni episcopi.</finalRubric>
               <listBibl>
                 <bibl>A. Engelbrecht, CSEL 46 (1910), pp. 237–261</bibl>
               </listBibl>
@@ -271,8 +271,7 @@
           </bindingDesc>
         </physDesc>
         <history>
-          <origin>The book is from <origPlace>Leicestershire Abbey (OSA)</origPlace>, <origDate notBefore="1131" notAfter="1150"><foreign>s.</foreign> xii<hi rend="sup">2/4</hi> (possibly after 1131)</origDate>. The rubrics for the works of Gregory match London, British Library, Royal MS 3 D. <hi rend="caps">i</hi>,<!--explain--> and a Gloucestershire form of punctuation is used in the final gathering. <bibl>Neil R. Ker, <title>English Manuscripts in the Century after the Norman Conquest</title>, The Lyell Lectures 1952–53 (Oxford: Clarendon Press, 1960), p. 48 and pl. 20b.</bibl></origin>
-          <provenance>Recorded in the <title xml:lang="la">Registrum Anglie de libris doctorum et auctorum ueterum</title> (R3.1; R18.2, 13, 14) in the fourteenth century.</provenance>
+          <origin>Written at <origPlace>Cirencester Abbey (OSA)</origPlace>, <origDate notBefore="1131" notAfter="1150"><foreign>s.</foreign> xii<hi rend="sup">2/4</hi> (possibly after 1131)</origDate>. The rubrics for the works of Gregory match the <title xml:lang="la">Registrum Anglie de libris doctorum et auctorum ueterum</title> (R3.1; R18.2, 13, 14), which records copies at Cirencester, and a Gloucestershire form of punctuation is used in the final gathering. See <bibl>Neil R. Ker, <title>English Manuscripts in the Century after the Norman Conquest</title>, The Lyell Lectures 1952–53 (Oxford: Clarendon Press, 1960), p. 48 and pl. 20b.</bibl> Recorded at Cirencester in  in the fourteenth century.</origin>
           <provenance>Owned by <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> (1501/2–55), with title written on the cover in his hand. A similar note occurs in thirteen other manuscripts at Jesus College, ten of them from Cirencester, and three of unknown provenance.</provenance>
           <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the <date when="1602">1602</date> donation willed to Jesus College by his son <name>Gregory Prise<!--not in VIAF--></name> (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24, doi:<ref target="https://doi.org/10.1093/library/s5-X.1.1">10.1093/library/s5-X.1.1</ref>.</bibl></acquisition>
         </history>
