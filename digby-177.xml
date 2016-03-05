@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>MS. Digby 177</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="Digby177" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Bodleian Library</institution>
+          <collection>Digby</collection>
+          <idno>177</idno>
+          <altIdentifier type="internal">
+            <idno type="SCN">1778</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 1r–30r</locus>
+            <author><!--not in VIAF-->Philip of Oxford</author>
+            <title xml:lang="la">De miraculis sancte Frideswide</title>
+            <msItem>
+              <note>Prologue</note>
+              <rubric xml:lang="la"><locus>fol. 1ra</locus> Incipit prologus domni philippi prioris de miraculis sancte frideswide.</rubric>
+              <incipit xml:lang="la">Domini ac saluatoris nostri uirtus et sapientia tanto maioribus laudum preconiis attollitur⸵</incipit>
+              <explicit xml:lang="la"><locus>fol. 1vb</locus> ut ora sacerdotibus ostenderent preceptum est.</explicit>
+            </msItem>
+            <msItem>
+              <note>Text</note>
+              <incipit xml:lang="la">Scripturus itaque miracula que temporibus nostris</incipit>
+              <explicit xml:lang="la"><locus>fol. 30rb</locus> nobis in tante uirtutis testimonium ostenderunt;</explicit>
+              <note>Two modern hands have numbered the sections implied by the drop capitals in ink and pencil, as chapters 1–98. A contemporary hand indicates nine readings within the text, each of which ends with the annotation <q>Tu autem</q> in the margin if it is not immediately followed by another <foreign>lectio</foreign>. Lectio 1, fols. 1vb–2ra, ch. 1, <q>Scripturus itaque … tuorum super omnia aromata</q>; 2, fols. 2vb–3rb, chs. 5–6, <q>Cum igitur … remanerent uestigia</q>; 3, fols. 3ra–4ra, ch. 8, <q>Erat in uico quodam … ipsa rerum experientia didicimus</q>; 4, fol. 4ra–va, chap. 9, <q>Per idem tempus … et tedio affecerat inmanitas</q>; 5, fols. 6vb–7va, chap. 20, <q>Ad laudem insuper diuine pietatis … ubi munus curationis acceperat</q>; 6, fols. 7vb–8rb, chap. 22, <q>Hoc quoque relatu … prorsus et inmunem</q>; 7, chap. 23, fols. 8rb–9ra, <q>Sed et de hoc quod eodem die … reformante momentis</q>; 8, fols. 9vb–10ra, <q>Puella quedam Emelina nomine … et corpore herens et affectu</q> (opening indicator erased); 9, fols. 15ra–va(?), <q>Nec uacat a laude uirginis … sue testimonio roborantes</q> (no <q>Tu autem</q>).</note>
+            </msItem>
+            <note>The manuscript’s organization of the text is not reflected in the <title>Acta Sanctorum</title> edition, whose text is unreliable.</note>
+            <listBibl>
+              <bibl>
+                BHL 3169
+              </bibl>
+              <bibl>
+                <title>Acta Sanctorum</title>, Oct., 8:568–69.
+              </bibl>
+              <bibl>
+                John Blair, ‘Saint Frideswide Reconsidered’, <title>Oxoniensia</title> 52 (1987): 71–127 (extract from the prologue at 118–19).
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fol. 30v</locus>
+            <title type="desc">Acrostic on Frideswide</title>
+            <incipit xml:lang="la">Fontem in sicco fundo a domino impetrauit</incipit>
+            <!-- fix
+            <quote xml:lang="la">
+              <p>Iesus maria Iohannes.</p>
+              <lg>
+              <l>Fontem in sicco fundo a domino impetrauit</l>
+              <l>Regibus oxonie iter optinauit</l>
+              <l>Inuenem Roprosin osculo mundauit</l>
+              <l>Demonem inproprie cristi inperauit</l>
+              <l>Edgarum regem ****** ***** ****auit</l>
+              <l>Seoris man***brum **** liberauit</l>
+              <l>Vis**** dederit militibus quos pre*** excecauit</l>
+              <l>Virgum bamptone l!!!!!e restaurauit</l>
+              <l>In silua per tere!!!!!!! omni [id est cristo] preposito hitauit</l>
+              <l>D******** ligatum pro**tus liberauit</l>
+              <l>Angelo docttore bamptonem nauigauit</l>
+              </lg>
+              </quote> -->
+          </msItem>
+          <msItem>
+            <locus>fol. 30v</locus>
+            <title type="desc">Words relating to the miracles of Frideswide set in hexameter, set against the seven vices</title>
+            <quote xml:lang="la">
+              <list>
+                <item>
+                  Contra superbiam
+                <list>
+                  <item>Filia. Regalis. Iuris. Datur. Esse. Sodalis.</item>
+                  <item>Venti. Venalis. Iacturam. Depulit. Alis.</item>
+                </list>
+                </item>
+                <item>
+                  Contra iram
+                  <list>
+                    <item>Fons. Redit. Immemores. Ducunt. Exemplum. Sapores.</item>
+                    <item>Vincunt. Vltores. Inuios. Dicentis. Amores.</item>
+                  </list>
+                </item>
+                <item>
+                  Contra inuidiam
+                  <list>
+                    <item>Fer. Ruit. Inuidie. Dampnabilis. Euse. Salutis.</item>
+                    <item>Viscera. Virtutis. Iam. Dat. Amicicie.</item>
+                  </list>
+                </item>
+                <item>
+                  Contra accidiam
+                  <list>
+                    <item>Factoris. Recolens. Iusti. Deuocius. Egit.</item>
+                    <item>Summa. Videre. Volens. Iuga. Dissuadentis. Abegit.</item>
+                  </list>
+                </item>
+                <item>
+                  Contra auariciam
+                  <list>
+                    <item>Fatales. Retum. Iactus. Despexit Egena</item>
+                    <item>Sorte. virum. verum. Iustum. Dilexit. Amena.</item>
+                  </list>
+                </item>
+                <item>
+                  Contra Gulam
+                  <list>
+                    <item>Fauces. Restrinxit. In Deliciis. Epularum.</item>
+                    <item>Sic. ventrem. vincit. Ita. Dulcoratus. Amarum.</item>
+                  </list>
+                </item>
+                <item>
+                  Contra luxuriam
+                  <list>
+                    <item>Nos. Redolens. Iuit. Ductor. Enigma. Sequta.</item>
+                    <item>Virgula. Vestiuit. Imbres. Dilexit Acuta.</item>
+                  </list>
+                </item>
+              </list>
+            </quote>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Parchment</support>
+              <extent>ii + 30 + ii leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="272" max="276"/>
+                  <width min="191" max="200"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil, 1–30.</foliation>
+              <collation>
+                <formula>a<hi rend="sup">2</hi>, 1–3<hi rend="sup">8</hi>, 4<hi rend="sup">8–2</hi> (3/5 canc.), b<hi rend="sup">2</hi></formula>
+                <signatures>The first leaf of each gathering is lettered a–d at the foot, in 16th- or 17th-century ink.</signatures>
+              <secFol>[deser]uire uiderentur</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="33">
+                <dimensions type="written"><height quantity="185"/><width quantity="119"/></dimensions>
+                Ruled in pencil and plummet; pricking on all edges of the page for frame and lines, spaced 5.5 mm apart. Horizontal rules occur from top to bottom (fol. 2r) at 33.5 | 39 | 44.5 | 21.75 | 207 | 212.75 | 273; vertical rules, from left to right, 20 | 24 | 79.5 | 84 | 88.5 | 142 | 146.5 | 191.5. Written above top line.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis, end of the 12th century. Three scribes, with fols. 28vb–30rb, written in a darker shade of ink, likely a slightly later addition.
+            </handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">Text opens with an 8-line Arabesque initial in red and green. Subsequent chapters open with 2-line initials, generally alternating between blue and red.</decoNote>
+            <decoNote>Along with letters added plummet to direct the rubricator, there are numbers whose function is unclear: iii in the margin of fol. 10rb; iii, fol. 17rb; iiii, fol. 17va; iii, fol. 18ra; iiii and viii, fol. 18rb.</decoNote>
+          </decoDesc>
+          <additions>
+            <p>Pressmarks: <q>K. D. 177</q> (front pastedown); <q>A 14</q>, <q>7</q> (fol. 1r).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="280"/><width quantity="204"/><depth quantity="21"/></dimensions>
+                Standard Digby binding (Delisle type I). Brass clasps.</p>
+              <decoNote>Decorated with Digby’s arms, surrounded by wreath, with legend <q>INSIGNIA KENELMI DIGBY EQVITIS AVRATI ✠</q>.</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Probably written at <origPlace>St Frideswide’s, Oxford (OSA)</origPlace> while Philip was prior, <origDate notBefore="1180" notAfter="1195">c.1180–c.1195</origDate>. It includes what appear to be autograph revisions to the text rather than corrections from an exemplar, most notably in his account of the translation of Frideswide’s relics on fol. 2ra, and what appears to be an extended addition at the foot of fols. 15v–16r. The text at fols. 28vb–30rb appears to be a slightly later addition. The series of nine readings in the margins suggest extended liturgical use that would not likely have occurred outside of Oxford.</origin>
+          <provenance>Thomas Allen (no. 7, folio); Allen/Digby inventory A 14: pressmarks and signature on fol. 1r. Many of Allen’s manuscripts were from Oxford.</provenance>
+          <acquisition>Given to the Bodleian by Kenelm Digby (his motto, <q>Vindica te tibi</q>, and signature on fol. 1r).</acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl type="QUARTO" facs="abw0104.gif">Quarto Catalogue, col. 190</bibl>
+            <bibl type="QUARTO" facs="abw0259.gif">Quarto Catalogue (addenda), p. 82</bibl>
+            <bibl type="SC" facs="aap0096.gif">Summary Catalogue, vol. 2, part 1, p. 75</bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
