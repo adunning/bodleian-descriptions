@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC63" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>63</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 4r–161v</locus>
+            <author ref="https://viaf.org/viaf/22143666/">Josephus</author>
+            <author ref="http://viaf.org/viaf/76658868" role="trans">Pseudo-Hegesippus</author>
+            <title xml:lang="la">De excidio Iudeorum</title>
+            <rubric xml:lang="la"><locus>fol. 4ra</locus> Incipiunt quinque Libri Hęgęsippi nationę iudęi. dę excidio iudęorum. Incipit prologus.</rubric>
+            <msItem>
+              <note>Prologue</note>
+              <rubric xml:lang="la">Incipit prologus.</rubric>
+              <incipit xml:lang="la">Quatuor libros ręgnorum quos scriptura complexa est sacra˷</incipit>
+              <explicit xml:lang="la"><locus>fol. 4va</locus> Hinc igitur sumam exordium.</explicit>
+              <finalRubric xml:lang="la">Explicit prologus.</finalRubric>
+            </msItem>
+            <msItem>
+              <note>Text</note>
+              <rubric xml:lang="la">Incipit liber .iꝰ.</rubric>
+              <incipit xml:lang="la">Bello parthico quod inter machabeos duces gentemque medorum diuturnum˷</incipit>
+              <explicit xml:lang="la"><locus>fol. 161va</locus> opes autem eorum appositus ab apsis prius ignis consumpsit est</explicit>
+              <finalRubric xml:lang="la">Egesippi Hystorię Liber quintus Explicit De ęxidio Iudęorum.</finalRubric>
+            </msItem>
+            <listBibl>
+              <bibl>
+                CPL 0190 a (A)
+              </bibl>
+            </listBibl>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support></support>
+              <extent>iv + 159 + iii leaves<!--158 + iv? iii + 159 + ii?-->
+                <dimensions type="leaf" unit="mm">
+                  <height min="327" max="330"/>
+                  <width min="215" max="219"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in nineteenth-century ink, accurately but only in part; later foliated in modern pencil, which counts the flyleaves and skips a page after fol. 153 (153<foreign>bis</foreign>): fol. 159 in the original numeration becomes fol. 161.</foliation>
+              <collation>
+              <formula>a<hi rend="sup">4</hi> (1 pastedown), 1–15<hi rend="sup">8</hi>, 16<hi rend="sup">10</hi>, 17<hi rend="sup">8</hi>, 18–19<hi rend="sup">10</hi>, b<hi rend="sup">4</hi> (4 pastedown)</formula>
+                <signatures>Gatherings are numbered in the text hand ink at the centre of the foot of the last page, .i. to .xix.</signatures>
+                <secFol>[un]dique dum cędere</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="31">
+                <dimensions type="written"><height quantity="238"/><width quantity="149"/></dimensions>
+                Ruled in drypoint; pricked on outer edges of page only, for frame and individual lines. Horizontal rules on fol. 5r occur, from top to bottom, at 36.5 | 50.5 | 248 | 263 | 329 mm; vertical rules from left to right, 20 | 88 | 95 | 102 | 170.5 | 218.5 mm. Lines spaced 6.5 mm apart.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Protogothic, s.xii<hi rend="sup">3/4</hi>.
+            </handNote>
+            <handNote>
+              Directions to the rubricator in a fine charter hand.
+            </handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              Each book opens with large, intricately decorated Arabesque capitals: fol. 4ra, prologue, Q in blue with blue, green, and golden decoration; fol. 4va, book 1, blue and golden B decorated with blue, red, green, and golden foliage sprouting from the mouths of deer; fol. 51va, book 2, blue and red S with blue, red, and green decoration; fol. 71vb, book 3, golden E with green and blue decoration; fol. 94ra, book 4, green E with red and blue decoration; fol. 114vb, book 5, red and green A with green decoration. The first letter of each new chapter is enlarged, in red.
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>On cover, <q>Egesippus</q> (s. xvi); fol. 2r, <q>Hegesippus de excidio Iudæorum</q> (s. xvi); fol. 4r, <q>Egesuppus de excidio Iudeorum</q> (s. xvi).</p>
+            <p>Pressmarks: <q>23</q> (spine); <q>MS. Jesus Coll. Ox. C. 63</q> (spine, blue label); <q>1 Arch. 3-2</q> (spine, fol. 1v); <q>2060-41</q>, <q>41 (23)</q> (fol. 2r).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="332"/><width quantity="221"/><depth min="68" max="75"/></dimensions>
+              Romanesque, whittawed leather over oak boards with a chamifered edge; recovered, reusing fragments of original leather. Extended tab over endband.</p>
+              <decoNote>On spine, <q>De excidio Iudeorum</q> (s. xiv?).</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Cirencester Abbey</origPlace> between <origDate notBefore="1149" notAfter="1176">1149 and 1176</origDate>. On fol. 3ra, written in a slightly later script than the text hand, <q><supplied reason="omitted">L</supplied>iber sancte Marie De Cirecestr’. D’ Andree Abbatis secundi tempore scriptus per manum Radulphi <add place="above">de pulleham</add> scriptoris D’ Adam de lamora tunc Cantore.</q></origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son Gregory Prise (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), no. 800 and pl. 59.
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
