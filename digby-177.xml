@@ -63,23 +63,22 @@
             <locus>fol. 30v</locus>
             <title type="desc">Acrostic on Frideswide</title>
             <incipit xml:lang="la">Fontem in sicco fundo a domino impetrauit</incipit>
-            <!-- fix
             <quote xml:lang="la">
               <p>Iesus maria Iohannes.</p>
               <lg>
               <l>Fontem in sicco fundo a domino impetrauit</l>
-              <l>Regibus oxonie iter optinauit</l>
-              <l>Inuenem Roprosin osculo mundauit</l>
-              <l>Demonem inproprie cristi inperauit</l>
+              <l>Regibus oxonie iter <unclear>optinauit</unclear></l>
+              <l>Iuuenem <unclear>Reprosum</unclear> osculo mundauit</l>
+              <l>Demonem <unclear>inproprie</unclear> cristi inperauit</l>
               <l>Edgarum regem ****** ***** ****auit</l>
               <l>Seoris man***brum **** liberauit</l>
               <l>Vis**** dederit militibus quos pre*** excecauit</l>
-              <l>Virgum bamptone l!!!!!e restaurauit</l>
-              <l>In silua per tere!!!!!!! omni [id est cristo] preposito hitauit</l>
-              <l>D******** ligatum pro**tus liberauit</l>
-              <l>Angelo docttore bamptonem nauigauit</l>
+              <l>Virgum bamptone l******e restaurauit</l>
+              <l>In silua per tere******* omni [id est cristo] preposito hitauit</l>
+              <l>D******** ligatum proemtus liberauit</l>
+              <l>Angelo <unclear>docttore</unclear> bamptonem nauigauit</l>
               </lg>
-              </quote> -->
+              </quote>
           </msItem>
           <msItem>
             <locus>fol. 30v</locus>
