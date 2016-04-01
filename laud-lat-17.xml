@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Laud Lat. 17</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="Laud-Lat-17" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>University of Oxford</institution>
+          <repository>Bodleian Library</repository>
+          <collection>Laud Lat.</collection>
+          <idno>17</idno>
+          <altIdentifier type="internal">
+            <idno type="SCN">994</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Parchment</support>
+              <extent>i + 224 + i leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="237" max="241"/>
+                  <width min="170" max="176"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated 1–225 in modern pencil.</foliation>
+              <collation>
+              <formula>
+                a<hi rend="sup">2–1</hi> (1 canc.), 1–26<hi rend="sup">8</hi>, 27<hi rend="sup">8–2</hi> (4, 5 canc.) | 28<hi rend="sup">8</hi> | 29<hi rend="sup">4–1</hi> (1 canc.)
+              </formula>
+              </collation>
+              <condition>Two gatherings missing at the beginning of the manuscript. The signatures suggest that a further gathering is missing between 5 and 11, but there do not appear to be gaps in the text.<!--verify?--> Gathering 28 is a later addition, with fol. 223r following logically from and in the same hand as fol. 214v.</condition>
+            </supportDesc>
+          </objectDesc>
+          <additions>
+            <p>Pressmarks: <q>Laud. Lat 17.</q>, <q>E. 71.</q> (upper pastedown).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="253"/><width quantity="177"/><depth min="60" max="85"/></dimensions>
+              Standard Laudian binding, leather over pasteboard.</p>
+              <condition>Boards partially detached. Clasps missing. Binding is excessively tight.</condition>
+              <decoNote>Laud’s coat of arms embossed in gold on the upper board.</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>From <origPlace>Cirencester Abbey</origPlace>, <origDate notBefore="1175" notAfter="1200">third quarter of the twelfth century</origDate>. The additions on fols 223r to 224v feature the abbot of Cirencester prominently, and portions appear to be written in the hand of Walter de Melida. A strip cut from the top of fol. 222v might have contained an ex-libris inscription, though it does not appear to read any variant of <foreign>Cyrencestrie</foreign>.</origin>
+          <acquisition>Owned by William Laud. Fol. 1r, <q>Liber Guil. Laud Archiepiscopi Cant. et Cancellar. uniuersit. Oxon. 1638.</q></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl type="QUARTO" facs="aby0054.gif">
+              Quarto Catalogue, col. 12
+            </bibl>
+            <bibl type="QUARTO" facs="aby0317.gif">
+              Quarto Catalogue, p. 537 (addenda)
+            </bibl>
+            <bibl type="SC" facs="aap0062.gif">Summary Catalogue, Vol. 2, part 1, p. 41</bibl>
+          </listBibl>
+        </additional>
+        <msPart>
+          <msIdentifier>
+            <idno>I</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 1r–210v</locus>
+              <title type="desc">‘Parua glosatura’ on the psalms and canticles</title>
+              <msItem>
+                <locus>fols. 1r–200r</locus>
+                <title type="desc">Glossed Psalter</title>
+                <incipit xml:lang="la" defective="true" type="commentary"><locus>fol. 1ra</locus> Insuper etc. Sicut supra. insuper et usque ad noctem increpuerunt me. ut pro meo molestiarum⸵ sint modo gaudia humanitatis celestia.</incipit>
+                <incipit xml:lang="la" defective="true" type="text"><locus>fol. 1rb</locus> meum et exultauit lingua mea <note>Ps 15:9</note></incipit>
+                <explicit xml:lang="la" type="commentary"><locus>fol. 200rc</locus> cimbala inuicem se tangunt⸵ ut sonent. ideo labiis nostris comperantur. sed melius in cimbalis qui inuicem se honorantes⸵ dant laudem deo.</explicit>
+              </msItem>
+              <msItem>
+                <locus>fols. 200v–210v</locus>
+                <title type="desc">Glossed canticles 1–6</title>
+                <rubric xml:lang="la"><locus>fol. 200vb</locus> Canticum ysaie.</rubric>
+                <incipit xml:lang="la" type="commentary"><locus>fol. 200v</locus> Quod ualet .xv. in ordine singulorum⸵ hoc .cl. in ordine denariorum. et mille quingenti. in ordine centenariorum.</incipit>
+                <incipit xml:lang="la" type="text">Confitebor tibi domine <note>Is. 12:1</note></incipit>
+                <explicit xml:lang="la" type="text"><locus>fol. 210vb</locus> et propitius erit terre populi sui. <note>Deut. 32:43</note></explicit>
+                <explicit xml:lang="la" type="commentary"><locus>fol. 210vc</locus> Terre id est ecclesię. misericordiam suam ostendit.</explicit>
+              </msItem>
+              <listBibl>
+                <bibl>
+                  Margaret T. Gibson, ‘The Latin Apparatus’, in <title>The Eadwine Psalter: Text, Image, and Monastic Culture in Twelfth-Century Canterbury</title>, ed. Margaret T. Gibson, T.A. Heslop, and Richard W. Pfaff, Publications of the Modern Humanities Research Association 14 (London: Modern Humanities Research Association, 1992), 116 and pl. 38.
+                </bibl>
+                <bibl>
+                  Stegmüller, <title>Repertorium</title>, no. 11801.
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fols. 211r–214r</locus>
+              <title type="desc">‘Stavelot Commentary’ on the Athanasian Creed</title>
+              <incipit xml:lang="la" type="commentary"><locus>fol. 211r</locus> Hic beatus athanasius liberum arbitrium posuit sicut dicit in psalmo.</incipit>
+              <rubric xml:lang="la"><locus>fol. 211rb</locus> Fides sancti Athanasii episcopi catholica;</rubric>
+              <incipit xml:lang="la" type="text">Quicumque uult saluus esse⸵ ante omnia opus est ut teneat catholicam fidem.</incipit>
+              <explicit xml:lang="la" type="commentary"><locus>fol. 214r</locus> Subsistentia quid est? Subsistentia eo sensu dicitur. quo deum semper stare id est semper esse. non astando humani corporis consuetudine. sed a permanendo. quia semper permanet eo quod est.</explicit>
+              <listBibl>
+                <bibl>
+                  Andrew Eubank Burn, <title>The Athanasian Creed and Its Early Commentaries</title>, Texts and Studies: Contributions to Biblical and Patristic Literature 4.1 (Cambridge: University Press, 1896), lviii–l, 11–20.
+                </bibl>
+                <bibl>
+                  Nikolaus M. Häring, ‘Commentaries on the Pseudo-Athanasian Creed’, <title>Mediaeval Studies</title> 34 (1972): 229.
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem>
+              <locus>fol. 214r–v</locus>
+              <title xml:lang="la">Excerpts from the church fathers on the nature of psalms</title>
+              <incipit xml:lang="la"><locus>fol. 214ra</locus> Ieronimus ad paulam et e. de beati inmaculati. Omnis moralis locus in hoc psalmo est comprehensus.</incipit>
+              <explicit xml:lang="la"><locus>fol. 214vb</locus> nec minor in minoribus. nec in maioribus.</explicit>
+              <note>Added in another hand; continued on fol. 223r.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <collation>
+                  <signatures>
+                    Some gatherings numbered in ink by the text hand on the first or last page of the gathering; cropped. Gathering 1 = .iii.; 2 = .iiii.; 3 = .v.; 4 = .vi.; 5 = .vii. (33r); 11 = .xiiii. (81r); 21 = .xxiiii. (161r).
+                  </signatures>
+                  <catchwords>A few cropped catchwords inked alongside signatures (e.g. fols. 16v, 24v, 72v) in the text hand at the foot of the last page of the gathering.</catchwords>
+                  <secFol>Misericordia et caritas</secFol> (gloss)
+                  <secFol>pupillam oculi</secFol> (text)
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="3" ruledLines="37 41">
+                  <dimensions type="written"><height min="184" max="188"/><width min="134" max="142"/></dimensions>
+                  Text to be commented on written in the centre column in a larger script, every three lines. Glosses written in the outer columns and interlinear. Line spacing 4.5–5 mm. Ruled lightly in pencil; pricked on the outer edges.  
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Gothic textualis, third quarter of the twelfth century. At least three scribes.
+              </handNote>
+            </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              Lombardic initials typical of those found in Cirencester manuscripts from the middle of the twelfth century in their style and colour. Each psalm begins with a 5-line initial, alternating between red, blue, golden, and sometimes green, usually with decoration in one of the opposite shades. Larger and more initials mark major divisions in the text, found on fols. 57r, 105r, 130v, 150v, 200v. Those on fols. 18r and 38r have penwork added, thought by Pächt and Alexander (no. 177) to be from the fourteenth century.
+            </decoNote>
+            <decoNote>
+              Titles of psalms and canticles in red (with that for the Athanasian Creed on fol. 211r written partially in a golden colour). Some lemmata in the commentary highlighted in golden.
+            </decoNote>
+            <decoNote>
+              New sections of the excerpts on fols. 214r–v and 223r open with enlarged Lombardic capitals in black.
+            </decoNote>
+          </decoDesc>
+            <additions>
+              Additional glosses added by contemporary hands. Occasional notes in a fourteenth-century cursive.
+            </additions>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier>
+            <idno>II</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fols. 215r–222v</locus>
+              <title type="desc">Litany and prayers for the dead with some music</title>
+              <incipit xml:lang="la"><locus>fol. 216ra</locus> Kyrieleyson. Criste eleyson. Criste audi nos. Pater de celis deus miserent nobis. Fili redemptor muni deus⸵ miserere nobis.</incipit>
+              <explicit xml:lang="la"><locus>fol. 222vb</locus> Amen. De profundis.</explicit>
+              <filiation>Classed as Sarum 14–72–24 type in Ottosen, who dates it to the thirteenth century. The litany of the saints on fol. 215r–v includes many English examples, including Frideswide.</filiation>
+              <listBibl>
+                <bibl>
+                  Knud Ottosen, <title>The Responsories and Versicles of the Latin Office of the Dead</title> (Aarhus, Denmark: Aarhus University Press, 1993), 115.
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <collation>
+                  <secFol xml:lang="la">A fulgure et tempestate.</secFol>
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="27">
+                  <dimensions type="written"><height min="156" max="171"/><width min="105" max="111"/></dimensions>
+                  Ruled in plummet; line spacing 6.5–7 mm. Sections intended to be set to music are written in a smaller script, every other line. Pricked on the outer edges.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Gothic textualis, second half of the thirteenth century.</handNote>
+            </handDesc>
+            <musicNotation>
+              On fol. 217v, square notation written on four red staff lines. Space left for notation on fols. 218v–222v, but only the words have been completed.
+            </musicNotation>
+            <decoDesc>
+              <decoNote type="initial">
+                Each new prayer opens with a two-line Lombardic initial, alternating between red and dark blue, with penwork in the opposite colour. Phrases in the litany open with enlarged capitals, alternating between red and blue. Rubrics in red.
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+        </msPart>
+        <msPart>
+          <msIdentifier>
+            <idno>III</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fol. 223r</locus>
+              <title type="desc">Excerpts from the church fathers on the nature of psalms (continuing from 214v)</title>
+              <incipit xml:lang="la"><locus>fol. 214ra</locus> Ieronimus. Diapsalma quidam hebreum uerbum esse uolunt.</incipit>
+              <explicit xml:lang="la">quia ideo interponitur. ut conuersio sensuum uel personarum esse noscatur;</explicit>
+            </msItem>
+            <msItem>
+              <locus>fols. 223r–224v</locus>
+              <title type="desc">Letters of proxy, appeal, commission, etc.</title>
+              <msItem>
+                <incipit xml:lang="la">Viris uenerabilibus etc. E. dictus prior Cirec’ et Eiusdem loci Conuentus salutem etc. Quamuis hac instanti die iouis coram uobis apud Winton’</incipit><!--
+                <explicit xml:lang="la">diffusum nobis statuatis. Valete.</explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la"><locus>fol. 223va</locus> Littere procurationis.</rubric>
+                <incipit xml:lang="la">Viris uenerabilibus. R. diuina permissione. Abbati de Winchecumbe. et R. et R. de Cirenc’</incipit>
+                <explicit xml:lang="la"></explicit>
+                <note>Ralph abbot of Winchcombe 1183–1194/5; Master Robert of Hasleton, 1196–1221.e</note>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Littere appellationis a iudicibus directe.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"></explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Littere commissionis.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"><locus>fol. </locus> </explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Item littere commissionis.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"></explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Item alie littere commissionis.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"></explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Littere iudicis excusatorie.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"><locus>fol. </locus> </explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Littere arbitrorum iudicibus directe.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"></explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Dicta testium que attestationes dicuntur.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"></explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Sententia diffinitiva.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"><locus>fol. </locus> </explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la"><locus>fol. </locus> Sententie executio.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"></explicit>
+              </msItem>
+              <msItem>
+                <rubric xml:lang="la">Littere iudicis ordinarii de restitutione expoliatis facienda et de expensis refundendis.</rubric>
+                <incipit xml:lang="la"></incipit>
+                <explicit xml:lang="la"><locus>fol. </locus> </explicit>
+              </msItem>
+              <msItem>
+                <incipit xml:lang="la">Venerabili patri et domino semper diligendo. J. Archid’ Oxon’ Deuoti</incipit>-->
+                <explicit xml:lang="la" defective="true">adiudicauimus. Hinc est quod uobis tanquam ordina</explicit>
+              </msItem>
+              <note>Figures named include Master Robert of Bingham, Master Robert of Clipston, Alexander Neckam; placing the documents in the reign of King John.</note>
+              <listBibl>
+                <bibl>
+                  Described in C.R. Cheney, <title>English Bishops’ Chanceries, 1100–1250</title>, Publications of the Faculty of Arts of the University of Manchester 3 (Manchester: University Press, 1950), 129–130.
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="39 43">
+                  <dimensions type="written"><height min="190" max="194"/><width min="135" max="145"/></dimensions>
+                  Ruled in pencil, with the inner column tending to be wider than the outer. Line spacing 4-5.5 mm.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                Written in three or four charter hands, first quarter of the thirteenth century.
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="initial">
+                The first set of items added begin with two-line initials, alternating between red, green, and blue.
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+        </msPart>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
