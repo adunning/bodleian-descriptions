@@ -70,7 +70,7 @@
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus>fols. 1r–56r</locus>
+              <locus>fols. 1r–56v</locus>
               <author ref="http://viaf.org/viaf/71420958">Alexander Neckam</author>
               <title xml:lang="la">Glose super psalterium</title>
               <rubric xml:lang="la">Glose magistri Alexander abbatis cyrencestrie. super psalterium. <note>slightly later addition, <foreign>s.</foreign> xiii</note></rubric>
@@ -146,7 +146,7 @@
               <title xml:lang="la">Tractatus super prouerbia Salomonis</title>
               <rubric xml:lang="la">Incipit tractatus magistri alexander abbatis cyrenc’ super parabolas salomonis.</rubric>
               <msItem>
-                <rubric xml:lang="la"><note>proem</note><locus>fol. 47ra</locus> ¶ Proemyum.</rubric>
+                <rubric xml:lang="la"><note>proem</note><locus>fol. 57ra</locus> ¶ Proemyum.</rubric>
                 <incipit xml:lang="la">Meditatio humana nunc in ipsum hominem reflectitur. nunc in ceteras transit creaturas⸵ nunc in auctorem rerum dirigitur.</incipit>
                 <explicit xml:lang="la"><locus>fol. 59va</locus> Set quid? Apicula cum aculeo destitui ceperit⸵ mellificare desinit.</explicit>
               </msItem>
@@ -160,9 +160,10 @@
               <filiation>Sole surviving manuscript of this work; numerous excerpts in <title>Sol meldunensis</title> (Cambridge, University Library, Gg.6.42) and a brief passage in Oxford, Bodleian Library, Hatton 102 (<title>SC</title> 4051), fol. 200v. Other copies recorded at the Dominicans, Lincoln (FD5.1) and the Carmelites, Hulne (F15.1).</filiation>
             </msItem>
             <msItem>
-              <locus>fols. 74va–75va</locus>
+              <locus>fols. 74v–77v</locus>
               <note>Two sermons attributed to Alexander Neckam: incorrectly, according to Hunt, <title>The Schools and the Cloister</title>, 22–23.</note>
               <msItem>
+                <locus>fols. 74va–75va</locus>
                 <author ref="http://viaf.org/viaf/40175167">Peter Comestor</author>
                 <title>Sermon 35</title>
                 <rubric xml:lang="la"><locus>fol. 74va, bottom margin, in the text hand</locus> Sermo magistri Alexandri abbatis Cyrencestr’. Feria Vª Dominice quinquagesime.</rubric>
@@ -175,10 +176,11 @@
                 </listBibl>
               </msItem>
               <msItem>
+                <locus>fols. 75vb–77vb<!-- check col? --></locus>
                 <rubric xml:lang="la"><locus>fol. 75vb (bottom margin)</locus> Sermo magistri Alexandri abbatis Cyrencestr’ In natiuitate beate Marie Virginis.</rubric>
                 <rubric xml:lang="la"><note>guide for rubricator, plummet</note> Sermo <add place="above">in</add> natiuitate beate marie.</rubric>
                 <incipit xml:lang="la"><supplied reason="omitted">S</supplied>icut spina rosam genuit iudea Mariam. Fratres licet prout testatur Augustinus magister egregius.</incipit>
-                <explicit xml:lang="la"><locus>fol. 77v</locus> ut ea mediante⸵ percipiatis eternam gloriam. Quam nobis et vobis precare dignetur ihesus cristus. qui est benedictus in secula. Amen.</explicit>
+                <explicit xml:lang="la"><locus>fol. 77v<!-- col? --></locus> ut ea mediante⸵ percipiatis eternam gloriam. Quam nobis et vobis precare dignetur ihesus cristus. qui est benedictus in secula. Amen.</explicit>
                 <filiation>Also found in London, British Library, Harley MS 325, where it is without attribution.</filiation>
                 <listBibl>
                   <bibl>Schneyer, <title>Repertorium</title>, 1:275, no. 60</bibl>
@@ -249,7 +251,7 @@
               <title xml:lang="la">Tractatus super <quote>Mulierem fortem</quote></title>
               <note>commentary on Prov. 31:10–31</note>
               <msItem>
-                <note>book 1 (on Mary Magdalene)</note>
+                <note>book 1 (on Mary Magdalene)</note><!--supply column IDs-->
                 <incipit xml:lang="la"><locus>fol. 79r</locus> Mulierem fortem quis inueniet? Procul et de ultimis finibus pretium eius. <note>Prov. 31:10</note> <hi rend="bold">S</hi>plendor radii solaris in iaspide⸝ serenitati aeris exposito⸵ uirescere. in carbunculo⸵ rutilare. in cristallo⸵ scintillare uidetur.</incipit>
                 <explicit xml:lang="la"><locus>fol. 98v</locus> que in beata uirgine edificauit sibi domum decoris⸵ septem gratis columnis munitam.</explicit>
               </msItem>
@@ -260,13 +262,13 @@
                 <explicit xml:lang="la"><locus>fol. 114v</locus> Remunerabor egregie⸵ si pro me apu<subst><del rend="alt">t</del><add place="overstrike">d</add></subst> serenissimum iudicem digneris intercedere.</explicit>
               </msItem>
               <msItem>
-                <note>book 2 (on the Church)</note>
+                <note>book 3 (on the Church)</note>
                 <rubric xml:lang="la"><locus>fol. 114v</locus> Laus sacro sancte ecclesie.</rubric>
                 <incipit xml:lang="la">Mulierem fortem quis inueniet? <hi rend="bold">P</hi>reconiis gloriose dei genitricis⸵ laudes sacro sancte matris ecclesie decreuimus adicere.</incipit>
                 <explicit xml:lang="la"><locus>fol. 124v</locus> Et ecce iam opus consummauimus⸵ in laudem domini nostri ihesu cristi. cui honor˷ uirtus et gloria⸵ per infinita seculorum secula. <hi rend="caps">Amen.</hi></explicit>
               </msItem>
               <msItem>
-                <quote xml:lang="la"><locus>fol. 125r</locus>
+                <quote xml:lang="la"><locus>fol. 125ra</locus>
                   Fortasse tuo liber superstes eris alexandro. Prius enim me
                   uermes comedent⸵ quam te tinea corrosura sit. Vermibus debetur corpus meum. te⸵ demolientur tinee. Tu speculum es animi mei. tu meditacionum mearum interpres⸵ propositi nostri
                   certissimus es iudex. affectuum mentis mee fidelis es nuncius⸵
