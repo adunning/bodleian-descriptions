@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Orosius</title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC62" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>62</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 1r–2v</locus>
+            <note>Ruled, originally blank (with additions).</note>
+          </msItem>
+          <msItem>
+            <locus>fols. 3r–142v</locus>
+            <author ref="http://viaf.org/viaf/2479624">Orosius</author>
+            <title xml:lang="la">Historiarum aduersum paganos libri vii</title>
+            <rubric xml:lang="la"><locus>fol. 3ra</locus> <hi rend="caps">Incipit Epistola Pauli orosii presbiteri de ormęsta mundi contra acusatoręs cristianorum tęmporum scripta ad bęatum augustinum.</hi></rubric>
+            <incipit xml:lang="la"><hi rend="caps">Praeceptis</hi> tuis parui beatissime pater augustine. atque utinam tam efficaciter quam libenter. quanquam ego in utramuis partem parum de explicito mouear˷ recte ne an secus egerim.</incipit>
+            <explicit xml:lang="la"><locus>fol. 142rb</locus> Ita iam ego certo et solo quem concupiscere debui˷ obedientię meę fructu fruor. De qualitate autem opusculorum tu uideris⸵ quia praecepisti tibi adiudicanda si edas. per te iudicata si deleas.</explicit>
+            <finalRubric xml:lang="la"><hi rend="caps">Explicit <locus>fol. 142va</locus> Liber Sęptimus Pauli Horosii Pręsbiteri Ad augustinum Episcopum Hystoriarum Contra Accusatoręs Tęmporum Cristianorum.</hi></finalRubric>
+            <listBibl>
+              <bibl>
+                CPL 0571
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fol. 143</locus>
+            <note>blank</note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>ii + 141 leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="327" max="330"/>
+                  <width min="215" max="222"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil, 1-142.</foliation>
+              <collation>
+              <formula>a<hi rend="sup">2</hi>, 1-15<hi rend="sup">8</hi>, 16<hi rend="sup">10</hi>, 17<hi rend="sup">8</hi>, 18<hi rend="sup">4</hi> (last pastedown)</formula>
+                <signatures>Final page of each gathering numbered in ink, ·i· to ·xvij·, centred at the foot.</signatures>
+                <secFol>[into]lerabiles tribulationes temporum</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="34">
+                <dimensions type="written"><height min="236" max="238"/><width min="148" max="150"/></dimensions>
+                Ruled in drypoint; pricking on outer edges of the pages. On fol. 19r, major horizontal rules, from top to bottom, occur at 22 | 54 | 250 | 265 | 331 mm; vertical rules, from left to right, at 20 | 88.5 | 96 | 103 | 170.5 | 219. Line spacing 6.5 mm. Written above top line.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Protogothic, middle of the twelfth century. At least three scribes. 
+            </handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              New books open with large, intricately decorated initials. Fol. 3ra, epistle, 6-line golden P with green decoration; 3rb, prologue to book 1, 3-line green and red P with golden decoration; 4vb, book 1, 11-line M formed by animals, with silver underlay; 18va, prologue to book 2, 4-line blue N with red and golden decoration; 18vb, book 2, 3-line golden R; 31rb, prologue to book 3, 3-line golden E; 31va, book 3, 5-line red and green A with blue and golden decoration; 48rb, prologue to book 4, 4-line blue D with red decoration; 49ra, book 4, 5-line golden A; 68vb, prologue to book 5, 5-line green S with blue decoration; 70va, book 5, 5-line red A with blue decoration; 90ra, prologue to book 6, 5-line blue O with red decoration; 92ra, book 6, 7-line golden B; 111vb, prologue to book 7, plain 3-line red S; 113va, book 7, red and green I in the margin with red decoration. Chapters begin with enlarged red initials. Headings to books in red, usually with enlarged blue initial. 
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>A charter hand from the late twelfth or early thirteenth century adds in the margin the relative dates from the birth of Adam throughout the work, with an extended note on a discrepancy with Bede, <title>De temporibus</title> on fol. 135va. Many nota marks.</p>
+            <p>Dates in Arabic and Roman numerals pencilled next to some passages, as well as a note on the upper pastedown (s. xiii), <q>L viº Dixit cristi agi</q> (?).</p>
+            <p>Fol. 2v, <q>Orosius de Ormesta Mundi</q> (s. xvii).</p>
+            <p>Pressmarks: <q>24</q> (spine: s. xvi); <q>I Arch 3-I.</q> (white label on spine); <q>MS. Jesus Coll. Ox. C. 62</q> (blue label on spine); <q>6</q>, <q>2025</q>, <q>Numb. 6</q>, <q>(24)</q> (fol. 1r); <q>Num: 6</q> (fol. 2v).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="331"/><width quantity="229"/><depth min="65" max="78"/></dimensions>
+                Romanesque, whittawed leather over wooden boards. Extended tab at the head of the spine, with blue and white stitching. Two leather strips function as bookmarks, sewn onto a larger leather thong.</p>
+              <condition>Repaired and partially recovered.</condition>
+              <decoNote><q>OROSIVS</q> written on spine (s. xiii–xiv); </decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Cirencester Abbey</origPlace> in the <origDate notBefore="1225" notAfter="1275">middle of the twelfth century</origDate>. On fol. 1r, <q>Liber Ecclesie Sancte Marie de Cyrencestr’.</q> (s. xiv).          
+          </origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> (whose table of contents is on the front cover) in the 1602 donation willed to Jesus College by his son Gregory Prise (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Graham Pollard, ‘The Construction of English Twelfth-Century Bindings’, <title>The Library</title>, 5th ser., 17, no. 1 (March 1962): 1–22 (at 16n4, pl. 2).
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
