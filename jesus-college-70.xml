@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Bede, <title>In epistulas septem catholicas</title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC70" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>70</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 2ra–100va</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">In epistulas septem catholicas</title>
+            <rubric xml:lang="la"><locus>fol. 2r</locus> Incipit expositio uenerabilis bede presbiteri in epistula beati iacobi apostoli.</rubric>
+              <incipit xml:lang="la">Iacobus dei et domini nostri ihesu cristi seruus⸵ duodecim tribubus quę sunt in dispersione salutem. Dixit de hoc iacobo apostolus paulus.</incipit>
+            <explicit xml:lang="la"><locus>fol. 100rb</locus> et hoc non ab initio temporis alicuius. sed ante omne seculum. et nunc et in omnia se<locus>fol. 100va</locus>cula saeculorum amen.</explicit>
+            <note>Each of the epistles is treated as a separate work.</note>
+            <listBibl>
+              <bibl>
+                CPL 1362
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 101r–106v</locus>
+            <note>Blank; fol. 101 ruled.</note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>ii + 102 + iii leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="277" max="280"/>
+                  <width min="192" max="196"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil.</foliation>
+              <collation>
+              <formula>a<hi rend="sup">2</hi> (attached to upper pastedown), 1–12<hi rend="sup">8</hi>, 13<hi rend="sup">6</hi>, b<hi rend="sup">4</hi> (4 pastedown)</formula>
+                <signatures>Gatherings numbered, centred at the foot of the last page, ·i· to ·xii·.</signatures>
+              <secFol>Neque huic loco</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="30">
+                <dimensions type="written"><height min="206" max="208"/><width min="133" max="135"/></dimensions>
+                Ruled in drypoint; pricked on the outer edge of the page. On fol. 2r, major horizontal rules occur, from top to bottom, at 24 | 38 | 214 | 227.5 | 279 mm; vertical rules, from left to right, at 18 | 80 | 85.5 | 92 | 153 | 196 mm. Line spacing 6.5 mm.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis, one scribe.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              Large decorated Lombardic initials open each letter: fol. 2ra, James, long blue I with intricate blue, red, green, and golden decoration; 28rb, 1 Peter, 6-line red P with blue, green, and golden decoration; 50va, 2 Peter, 7-line golden and blue S with red and green decoration; 65ra, 1 John, 7-line red and blue Q with red, green, and golden decoration; 92vb, 2 John, 7-line red and blue S with golden and dark green decoration; 94ra, 3 John, 6-line golden S with red and blue decoration; 95va, long blue I in the margin with golden decoration. Headings in red (alternating with blue on 2ra).
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>On cover, list of contents by John Prise; <q>Beda</q> (s. xvi).</p>
+            <p>Pressmarks: <q>29</q> (s. xvi, spine); <q>I Arch 3–9</q> (s. xvii, white label on spine, fol. ir); <q>2083 = 64</q> (fol. 1r); <q>64 (29)</q> (fol. 2r).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="284"/><width quantity="197"/><depth min="52" max="54"/></dimensions>
+              Romanesque, whittawed leather over oak boards. Extended tabs at head and tail, with blue and white endbands.</p>
+              <condition>Leather deteriorated at the joints, which however allows for close examination of the binding structure.</condition>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Cirencester Abbey</origPlace> between <origDate notBefore="1149" notAfter="1176">1149 and 1176</origDate>. Fol. ir, <q>Liber sancte Marie De Cirecestr’. D’ Andree Abbatis tempore scriptus per manum D' Fulconis canonici postea prioris. D’ Adam de lamora tunc Cantore.</q> Andrew was abbot 1147–76; Adam was not cantor before 1149.</origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son Gregory Prise (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), no. 803.
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
