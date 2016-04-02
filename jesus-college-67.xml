@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Bede, <title>Super Marcum</title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC67" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>67</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. 1r–115v</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">In Marci euangelium expositio</title>
+            <rubric xml:lang="la"><locus>fol. 1ra</locus> Incipit pręfacio uęnerabilis bede presbiteri in euangęlio secundum marcum.</rubric>
+            <incipit xml:lang="la">In expositione euangelii secundum marcum˷ opitulante ipsa euangelica gratia scripturi⸵ primo que fuerit eidem macro causa euangelii scribendi˷ breuiter insinuandum esse censuimus.</incipit>
+            <explicit xml:lang="la"><locus>fol. 115va</locus> Hec est autem inquit uita eterna˷ ut cognoscant te unum uerum deum˷ et quem misisti iesum cristum. sicut in illa eternitate cognoscitur⸵ quo seruos perducet per formam serui˷ ut liberi contemplentur formam domini.</explicit>
+            <listBibl>
+              <bibl>
+                CPL 1355
+              </bibl>
+            </listBibl>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>ii + 116 leaves
+                <dimensions type="leaf" unit="mm">
+                  <height quantity="306"/>
+                  <width min="202" max="204"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil, with two pages labelled 64.</foliation>
+              <collation>
+              <formula>a<hi rend="sup">4–1</hi> (1 pastedown, 4 canc.), 1–14<hi rend="sup">8</hi>, 15<hi rend="sup">4</hi></formula>
+                <signatures>Last page of each gathering numbered in ink by the text hand, ·i· to ·xv·, centred at the foot.</signatures>
+                <secFol></secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="35">
+                <dimensions type="written"><height min="230" max="236"/><width min="142" max="143"/></dimensions>
+                Ruled in drypoint, pricked on the outer edges of the page. On fol. 1r, main horizontal rules occur from top to bottom at 19.5 | 33 | 235 | 249 | 307 mm; vertical rules, from left to right, at 19 | 87 | 93.5 | 99 | 162 | 206 mm. Line spacing 6.5 mm.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis; there is some variation in the hand, but the implication of the colophon that it was entirely written by one scribe seems possible.
+            </handNote>
+            <handNote>
+              Directions to rubricator written in another shade of ink, in a small rounded hand.
+            </handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              Decorated Lombardic initials open each new book: fol. 1ra, preface, long blue and golden I; 3rb, book 1, 10-line blue E with red, green, blue, and golden decoration; 30va, book 2, 7-line green E with red, blue, and golden decoration; 59ra, book 3, 7-line golden E with blue decoration; 87vb, book 4, 7-line red E with blue and golden decoration. At fol. 93ra, a 3-line golden P, part way though 4.2 (4.14), <q>Pascha quod hebraice dicitur</q>. Headings to books and chapters in red, with new sections opening with an enlarged red capital; those used for the list of capitula on fols. 1vb–3ra are more decorative, and are followed by a large rubricated title. 
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>A <foreign>s.</foreign> xiii or xiv hand adds many <foreign>nota</foreign> marks and provides running heads in most of the volume, with the book number marked in the centre of the recto and the chapter in the top-right corner in Roman numerals.</p>
+            <p>Title noted on cover, fol. iir, iiir, and lower pastedown in s. xvi and xvii hands; s. xv pen trials on lower pastedown.</p>
+            <p>Pressmarks: <q>2</q> (spine); <q>MS Jesus Coll. Ox. C. 67</q> (blue label on spine); <q>1 Arch. 3–6</q> (white label on spine, upper pastedown); <q>9</q>, <q>2080 = 61</q>, <q>(2)</q> (fol. iir). </p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="308"/><width quantity="210"/><depth min="52" max="60"/></dimensions>
+              Whittawed leather over oak boards. A parchment bookmark found between fols 65 and 66, as well as several pieces of straw.</p>
+              <condition>Rebacked (reusing original leather), with paper endleaves added.</condition>
+              <decoNote>On spine, <q>Beda super marcum</q> (s. xiv).</decoNote>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Cirencester Abbey</origPlace> <origDate notBefore="1149" notAfter="1176">between 1149 and 1176</origDate>. <locus>Fol. iir</locus>, <q><supplied reason="omitted">L</supplied>iber sancte Marie De Cirecestr’. D’ Andree abbatis secundi tempore scriptus per manum D’ odonis <add place="above">de Wica</add> canonici D’ Adam delamora tunc Cantore.</q> Andrew was abbot from 1147 to 1176. Adam was preceded in office by Gilbert, who was still cantor in 1149: H.E. Salter, ed., <title>Cartulary of Oseney Abbey</title>, Oxford Historical Society 89–91, 97, 98, 101 (Oxford: Clarendon Press, 1929–1936), 4:28–29.</origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son Gregory Prise (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), no. 801 and pl. 60.
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
