@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Bede, <title>Expositio actuum apostolorum</title>, <title>Explanatio apocalypsis</title></title>
+      <respStmt>
+        <resp>Cataloguer</resp>
+        <name type="person">Andrew Dunning</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Bodleian Libraries</publisher>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="JC68" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <region type="county">Oxfordshire</region>
+          <settlement>Oxford</settlement>
+          <institution>Jesus College</institution>
+          <idno>68</idno>
+        </msIdentifier>
+        <msContents>
+          <textLang mainLang="la">Latin</textLang>
+          <msItem>
+            <locus>fols. ir–1v</locus>
+            <note>originally blank, with later additions</note>
+          </msItem>
+          <msItem>
+            <locus>fols. 2ra–40va</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">Expositio actuum apostolorum</title>
+            <rubric xml:lang="la"><locus>fol. 1ra</locus> Prefatio bede presbiteri in actibus Apostolorum.</rubric>
+            <incipit xml:lang="la">Domino in cristo desiderantissimo et uere beatissimo acca episcopo⸵ beda perpetuam in domino salutem.</incipit>
+            <explicit xml:lang="la"><locus>fol. 40va</locus> Bonum certamen certaui⸵ cursum consummaui fidem seruaui.</explicit>
+            <finalRubric xml:lang="la">Finit.</finalRubric>
+            <listBibl>
+              <bibl>
+                CPL 1357
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 40va–44va</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">Nomina regionum atque locorum de actibus apostolorum</title>
+            <rubric xml:lang="la"><locus>fol. 40va</locus> Item de nominibus locorum.</rubric>
+            <incipit xml:lang="la">Aceldemach ager sanguinis. qui hodie monstratur in helia ad australem plagam montis syon⸵ et hactenus iuxta iudeorum consilium mortuos ignobiles alios terra tegit. alios sub diuo putrefacit.</incipit>
+            <explicit xml:lang="la"><locus>fol. 44va</locus> Teatrum locus ab spectaculo uocabulum mutuans quod in eo populus stans desuper atque spectans ludos scenicos contemplaretur.</explicit>
+            <finalRubric xml:lang="la">Explicit.</finalRubric>
+            <listBibl>
+              <bibl>
+                CPL 1359
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 44va–69rb</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">Retractatio in Actus apostolorum</title>
+            <rubric xml:lang="la"><locus>fol. 44va</locus> In nomine dei retractionis bede presbiteri in actus apostolorum incipit libellus.</rubric>
+            <incipit xml:lang="la">Scimus eximium doctorem ac pontificem augustinum cum esset senior libros retractationum in quędam sua opuscula quę iuuenis condiderat fecisse. ut quę ex tempore melius crebro ex lectionis usu ac munere superne largitatis didicerat⸵ non ut de prisca confusus imperitia. sed ut de suo magis profectu gauisus monumentis inderet litterarum⸵ ac posteris legenda relinqueret.</incipit>
+            <explicit xml:lang="la"><locus>fol. 69rb</locus> Qua expositione docuit cętera quoque quę in hoc uolumine uel de ipso apostolo paulo uel de aliis quibusque scripta sunt˷ non in superficie tantum littere fructum nobis ęcclesiasticę premonstrare doctrinę⸵ uerum etiam siquis perfectę intellexerit. medullam sensus spiritalis uirtute habere grauidam;</explicit>
+            <listBibl>
+              <bibl>
+                CPL 1358
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 69va–118va</locus>
+            <author ref="http://viaf.org/viaf/61539765">Bede</author>
+            <title xml:lang="la">Explanatio apocalypsis</title>
+            <rubric xml:lang="la"><locus>fol. 69ra</locus> Incipit prefatio Bede presbiteri in apocalipsi sancti Iohannis apostoli.</rubric>
+            <incipit xml:lang="la">Apocalipsis sancti iohannis in qua bella et incendia intestina ęcclesię suę deus uerbis figurisque reuelare dignatus est⸵ septem michi frater eusebi uidetur esse diuisa periochis.</incipit>
+            <explicit xml:lang="la"><locus>fol. 118va</locus> suis me meritis faciant uisu fructuque potiri amen.</explicit>
+            <finalRubric xml:lang="la">Explicit domino iuuante expositionis in apocalipsin sancti iohannis liber .iii. Bede famuli cristi Amen.</finalRubric>
+            <listBibl>
+              <bibl>
+                CPL 1363
+              </bibl>
+            </listBibl>
+          </msItem>
+          <msItem>
+            <locus>fols. 119r–120v</locus>
+            <note>ruled, but left blank</note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <support>Membrane</support>
+              <extent>ii + 120 + i leaves
+                <dimensions type="leaf" unit="mm">
+                  <height min="280" max="283"/>
+                  <width min="193" max="201"/>
+                </dimensions>
+              </extent>
+              <foliation>Foliated in modern pencil, with two pages labelled 70.</foliation>
+              <collation>
+                <formula>a<hi rend="sup">4</hi> (1, 2 pastedowns), 1–15<hi rend="sup">8</hi>, b<hi rend="sup">2</hi> (2 pastedown)</formula>
+                <signatures>Last page of each gathering numbered in ink by the text hand, ·i· to ·xiiii·, centred at the foot.</signatures>
+                <secFol>lucas⸵ sicut</secFol>
+              </collation>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" ruledLines="31">
+                <dimensions type="written"><height min="207" max="212"/><width min="128" max="131"/></dimensions>
+                Ruled in plummet; pricked on outer edges. On fol. 62r, main horizontal rules occur from top to bottom at 27.5 | 41.5 | 218 | 232.5 | 282.5 mm; vertical rules occur, from left to right, at 18 | 24 | 82.5 | 94 | 155 | 160.5 | 196.5 mm. Line spacing 6.5 mm.
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote>
+              Gothic textualis, s. xii<hi rend="sup">med</hi>; one hand throughout.</handNote>
+          </handDesc>
+          <decoDesc>
+            <decoNote type="initial">
+              Major sections of the works open with large Lombardic initials: fol. 2ra, preface to Acts, 4-line red D; 3ra, Acts, 6-line green and red P; 40va, on place-names, 3-line red A; 44vb, prologue to retractions, 4-line red S; 45rb, retractions text, space for a 4-line T; 69va, Apocalypse, 3-line red A; 84ra, book 2, 4-line E; 99ra, book 3, 4-line blue E with red decoration. Headings in red. Rubrics from fol. 40va onward use a silver underlay, visible especially at fols 84ra, 99ra. 
+            </decoNote>
+          </decoDesc>
+          <additions>
+            <p>On cover, <q>Beda</q> (s. xvi); table of contents by John Prise.</p>
+            <p>Pressmarks: <q>3</q> (s. xvi, spine, fol. ir), <q>1 Arch 3–7</q> (s. xviii, white label on spine); MS Jesus Coll. Ox. D. 68 (blue label, spine); <q>2081 = 62</q> (s. xix, fol. ir; s. xviii, fol. 1v).</p>
+          </additions>
+          <bindingDesc>
+            <binding>
+              <p><dimensions type="binding"><height quantity="284"/><width quantity="195"/><depth min="47" max="58"/></dimensions>
+                Romanesque, whittawed leather over oak boards. Blue and white endbands; extended tabs with a rose lining. A leather strip serves as a bookmark.</p>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <origin>Written at <origPlace>Cirencester Abbey</origPlace> between <origDate notBefore="1147" notAfter="1149">1149 or 1168 and 1176</origDate>. On fol. 159v, in a slightly later hand, <q><supplied reason="omitted">L</supplied>iber sancte Marie De Cirecestr’. D’ Andree Abbatis secundi tempore scriptus per manum D’ Fulconis Canonici postmodum prioris D’ Alexandro de Weleue tunc Cantore.</q> Andrew was abbot from 1147 to 1176. Alexander of Wellow was preceded in office by Adam de Lamora, who was not cantor before 1149. Watson notes that if this Alexander can be identified with a canon who witnesses an Oseney Abbey charter datable between 1157 and 1168, Adam was likely still cantor at this time: <bibl>H.E. Salter, ed., <title>Cartulary of Oseney Abbey</title>, Oxford Historical Society 98 (Oxford: Clarendon Press, 1935), 5:26–27 (no. 538A)</bibl>. (The dating is based on a reference to the memory of John de Pageham, bishop of Worcester from 1151 to 1157, and the document was issued during the abbacy of Wigod, 1154 to 1168.)</origin>
+          <acquisition>Appears in the list of the books of <name ref="http://viaf.org/viaf/65071134" role="owner">John Prise</name> in the 1602 donation willed to Jesus College by his son Gregory Prise (1535–1600). <bibl>Neil R. Ker, ‘Sir John Prise’, <title>The Library</title>, 5th ser., 10, no. 1 (March 1955): 1–24.</bibl></acquisition>
+        </history>
+        <additional>
+          <listBibl>
+            <bibl>
+              Graham Pollard, ‘The Construction of English Twelfth-Century Bindings’, <title>The Library</title>, 5th ser., 17, no. 1 (March 1962): 1–22 (pl. 1).
+            </bibl>
+            <bibl>
+              Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), no. 802 and pl. 57.
+            </bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
